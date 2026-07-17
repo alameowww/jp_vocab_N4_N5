@@ -27,6 +27,8 @@ let todayResult = {
 
 let isWrongReview = false;
 
+let pendingReviewDecisionWord = null;
+
 
 
 let config = {
@@ -80,6 +82,10 @@ document.getElementById("resultMessage");
 
 const feedbackArea =
 document.getElementById("feedbackArea");
+
+
+const answerComparison =
+document.getElementById("answerComparison");
 
 
 const jpAnswer =
@@ -139,6 +145,10 @@ const reviewWrongBtn =
 document.getElementById("reviewWrongBtn");
 
 
+const newGroupBtn =
+document.getElementById("newGroupBtn");
+
+
 
 
 const masterBtn =
@@ -155,6 +165,22 @@ document.getElementById("cancelMaster");
 
 const confirmMaster =
 document.getElementById("confirmMaster");
+
+
+const reviewDecisionModal =
+document.getElementById("reviewDecisionModal");
+
+
+const reviewDecisionText =
+document.getElementById("reviewDecisionText");
+
+
+const continueReviewBtn =
+document.getElementById("continueReviewBtn");
+
+
+const masterFromReviewBtn =
+document.getElementById("masterFromReviewBtn");
 
 
 
@@ -413,7 +439,9 @@ function getStatus(word){
 
 
 
-    return wordStatus[key];
+    return ensureSpacedReviewState(
+        wordStatus[key]
+    );
 
 
 }
@@ -448,7 +476,10 @@ function updateStatus(word,type){
 // =====================
 
 
-function createTodayWords(){
+function createTodayWords(excludedWordIds = new Set()){
+
+
+    const now = Date.now();
 
 
     let pool = vocab.filter(word=>{
@@ -471,6 +502,10 @@ function createTodayWords(){
 
             !status.mastered
 
+            &&
+
+            isSpacedReviewDue(status, now)
+
         );
 
 
@@ -479,14 +514,60 @@ function createTodayWords(){
 
 
 
-    pool.sort(
+    const reviewWords = pool.filter(word=>{
+
+        const status = getStatus(word);
+
+        return (
+            status.reviewSuccesses > 0
+            || status.wrong > 0
+            || status.awaitingReviewDecision
+        );
+
+    });
+
+
+    reviewWords.sort((wordA, wordB)=>{
+
+        const priorityDifference =
+        getSpacedReviewPriority(getStatus(wordB), now)
+        - getSpacedReviewPriority(getStatus(wordA), now);
+
+        return priorityDifference || Math.random()-0.5;
+
+    });
+
+
+    const newWords = pool.filter(word=>{
+
+        const status = getStatus(word);
+
+        return (
+            status.reviewSuccesses === 0
+            && status.wrong === 0
+        );
+
+    });
+
+
+    newWords.sort(
         ()=>Math.random()-0.5
     );
 
 
 
+    const freshWords = newWords.filter(
+        word=>!excludedWordIds.has(word.id)
+    );
+
+
+    const previousWords = newWords.filter(
+        word=>excludedWordIds.has(word.id)
+    );
+
+
     todayWords =
-    pool.slice(
+    [...reviewWords, ...freshWords, ...previousWords].slice(
         0,
         config.count
     );
@@ -551,6 +632,13 @@ function renderWord(){
     updateMasterButton();
 
 
+    const status = getStatus(word);
+
+    if(status.awaitingReviewDecision){
+        openReviewDecision(word);
+    }
+
+
 
 }
 
@@ -598,7 +686,14 @@ function resetView(){
     feedbackArea.innerText="";
 
 
+    answerComparison.innerHTML="";
+    answerComparison.classList.add("hidden");
+
+
     answerInput.value="";
+
+
+    nextBtn.innerText="下一题 →";
 
 
 }
@@ -659,7 +754,7 @@ submitBtn.onclick=function(){
 
     let correct =
 
-    input === word.kana
+    input === getReading(word)
 
     ||
 
@@ -681,6 +776,14 @@ submitBtn.onclick=function(){
         );
 
 
+        const status = recordSpacedReviewSuccess(
+            getStatus(word)
+        );
+
+
+        saveWordStatus();
+
+
 
         showResult(
 
@@ -691,6 +794,14 @@ submitBtn.onclick=function(){
             "success"
 
         );
+
+
+        if(status.awaitingReviewDecision){
+
+            nextBtn.innerText="完成本轮 →";
+            openReviewDecision(word);
+
+        }
 
 
 
@@ -713,6 +824,14 @@ submitBtn.onclick=function(){
         );
 
 
+        recordSpacedReviewFailure(
+            getStatus(word)
+        );
+
+
+        saveWordStatus();
+
+
 
         showResult(
 
@@ -720,7 +839,9 @@ submitBtn.onclick=function(){
 
             word,
 
-            "error"
+            "error",
+
+            input
 
         );
 
@@ -813,6 +934,14 @@ function handleShowAnswer(){
     );
 
 
+    recordSpacedReviewFailure(
+        getStatus(word)
+    );
+
+
+    saveWordStatus();
+
+
 
     showResult(
 
@@ -854,7 +983,8 @@ handleShowAnswer;
 function showResult(
     msg,
     word,
-    type
+    type,
+    userAnswer = null
 ){
 
 
@@ -933,22 +1063,35 @@ function showResult(
     }
 
 
+    if(type==="error" && userAnswer !== null){
+
+        answerComparison.innerHTML = `
+        <div class="answer-comparison-row user-answer-row">
+            <span>你的答案</span>
+            <strong>${escapeHtml(userAnswer || "（空白）")}</strong>
+        </div>
+        <div class="answer-comparison-row correct-answer-row">
+            <span>正确读音</span>
+            <strong>${escapeHtml(getReading(word))}</strong>
+        </div>
+        `;
+
+        answerComparison.classList.remove("hidden");
+
+    }
+    else{
+
+        answerComparison.innerHTML="";
+        answerComparison.classList.add("hidden");
+
+    }
+
+
 
 
 
     jpAnswer.innerHTML =
-
-
-    `
-    <div class="kanji">
-    ${word.word}
-    </div>
-
-
-    <div class="kana">
-    ${word.kana || ""}
-    </div>
-    `;
+    renderRubyAnswer(word);
 
 
 
@@ -956,6 +1099,56 @@ function showResult(
         "hidden"
     );
 
+
+}
+
+
+function escapeHtml(value){
+
+    return String(value ?? "")
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&#039;");
+
+}
+
+
+function getReading(word){
+
+    return word.reading || word.kana || "";
+
+}
+
+
+function renderRubyAnswer(word){
+
+    if(Array.isArray(word.segments) && word.segments.length){
+
+        return word.segments.map(segment=>{
+
+            const text = escapeHtml(segment.text);
+            const reading = escapeHtml(segment.reading);
+
+            if(segment.type === "kanji" && reading){
+
+                return `<ruby>${text}<rt>${reading}</rt></ruby>`;
+
+            }
+
+            return text;
+
+        }).join("");
+
+    }
+
+    const text = escapeHtml(word.word);
+    const reading = escapeHtml(getReading(word));
+
+    return reading
+        ? `<ruby>${text}<rt>${reading}</rt></ruby>`
+        : text;
 
 }
 
@@ -1081,63 +1274,109 @@ cancelMaster.onclick=function(){
 
 
 
-confirmMaster.onclick=function(){
+function finishMasteringWord(
+    word,
+    countAsTodayComplete = false
+){
 
-
-    let word =
-    todayWords[currentIndex];
-
-
-
-    let status =
-    getStatus(word);
-
-
+    const status = getStatus(word);
 
     status.mastered=true;
+    status.awaitingReviewDecision=false;
+    status.nextReviewAt=0;
 
-
-    // 已掌握也算今天完成
-    todayResult.correct.push(word);
-
-
+    if(countAsTodayComplete){
+        todayResult.correct.push(word);
+    }
 
     saveWordStatus();
 
+    confirmModal.classList.add("hidden");
+    reviewDecisionModal.classList.add("hidden");
+    pendingReviewDecisionWord=null;
 
-
-    confirmModal.classList.add(
-        "hidden"
-    );
-
-
-
-    masterBtn.innerText =
-    "⭐ 已掌握";
-
-
-
-    masterBtn.classList.add(
-        "mastered"
-    );
-
-
+    masterBtn.innerText="⭐ 已掌握";
+    masterBtn.classList.add("mastered");
 
     setTimeout(()=>{
 
+        currentIndex++;
+        resetView();
+        renderWord();
 
-    currentIndex++;
+    },500);
 
-
-    resetView();
-
-
-    renderWord();
-
-
-},500);
+}
 
 
+confirmMaster.onclick=function(){
+
+    finishMasteringWord(
+        todayWords[currentIndex],
+        true
+    );
+
+};
+
+
+function openReviewDecision(word){
+
+    const status = getStatus(word);
+    const completedRound = Math.ceil(
+        status.reviewSuccesses / REVIEW_CONFIRM_EVERY
+    );
+    const nextDelay = getReviewInterval(
+        status.reviewSuccesses
+    );
+
+    pendingReviewDecisionWord=word;
+
+    reviewDecisionText.innerText =
+    `“${word.word}”已完成第 ${completedRound} 轮 `
+    + `${REVIEW_CONFIRM_EVERY} 次成功回忆。`
+    + `如果继续，它会在约 ${formatReviewDelay(nextDelay)}重新进入复习。`;
+
+    reviewDecisionModal.classList.remove("hidden");
+
+}
+
+
+continueReviewBtn.onclick=function(){
+
+    if(!pendingReviewDecisionWord){
+        return;
+    }
+
+    const decisionWasShownAfterAnswer =
+    !resultArea.classList.contains("hidden");
+
+    continueSpacedReview(
+        getStatus(pendingReviewDecisionWord)
+    );
+
+    saveWordStatus();
+
+    reviewDecisionModal.classList.add("hidden");
+    pendingReviewDecisionWord=null;
+
+    if(!decisionWasShownAfterAnswer){
+        currentIndex++;
+        renderWord();
+    }
+
+};
+
+
+masterFromReviewBtn.onclick=function(){
+
+    if(!pendingReviewDecisionWord){
+        return;
+    }
+
+    finishMasteringWord(
+        pendingReviewDecisionWord,
+        false
+    );
 
 };
 
@@ -1269,9 +1508,7 @@ function showSummary(){
 
             <div class="wrong-kana">
 
-            ${word.word}
-
-            ${word.kana || ""}
+            ${renderRubyAnswer(word)}
 
             </div>
 
@@ -1354,7 +1591,9 @@ reviewWrongBtn.onclick=function(){
 
         wrong:[],
 
-        ignored:[]
+        ignored:[],
+
+        mastered:[]
 
     };
 
@@ -1380,6 +1619,37 @@ reviewWrongBtn.onclick=function(){
     renderWord();
 
 
+
+};
+
+
+newGroupBtn.onclick=function(){
+
+    const previousWordIds = new Set(
+        todayWords.map(word=>word.id)
+    );
+
+    currentIndex=0;
+
+    todayResult={
+        correct:[],
+        wrong:[],
+        ignored:[],
+        mastered:[]
+    };
+
+    isWrongReview=false;
+
+    createTodayWords(previousWordIds);
+
+    summaryArea.classList.add("hidden");
+
+    document
+    .getElementById("wordCard")
+    .classList
+    .remove("hidden");
+
+    renderWord();
 
 };
 

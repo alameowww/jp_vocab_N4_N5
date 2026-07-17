@@ -265,6 +265,13 @@ class="feedback-area">
 </div>
 
 
+<div
+id="answerComparison"
+class="answer-comparison hidden">
+
+</div>
+
+
 
 <div
 id="jpAnswer"
@@ -390,6 +397,15 @@ id="reviewWrongBtn"
 class="primary-btn">
 
 复习需要复习的单词
+
+</button>
+
+
+<button
+id="newGroupBtn"
+class="secondary-btn summary-new-group-btn">
+
+再来一组
 
 </button>
 
@@ -607,10 +623,58 @@ class="primary-btn">
 
 
 
+<div
+id="reviewDecisionModal"
+class="modal hidden">
+
+
+<div class="modal-box">
+
+
+<h3>
+本轮记忆已完成
+</h3>
+
+
+<p id="reviewDecisionText">
+这个单词已经完成 3 次成功回忆，还需要继续复习吗？
+</p>
+
+
+<div class="modal-actions review-decision-actions">
+
+
+<button
+id="continueReviewBtn"
+class="secondary-btn">
+
+继续复习
+
+</button>
+
+
+<button
+id="masterFromReviewBtn"
+class="primary-btn">
+
+标记为已掌握
+
+</button>
+
+
+</div>
+
+
+</div>
+
+
+</div>
+
+
+<script src="memory.js"></script>
 <script src="app.js"></script>
 
 
 </body>
 
 </html>
-
