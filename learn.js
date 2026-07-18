@@ -60,9 +60,63 @@ function escapeHtml(value){
     .replaceAll("'", "&#039;");
 }
 
+function parseDisplaySegments(word){
+    const display = String(word?.display_original || "").trim();
+    if(!display){
+        return [];
+    }
+
+    const parsed = [];
+    display.split(/\s+/u).filter(Boolean).forEach(token=>{
+        const pattern = /([^\[\]]+)\[([^\[\]]+)\]/gu;
+        let cursor = 0;
+        let match;
+
+        while((match = pattern.exec(token))){
+            if(match.index > cursor){
+                parsed.push({
+                    text: token.slice(cursor, match.index),
+                    reading: "",
+                    type: "kana"
+                });
+            }
+            parsed.push({
+                text: match[1],
+                reading: match[2],
+                type: "kanji"
+            });
+            cursor = pattern.lastIndex;
+        }
+
+        if(cursor < token.length){
+            parsed.push({
+                text: token.slice(cursor),
+                reading: "",
+                type: "kana"
+            });
+        }
+    });
+
+    return parsed;
+}
+
+function getDisplaySegments(word){
+    const parsed = parseDisplaySegments(word);
+    return parsed.length ? parsed : (Array.isArray(word?.segments) ? word.segments : []);
+}
+
+function getDisplayReading(word){
+    const segments = getDisplaySegments(word);
+    if(segments.length){
+        return segments.map(segment=>segment.reading || segment.text).join("");
+    }
+    return word?.reading || "";
+}
+
 function renderRuby(word){
-    if(Array.isArray(word.segments) && word.segments.length){
-        return word.segments.map(segment=>{
+    const segments = getDisplaySegments(word);
+    if(segments.length){
+        return segments.map(segment=>{
             const text = escapeHtml(segment.text);
             const segmentReading = escapeHtml(segment.reading);
             return segment.type === "kanji" && segmentReading
@@ -121,12 +175,17 @@ function saveGrammarState(completed = getGrammarState().completed){
     localStorage.setItem(GRAMMAR_PROGRESS_KEY, JSON.stringify(grammarProgressByLesson));
 }
 
-function stopAudio(){
-    if(activeAudio){
-        activeAudio.pause();
-        activeAudio.currentTime = 0;
-        activeAudio = null;
+function stopAudio(player = activeAudio){
+    if(player){
+        player.onended = null;
+        player.onerror = null;
+        player.pause();
+        player.currentTime = 0;
     }
+    if(player && activeAudio !== player){
+        return;
+    }
+    activeAudio = null;
     audioButton.classList.remove("playing");
     audioButton.disabled = false;
     audioButton.setAttribute("aria-label", "播放单词读音");
@@ -141,24 +200,34 @@ function playAudio(){
         `audio/${encodeURIComponent(word.audio)}`,
         document.baseURI
     ).href;
-    activeAudio = new Audio(source);
+    const player = new Audio(source);
+    activeAudio = player;
     audioButton.classList.add("playing");
     audioButton.disabled = true;
     audioButton.setAttribute("aria-label", "正在播放单词读音");
-    activeAudio.onended = stopAudio;
-    activeAudio.onerror = stopAudio;
-    activeAudio.play().catch(stopAudio);
+
+    const finishCurrentAudio = ()=>{
+        if(activeAudio === player){
+            stopAudio(player);
+        }
+    };
+
+    player.onended = finishCurrentAudio;
+    player.onerror = finishCurrentAudio;
+    player.play().catch(finishCurrentAudio);
 }
 
 function renderExamples(word){
     const items = Array.isArray(word.examples) ? word.examples.slice(0, 2) : [];
-    examples.classList.remove("expanded");
     if(!items.length){
-        examples.innerHTML = '<p class="learn-no-examples">暂无匹配例句</p>';
+        examples.innerHTML = `
+            <h2>例句</h2>
+            <p class="learn-no-examples">暂无匹配例句</p>
+        `;
         return;
     }
     examples.innerHTML = `
-        <h2>常用例句</h2>
+        <h2>例句</h2>
         ${items.map((item, index)=>`
             <article class="example-item">
                 <div class="example-number">${index + 1}</div>
@@ -168,7 +237,6 @@ function renderExamples(word){
                 </div>
             </article>
         `).join("")}
-        <button class="learn-examples-expand" type="button" aria-expanded="false">展开完整例句</button>
     `;
 }
 
@@ -190,7 +258,7 @@ function renderCard(){
         return;
     }
     japanese.innerHTML = renderRuby(word);
-    reading.textContent = word.reading || "";
+    reading.textContent = getDisplayReading(word);
     meaning.textContent = word.meaning || "";
     meta.textContent = [word.part_of_speech, word.pitch].filter(Boolean).join(" · ");
     updateWordProgress();
@@ -393,15 +461,6 @@ lessonSelect.onchange=()=>selectLesson(lessonSelect.value);
 previousLessonButton.onclick=()=>moveLesson(-1);
 nextLessonButton.onclick=()=>moveLesson(1);
 audioButton.onclick=playAudio;
-examples.onclick=event=>{
-    const expandButton = event.target.closest(".learn-examples-expand");
-    if(!expandButton){
-        return;
-    }
-    const expanded = examples.classList.toggle("expanded");
-    expandButton.setAttribute("aria-expanded", String(expanded));
-    expandButton.textContent = expanded ? "收起完整例句" : "展开完整例句";
-};
 wordContentTab.onclick=()=>showContent("words");
 grammarContentTab.onclick=()=>showContent("grammar");
 

@@ -59,18 +59,13 @@
   {
     "id": 3,
     "lesson": 1,
-    "word": "学 生",
-    "reading": "がく せい",
+    "word": "学生",
+    "reading": "がくせい",
     "segments": [
       {
         "text": "学",
         "reading": "がく",
         "type": "kanji"
-      },
-      {
-        "text": " ",
-        "reading": "",
-        "type": "kana"
       },
       {
         "text": "生",
@@ -105,8 +100,8 @@
   {
     "id": 4,
     "lesson": 1,
-    "word": "会 社 員",
-    "reading": "かい しゃ いん",
+    "word": "会社員",
+    "reading": "かいしゃいん",
     "segments": [
       {
         "text": "会",
@@ -114,19 +109,9 @@
         "type": "kanji"
       },
       {
-        "text": " ",
-        "reading": "",
-        "type": "kana"
-      },
-      {
         "text": "社",
         "reading": "しゃ",
         "type": "kanji"
-      },
-      {
-        "text": " ",
-        "reading": "",
-        "type": "kana"
       },
       {
         "text": "員",
@@ -162,15 +147,10 @@
     "id": 5,
     "lesson": 1,
     "word": "貴方",
-    "reading": "貴あなた",
+    "reading": "あなた",
     "segments": [
       {
-        "text": "貴",
-        "reading": "",
-        "type": "kana"
-      },
-      {
-        "text": "方",
+        "text": "貴方",
         "reading": "あなた",
         "type": "kanji"
       }
@@ -274,8 +254,8 @@
   {
     "id": 8,
     "lesson": 1,
-    "word": "銀 行 員",
-    "reading": "ぎん こう いん",
+    "word": "銀行員",
+    "reading": "ぎんこういん",
     "segments": [
       {
         "text": "銀",
@@ -283,19 +263,9 @@
         "type": "kanji"
       },
       {
-        "text": " ",
-        "reading": "",
-        "type": "kana"
-      },
-      {
         "text": "行",
         "reading": "こう",
         "type": "kanji"
-      },
-      {
-        "text": " ",
-        "reading": "",
-        "type": "kana"
       },
       {
         "text": "員",
@@ -330,18 +300,13 @@
   {
     "id": 9,
     "lesson": 1,
-    "word": "医 者",
-    "reading": "い しゃ",
+    "word": "医者",
+    "reading": "いしゃ",
     "segments": [
       {
         "text": "医",
         "reading": "い",
         "type": "kanji"
-      },
-      {
-        "text": " ",
-        "reading": "",
-        "type": "kana"
       },
       {
         "text": "者",
@@ -376,11 +341,11 @@
   {
     "id": 10,
     "lesson": 1,
-    "word": "あの 方",
-    "reading": "あの かた",
+    "word": "あの方",
+    "reading": "あのかた",
     "segments": [
       {
-        "text": "あの ",
+        "text": "あの",
         "reading": "",
         "type": "kana"
       },
@@ -453,18 +418,13 @@
   {
     "id": 12,
     "lesson": 1,
-    "word": "大 学",
-    "reading": "だい がく",
+    "word": "大学",
+    "reading": "だいがく",
     "segments": [
       {
         "text": "大",
         "reading": "だい",
         "type": "kanji"
-      },
-      {
-        "text": " ",
-        "reading": "",
-        "type": "kana"
       },
       {
         "text": "学",
@@ -576,18 +536,13 @@
   {
     "id": 15,
     "lesson": 1,
-    "word": "何 歳",
-    "reading": "なん さい",
+    "word": "何歳",
+    "reading": "なんさい",
     "segments": [
       {
         "text": "何",
         "reading": "なん",
         "type": "kanji"
-      },
-      {
-        "text": " ",
-        "reading": "",
-        "type": "kana"
       },
       {
         "text": "歳",
@@ -658,11 +613,11 @@
   {
     "id": 17,
     "lesson": 1,
-    "word": "― 歳",
-    "reading": "― さい",
+    "word": "―歳",
+    "reading": "―さい",
     "segments": [
       {
-        "text": "― ",
+        "text": "―",
         "reading": "",
         "type": "kana"
       },
@@ -812,11 +767,11 @@
   {
     "id": 21,
     "lesson": 1,
-    "word": "～から 来ました。",
-    "reading": "～から きました。",
+    "word": "～から来ました。",
+    "reading": "～からきました。",
     "segments": [
       {
-        "text": "～から ",
+        "text": "～から",
         "reading": "",
         "type": "kana"
       },
@@ -858,11 +813,11 @@
   {
     "id": 22,
     "lesson": 1,
-    "word": "どうぞよろしくお 願いします。",
-    "reading": "どうぞよろしくお ねがいします。",
+    "word": "どうぞよろしくお願いします。",
+    "reading": "どうぞよろしくおねがいします。",
     "segments": [
       {
-        "text": "どうぞよろしくお ",
+        "text": "どうぞよろしくお",
         "reading": "",
         "type": "kana"
       },
@@ -889,18 +844,13 @@
   {
     "id": 23,
     "lesson": 1,
-    "word": "中 国",
-    "reading": "ちゅう ごく",
+    "word": "中国",
+    "reading": "ちゅうごく",
     "segments": [
       {
         "text": "中",
         "reading": "ちゅう",
         "type": "kanji"
-      },
-      {
-        "text": " ",
-        "reading": "",
-        "type": "kana"
       },
       {
         "text": "国",
@@ -935,11 +885,11 @@
   {
     "id": 24,
     "lesson": 1,
-    "word": "～ 人",
-    "reading": "～ じん",
+    "word": "～人",
+    "reading": "～じん",
     "segments": [
       {
-        "text": "～ ",
+        "text": "～",
         "reading": "",
         "type": "kana"
       },
@@ -976,8 +926,8 @@
   {
     "id": 25,
     "lesson": 1,
-    "word": "中 国 人",
-    "reading": "ちゅう ごく じん",
+    "word": "中国人",
+    "reading": "ちゅうごくじん",
     "segments": [
       {
         "text": "中",
@@ -985,19 +935,9 @@
         "type": "kanji"
       },
       {
-        "text": " ",
-        "reading": "",
-        "type": "kana"
-      },
-      {
         "text": "国",
         "reading": "ごく",
         "type": "kanji"
-      },
-      {
-        "text": " ",
-        "reading": "",
-        "type": "kana"
       },
       {
         "text": "人",
@@ -1032,18 +972,13 @@
   {
     "id": 26,
     "lesson": 1,
-    "word": "教 師",
-    "reading": "きょう し",
+    "word": "教師",
+    "reading": "きょうし",
     "segments": [
       {
         "text": "教",
         "reading": "きょう",
         "type": "kanji"
-      },
-      {
-        "text": " ",
-        "reading": "",
-        "type": "kana"
       },
       {
         "text": "師",
@@ -1078,11 +1013,11 @@
   {
     "id": 27,
     "lesson": 1,
-    "word": "あの 人",
-    "reading": "あの ひと",
+    "word": "あの人",
+    "reading": "あのひと",
     "segments": [
       {
-        "text": "あの ",
+        "text": "あの",
         "reading": "",
         "type": "kana"
       },
@@ -1155,18 +1090,13 @@
   {
     "id": 29,
     "lesson": 1,
-    "word": "社 員",
-    "reading": "しゃ いん",
+    "word": "社員",
+    "reading": "しゃいん",
     "segments": [
       {
         "text": "社",
         "reading": "しゃ",
         "type": "kanji"
-      },
-      {
-        "text": " ",
-        "reading": "",
-        "type": "kana"
       },
       {
         "text": "員",
@@ -1237,18 +1167,13 @@
   {
     "id": 31,
     "lesson": 1,
-    "word": "八 歳",
-    "reading": "はっ さい",
+    "word": "八歳",
+    "reading": "はっさい",
     "segments": [
       {
         "text": "八",
         "reading": "はっ",
         "type": "kanji"
-      },
-      {
-        "text": " ",
-        "reading": "",
-        "type": "kana"
       },
       {
         "text": "歳",
@@ -1319,18 +1244,13 @@
   {
     "id": 33,
     "lesson": 1,
-    "word": "日 本",
-    "reading": "に ほん",
+    "word": "日本",
+    "reading": "にほん",
     "segments": [
       {
         "text": "日",
         "reading": "に",
         "type": "kanji"
-      },
-      {
-        "text": " ",
-        "reading": "",
-        "type": "kana"
       },
       {
         "text": "本",
@@ -1473,8 +1393,8 @@
   {
     "id": 37,
     "lesson": 1,
-    "word": "研 究 者",
-    "reading": "けん きゅう しゃ",
+    "word": "研究者",
+    "reading": "けんきゅうしゃ",
     "segments": [
       {
         "text": "研",
@@ -1482,19 +1402,9 @@
         "type": "kanji"
       },
       {
-        "text": " ",
-        "reading": "",
-        "type": "kana"
-      },
-      {
         "text": "究",
         "reading": "きゅう",
         "type": "kanji"
-      },
-      {
-        "text": " ",
-        "reading": "",
-        "type": "kana"
       },
       {
         "text": "者",
@@ -1529,18 +1439,13 @@
   {
     "id": 38,
     "lesson": 1,
-    "word": "神 戸",
-    "reading": "こう べ",
+    "word": "神戸",
+    "reading": "こうべ",
     "segments": [
       {
         "text": "神",
         "reading": "こう",
         "type": "kanji"
-      },
-      {
-        "text": " ",
-        "reading": "",
-        "type": "kana"
       },
       {
         "text": "戸",
@@ -1575,18 +1480,13 @@
   {
     "id": 39,
     "lesson": 1,
-    "word": "病 院",
-    "reading": "びょう いん",
+    "word": "病院",
+    "reading": "びょういん",
     "segments": [
       {
         "text": "病",
         "reading": "びょう",
         "type": "kanji"
-      },
-      {
-        "text": " ",
-        "reading": "",
-        "type": "kana"
       },
       {
         "text": "院",
@@ -1657,18 +1557,13 @@
   {
     "id": 41,
     "lesson": 1,
-    "word": "韓 国",
-    "reading": "かん こく",
+    "word": "韓国",
+    "reading": "かんこく",
     "segments": [
       {
         "text": "韓",
         "reading": "かん",
         "type": "kanji"
-      },
-      {
-        "text": " ",
-        "reading": "",
-        "type": "kana"
       },
       {
         "text": "国",
@@ -1739,18 +1634,13 @@
   {
     "id": 43,
     "lesson": 1,
-    "word": "失 礼ですが",
-    "reading": "しつ れいですが",
+    "word": "失礼ですが",
+    "reading": "しつれいですが",
     "segments": [
       {
         "text": "失",
         "reading": "しつ",
         "type": "kanji"
-      },
-      {
-        "text": " ",
-        "reading": "",
-        "type": "kana"
       },
       {
         "text": "礼",
@@ -1790,11 +1680,11 @@
   {
     "id": 44,
     "lesson": 1,
-    "word": "お 名 前は？",
-    "reading": "お な まえは？",
+    "word": "お名前は？",
+    "reading": "おなまえは？",
     "segments": [
       {
-        "text": "お ",
+        "text": "お",
         "reading": "",
         "type": "kana"
       },
@@ -1802,11 +1692,6 @@
         "text": "名",
         "reading": "な",
         "type": "kanji"
-      },
-      {
-        "text": " ",
-        "reading": "",
-        "type": "kana"
       },
       {
         "text": "前",
@@ -1882,18 +1767,13 @@
   {
     "id": 46,
     "lesson": 2,
-    "word": "辞 書",
-    "reading": "じ しょ",
+    "word": "辞書",
+    "reading": "じしょ",
     "segments": [
       {
         "text": "辞",
         "reading": "じ",
         "type": "kanji"
-      },
-      {
-        "text": " ",
-        "reading": "",
-        "type": "kana"
       },
       {
         "text": "書",
@@ -2180,18 +2060,13 @@
   {
     "id": 54,
     "lesson": 2,
-    "word": "手 帳",
-    "reading": "て ちょう",
+    "word": "手帳",
+    "reading": "てちょう",
     "segments": [
       {
         "text": "手",
         "reading": "て",
         "type": "kanji"
-      },
-      {
-        "text": " ",
-        "reading": "",
-        "type": "kana"
       },
       {
         "text": "帳",
@@ -2262,18 +2137,13 @@
   {
     "id": 56,
     "lesson": 2,
-    "word": "名 刺",
-    "reading": "めい し",
+    "word": "名刺",
+    "reading": "めいし",
     "segments": [
       {
         "text": "名",
         "reading": "めい",
         "type": "kanji"
-      },
-      {
-        "text": " ",
-        "reading": "",
-        "type": "kana"
       },
       {
         "text": "刺",
@@ -2309,15 +2179,10 @@
     "id": 57,
     "lesson": 2,
     "word": "雑誌",
-    "reading": "雑ざっし",
+    "reading": "ざっし",
     "segments": [
       {
-        "text": "雑",
-        "reading": "",
-        "type": "kana"
-      },
-      {
-        "text": "誌",
+        "text": "雑誌",
         "reading": "ざっし",
         "type": "kanji"
       }
@@ -2493,11 +2358,11 @@
   {
     "id": 62,
     "lesson": 2,
-    "word": "これからお 世 話になります。",
-    "reading": "これからお せ わになります。",
+    "word": "これからお世話になります。",
+    "reading": "これからおせわになります。",
     "segments": [
       {
-        "text": "これからお ",
+        "text": "これからお",
         "reading": "",
         "type": "kana"
       },
@@ -2505,11 +2370,6 @@
         "text": "世",
         "reading": "せ",
         "type": "kanji"
-      },
-      {
-        "text": " ",
-        "reading": "",
-        "type": "kana"
       },
       {
         "text": "話",
@@ -2578,11 +2438,11 @@
   {
     "id": 64,
     "lesson": 2,
-    "word": "こちらこそ、どうもよろしくお 願いします。",
-    "reading": "こちらこそ、どうもよろしくお ねがいします。",
+    "word": "こちらこそ、どうもよろしくお願いします。",
+    "reading": "こちらこそ、どうもよろしくおねがいします。",
     "segments": [
       {
-        "text": "こちらこそ、どうもよろしくお ",
+        "text": "こちらこそ、どうもよろしくお",
         "reading": "",
         "type": "kana"
       },
@@ -2818,18 +2678,13 @@
   {
     "id": 71,
     "lesson": 2,
-    "word": "新 聞",
-    "reading": "しん ぶん",
+    "word": "新聞",
+    "reading": "しんぶん",
     "segments": [
       {
         "text": "新",
         "reading": "しん",
         "type": "kanji"
-      },
-      {
-        "text": " ",
-        "reading": "",
-        "type": "kana"
       },
       {
         "text": "聞",
@@ -2957,8 +2812,8 @@
   {
     "id": 75,
     "lesson": 2,
-    "word": "日 本 語",
-    "reading": "に ほん ご",
+    "word": "日本語",
+    "reading": "にほんご",
     "segments": [
       {
         "text": "日",
@@ -2966,19 +2821,9 @@
         "type": "kanji"
       },
       {
-        "text": " ",
-        "reading": "",
-        "type": "kana"
-      },
-      {
         "text": "本",
         "reading": "ほん",
         "type": "kanji"
-      },
-      {
-        "text": " ",
-        "reading": "",
-        "type": "kana"
       },
       {
         "text": "語",
@@ -3013,11 +2858,11 @@
   {
     "id": 76,
     "lesson": 2,
-    "word": "～ 語",
-    "reading": "～ ご",
+    "word": "～語",
+    "reading": "～ご",
     "segments": [
       {
-        "text": "～ ",
+        "text": "～",
         "reading": "",
         "type": "kana"
       },
@@ -3090,18 +2935,13 @@
   {
     "id": 78,
     "lesson": 2,
-    "word": "時 計",
-    "reading": "と けい",
+    "word": "時計",
+    "reading": "とけい",
     "segments": [
       {
         "text": "時",
         "reading": "と",
         "type": "kanji"
-      },
-      {
-        "text": " ",
-        "reading": "",
-        "type": "kana"
       },
       {
         "text": "計",
@@ -3208,18 +3048,13 @@
   {
     "id": 81,
     "lesson": 2,
-    "word": "鉛 筆",
-    "reading": "えん ぴつ",
+    "word": "鉛筆",
+    "reading": "えんぴつ",
     "segments": [
       {
         "text": "鉛",
         "reading": "えん",
         "type": "kanji"
-      },
-      {
-        "text": " ",
-        "reading": "",
-        "type": "kana"
       },
       {
         "text": "筆",
@@ -3254,18 +3089,13 @@
   {
     "id": 82,
     "lesson": 2,
-    "word": "椅 子",
-    "reading": "い す",
+    "word": "椅子",
+    "reading": "いす",
     "segments": [
       {
         "text": "椅",
         "reading": "い",
         "type": "kanji"
-      },
-      {
-        "text": " ",
-        "reading": "",
-        "type": "kana"
       },
       {
         "text": "子",
@@ -3336,11 +3166,11 @@
   {
     "id": 84,
     "lesson": 2,
-    "word": "お 土産",
-    "reading": "お みやげ",
+    "word": "お土産",
+    "reading": "おみやげ",
     "segments": [
       {
-        "text": "お ",
+        "text": "お",
         "reading": "",
         "type": "kana"
       },
@@ -3418,18 +3248,13 @@
   {
     "id": 86,
     "lesson": 2,
-    "word": "英 語",
-    "reading": "えい ご",
+    "word": "英語",
+    "reading": "えいご",
     "segments": [
       {
         "text": "英",
         "reading": "えい",
         "type": "kanji"
-      },
-      {
-        "text": " ",
-        "reading": "",
-        "type": "kana"
       },
       {
         "text": "語",
@@ -3721,18 +3546,13 @@
   {
     "id": 94,
     "lesson": 3,
-    "word": "食 堂",
-    "reading": "しょく どう",
+    "word": "食堂",
+    "reading": "しょくどう",
     "segments": [
       {
         "text": "食",
         "reading": "しょく",
         "type": "kanji"
-      },
-      {
-        "text": " ",
-        "reading": "",
-        "type": "kana"
       },
       {
         "text": "堂",
@@ -3839,8 +3659,8 @@
   {
     "id": 97,
     "lesson": 3,
-    "word": "新 大阪",
-    "reading": "しん 大おおさか",
+    "word": "新大阪",
+    "reading": "しんおおさか",
     "segments": [
       {
         "text": "新",
@@ -3848,12 +3668,7 @@
         "type": "kanji"
       },
       {
-        "text": " 大",
-        "reading": "",
-        "type": "kana"
-      },
-      {
-        "text": "阪",
+        "text": "大阪",
         "reading": "おおさか",
         "type": "kanji"
       }
@@ -3921,11 +3736,11 @@
   {
     "id": 99,
     "lesson": 3,
-    "word": "お 手 洗い",
-    "reading": "お て あらい",
+    "word": "お手洗い",
+    "reading": "おてあらい",
     "segments": [
       {
-        "text": "お ",
+        "text": "お",
         "reading": "",
         "type": "kana"
       },
@@ -3933,11 +3748,6 @@
         "text": "手",
         "reading": "て",
         "type": "kanji"
-      },
-      {
-        "text": " ",
-        "reading": "",
-        "type": "kana"
       },
       {
         "text": "洗",
@@ -4013,8 +3823,8 @@
   {
     "id": 101,
     "lesson": 3,
-    "word": "会 議 室",
-    "reading": "かい ぎ しつ",
+    "word": "会議室",
+    "reading": "かいぎしつ",
     "segments": [
       {
         "text": "会",
@@ -4022,19 +3832,9 @@
         "type": "kanji"
       },
       {
-        "text": " ",
-        "reading": "",
-        "type": "kana"
-      },
-      {
         "text": "議",
         "reading": "ぎ",
         "type": "kanji"
-      },
-      {
-        "text": " ",
-        "reading": "",
-        "type": "kana"
       },
       {
         "text": "室",
@@ -4069,8 +3869,8 @@
   {
     "id": 102,
     "lesson": 3,
-    "word": "事 務 所",
-    "reading": "じ む しょ",
+    "word": "事務所",
+    "reading": "じむしょ",
     "segments": [
       {
         "text": "事",
@@ -4078,19 +3878,9 @@
         "type": "kanji"
       },
       {
-        "text": " ",
-        "reading": "",
-        "type": "kana"
-      },
-      {
         "text": "務",
         "reading": "む",
         "type": "kanji"
-      },
-      {
-        "text": " ",
-        "reading": "",
-        "type": "kana"
       },
       {
         "text": "所",
@@ -4197,11 +3987,11 @@
   {
     "id": 105,
     "lesson": 3,
-    "word": "お 国",
-    "reading": "お くに",
+    "word": "お国",
+    "reading": "おくに",
     "segments": [
       {
-        "text": "お ",
+        "text": "お",
         "reading": "",
         "type": "kana"
       },
@@ -4454,11 +4244,11 @@
   {
     "id": 112,
     "lesson": 3,
-    "word": "― 円",
-    "reading": "― えん",
+    "word": "―円",
+    "reading": "―えん",
     "segments": [
       {
-        "text": "― ",
+        "text": "―",
         "reading": "",
         "type": "kana"
       },
@@ -4711,8 +4501,8 @@
   {
     "id": 119,
     "lesson": 3,
-    "word": "売り 場",
-    "reading": "うり ば",
+    "word": "売り場",
+    "reading": "うりば",
     "segments": [
       {
         "text": "売",
@@ -4720,7 +4510,7 @@
         "type": "kanji"
       },
       {
-        "text": "り ",
+        "text": "り",
         "reading": "",
         "type": "kana"
       },
@@ -4798,11 +4588,11 @@
   {
     "id": 121,
     "lesson": 3,
-    "word": "― 階",
-    "reading": "― かい",
+    "word": "―階",
+    "reading": "―かい",
     "segments": [
       {
-        "text": "― ",
+        "text": "―",
         "reading": "",
         "type": "kana"
       },
@@ -4880,11 +4670,11 @@
   {
     "id": 123,
     "lesson": 3,
-    "word": "～を 見せて 下さい。",
-    "reading": "～を みせて ください。",
+    "word": "～を見せて下さい。",
+    "reading": "～をみせてください。",
     "segments": [
       {
-        "text": "～を ",
+        "text": "～を",
         "reading": "",
         "type": "kana"
       },
@@ -4894,7 +4684,7 @@
         "type": "kanji"
       },
       {
-        "text": "せて ",
+        "text": "せて",
         "reading": "",
         "type": "kana"
       },
@@ -5794,11 +5584,11 @@
   {
     "id": 147,
     "lesson": 4,
-    "word": "― 時",
-    "reading": "― じ",
+    "word": "―時",
+    "reading": "―じ",
     "segments": [
       {
-        "text": "― ",
+        "text": "―",
         "reading": "",
         "type": "kana"
       },
@@ -5835,11 +5625,11 @@
   {
     "id": 148,
     "lesson": 4,
-    "word": "― 分",
-    "reading": "― ふん",
+    "word": "―分",
+    "reading": "―ふん",
     "segments": [
       {
-        "text": "― ",
+        "text": "―",
         "reading": "",
         "type": "kana"
       },
@@ -5876,18 +5666,13 @@
   {
     "id": 149,
     "lesson": 4,
-    "word": "毎 朝",
-    "reading": "まい あさ",
+    "word": "毎朝",
+    "reading": "まいあさ",
     "segments": [
       {
         "text": "毎",
         "reading": "まい",
         "type": "kanji"
-      },
-      {
-        "text": " ",
-        "reading": "",
-        "type": "kana"
       },
       {
         "text": "朝",
@@ -5964,15 +5749,10 @@
     "id": 151,
     "lesson": 4,
     "word": "昨日",
-    "reading": "昨きのう",
+    "reading": "きのう",
     "segments": [
       {
-        "text": "昨",
-        "reading": "",
-        "type": "kana"
-      },
-      {
-        "text": "日",
+        "text": "昨日",
         "reading": "きのう",
         "type": "kanji"
       }
@@ -6004,18 +5784,13 @@
   {
     "id": 152,
     "lesson": 4,
-    "word": "勉 強します",
-    "reading": "べん きょうします",
+    "word": "勉強します",
+    "reading": "べんきょうします",
     "segments": [
       {
         "text": "勉",
         "reading": "べん",
         "type": "kanji"
-      },
-      {
-        "text": " ",
-        "reading": "",
-        "type": "kana"
       },
       {
         "text": "強",
@@ -7032,15 +6807,10 @@
     "id": 178,
     "lesson": 4,
     "word": "明日",
-    "reading": "明あした",
+    "reading": "あした",
     "segments": [
       {
-        "text": "明",
-        "reading": "",
-        "type": "kana"
-      },
-      {
-        "text": "日",
+        "text": "明日",
         "reading": "あした",
         "type": "kanji"
       }
@@ -7073,15 +6843,10 @@
     "id": 179,
     "lesson": 4,
     "word": "一昨日",
-    "reading": "一昨おととい",
+    "reading": "おととい",
     "segments": [
       {
-        "text": "一昨",
-        "reading": "",
-        "type": "kana"
-      },
-      {
-        "text": "日",
+        "text": "一昨日",
         "reading": "おととい",
         "type": "kanji"
       }
@@ -7261,15 +7026,10 @@
     "id": 184,
     "lesson": 4,
     "word": "今日",
-    "reading": "今きょう",
+    "reading": "きょう",
     "segments": [
       {
-        "text": "今",
-        "reading": "",
-        "type": "kana"
-      },
-      {
-        "text": "日",
+        "text": "今日",
         "reading": "きょう",
         "type": "kanji"
       }
@@ -7599,15 +7359,10 @@
     "id": 192,
     "lesson": 4,
     "word": "今晩",
-    "reading": "今こんばん",
+    "reading": "こんばん",
     "segments": [
       {
-        "text": "今",
-        "reading": "",
-        "type": "kana"
-      },
-      {
-        "text": "晩",
+        "text": "今晩",
         "reading": "こんばん",
         "type": "kanji"
       }
@@ -7746,15 +7501,10 @@
     "id": 196,
     "lesson": 4,
     "word": "明後日",
-    "reading": "明後あさって",
+    "reading": "あさって",
     "segments": [
       {
-        "text": "明後",
-        "reading": "",
-        "type": "kana"
-      },
-      {
-        "text": "日",
+        "text": "明後日",
         "reading": "あさって",
         "type": "kanji"
       }
@@ -7787,15 +7537,10 @@
     "id": 197,
     "lesson": 4,
     "word": "今朝",
-    "reading": "今けさ",
+    "reading": "けさ",
     "segments": [
       {
-        "text": "今",
-        "reading": "",
-        "type": "kana"
-      },
-      {
-        "text": "朝",
+        "text": "今朝",
         "reading": "けさ",
         "type": "kanji"
       }
@@ -8339,15 +8084,10 @@
     "id": 211,
     "lesson": 5,
     "word": "何時",
-    "reading": "何いつ",
+    "reading": "いつ",
     "segments": [
       {
-        "text": "何",
-        "reading": "",
-        "type": "kana"
-      },
-      {
-        "text": "時",
+        "text": "何時",
         "reading": "いつ",
         "type": "kanji"
       }
@@ -8379,11 +8119,11 @@
   {
     "id": 212,
     "lesson": 5,
-    "word": "― 月",
-    "reading": "― がつ",
+    "word": "―月",
+    "reading": "―がつ",
     "segments": [
       {
-        "text": "― ",
+        "text": "―",
         "reading": "",
         "type": "kana"
       },
@@ -8446,11 +8186,11 @@
   {
     "id": 214,
     "lesson": 5,
-    "word": "― 日",
-    "reading": "― にち",
+    "word": "―日",
+    "reading": "―にち",
     "segments": [
       {
-        "text": "― ",
+        "text": "―",
         "reading": "",
         "type": "kana"
       },
@@ -8703,11 +8443,11 @@
   {
     "id": 221,
     "lesson": 5,
-    "word": "― 番線",
-    "reading": "― ばんせん",
+    "word": "―番線",
+    "reading": "―ばんせん",
     "segments": [
       {
-        "text": "― ",
+        "text": "―",
         "reading": "",
         "type": "kana"
       },
@@ -9480,15 +9220,10 @@
     "id": 241,
     "lesson": 5,
     "word": "彼女",
-    "reading": "彼かのじょ",
+    "reading": "かのじょ",
     "segments": [
       {
-        "text": "彼",
-        "reading": "",
-        "type": "kana"
-      },
-      {
-        "text": "女",
+        "text": "彼女",
         "reading": "かのじょ",
         "type": "kanji"
       }
@@ -9639,15 +9374,10 @@
     "id": 245,
     "lesson": 5,
     "word": "三日",
-    "reading": "三みっか",
+    "reading": "みっか",
     "segments": [
       {
-        "text": "三",
-        "reading": "",
-        "type": "kana"
-      },
-      {
-        "text": "日",
+        "text": "三日",
         "reading": "みっか",
         "type": "kanji"
       }
@@ -9680,15 +9410,10 @@
     "id": 246,
     "lesson": 5,
     "word": "十四日",
-    "reading": "十四じゅうよっか",
+    "reading": "じゅうよっか",
     "segments": [
       {
-        "text": "十四",
-        "reading": "",
-        "type": "kana"
-      },
-      {
-        "text": "日",
+        "text": "十四日",
         "reading": "じゅうよっか",
         "type": "kanji"
       }
@@ -9869,11 +9594,11 @@
   {
     "id": 251,
     "lesson": 5,
-    "word": "― 年",
-    "reading": "― ねん",
+    "word": "―年",
+    "reading": "―ねん",
     "segments": [
       {
-        "text": "― ",
+        "text": "―",
         "reading": "",
         "type": "kana"
       },
@@ -9983,15 +9708,10 @@
     "id": 254,
     "lesson": 5,
     "word": "六日",
-    "reading": "六むいか",
+    "reading": "むいか",
     "segments": [
       {
-        "text": "六",
-        "reading": "",
-        "type": "kana"
-      },
-      {
-        "text": "日",
+        "text": "六日",
         "reading": "むいか",
         "type": "kanji"
       }
@@ -10009,15 +9729,10 @@
     "id": 255,
     "lesson": 5,
     "word": "十日",
-    "reading": "十とおか",
+    "reading": "とおか",
     "segments": [
       {
-        "text": "十",
-        "reading": "",
-        "type": "kana"
-      },
-      {
-        "text": "日",
+        "text": "十日",
         "reading": "とおか",
         "type": "kanji"
       }
@@ -10050,15 +9765,10 @@
     "id": 256,
     "lesson": 5,
     "word": "九日",
-    "reading": "九ここのか",
+    "reading": "ここのか",
     "segments": [
       {
-        "text": "九",
-        "reading": "",
-        "type": "kana"
-      },
-      {
-        "text": "日",
+        "text": "九日",
         "reading": "ここのか",
         "type": "kanji"
       }
@@ -10076,15 +9786,10 @@
     "id": 257,
     "lesson": 5,
     "word": "一日",
-    "reading": "一ついたち",
+    "reading": "ついたち",
     "segments": [
       {
-        "text": "一",
-        "reading": "",
-        "type": "kana"
-      },
-      {
-        "text": "日",
+        "text": "一日",
         "reading": "ついたち",
         "type": "kanji"
       }
@@ -10153,15 +9858,10 @@
     "id": 259,
     "lesson": 5,
     "word": "八日",
-    "reading": "八ようか",
+    "reading": "ようか",
     "segments": [
       {
-        "text": "八",
-        "reading": "",
-        "type": "kana"
-      },
-      {
-        "text": "日",
+        "text": "八日",
         "reading": "ようか",
         "type": "kanji"
       }
@@ -10179,15 +9879,10 @@
     "id": 260,
     "lesson": 5,
     "word": "四日",
-    "reading": "四よっか",
+    "reading": "よっか",
     "segments": [
       {
-        "text": "四",
-        "reading": "",
-        "type": "kana"
-      },
-      {
-        "text": "日",
+        "text": "四日",
         "reading": "よっか",
         "type": "kanji"
       }
@@ -10205,15 +9900,10 @@
     "id": 261,
     "lesson": 5,
     "word": "二日",
-    "reading": "二ふつか",
+    "reading": "ふつか",
     "segments": [
       {
-        "text": "二",
-        "reading": "",
-        "type": "kana"
-      },
-      {
-        "text": "日",
+        "text": "二日",
         "reading": "ふつか",
         "type": "kanji"
       }
@@ -10246,15 +9936,10 @@
     "id": 262,
     "lesson": 5,
     "word": "五日",
-    "reading": "五いつか",
+    "reading": "いつか",
     "segments": [
       {
-        "text": "五",
-        "reading": "",
-        "type": "kana"
-      },
-      {
-        "text": "日",
+        "text": "五日",
         "reading": "いつか",
         "type": "kanji"
       }
@@ -10280,15 +9965,10 @@
     "id": 263,
     "lesson": 5,
     "word": "七日",
-    "reading": "七なのか",
+    "reading": "なのか",
     "segments": [
       {
-        "text": "七",
-        "reading": "",
-        "type": "kana"
-      },
-      {
-        "text": "日",
+        "text": "七日",
         "reading": "なのか",
         "type": "kanji"
       }
@@ -10306,15 +9986,10 @@
     "id": 264,
     "lesson": 5,
     "word": "二十日",
-    "reading": "二十はつか",
+    "reading": "はつか",
     "segments": [
       {
-        "text": "二十",
-        "reading": "",
-        "type": "kana"
-      },
-      {
-        "text": "日",
+        "text": "二十日",
         "reading": "はつか",
         "type": "kanji"
       }
@@ -10340,25 +10015,15 @@
     "id": 265,
     "lesson": 5,
     "word": "二十四日",
-    "reading": "二にじゅう四よっか",
+    "reading": "にじゅうよっか",
     "segments": [
       {
-        "text": "二",
-        "reading": "",
-        "type": "kana"
-      },
-      {
-        "text": "十",
+        "text": "二十",
         "reading": "にじゅう",
         "type": "kanji"
       },
       {
-        "text": "四",
-        "reading": "",
-        "type": "kana"
-      },
-      {
-        "text": "日",
+        "text": "四日",
         "reading": "よっか",
         "type": "kanji"
       }
@@ -10499,15 +10164,10 @@
     "id": 269,
     "lesson": 6,
     "word": "一緒に",
-    "reading": "一いっしょに",
+    "reading": "いっしょに",
     "segments": [
       {
-        "text": "一",
-        "reading": "",
-        "type": "kana"
-      },
-      {
-        "text": "緒",
+        "text": "一緒",
         "reading": "いっしょ",
         "type": "kanji"
       },
@@ -10580,11 +10240,11 @@
   {
     "id": 271,
     "lesson": 6,
-    "word": "お 酒",
-    "reading": "お さけ",
+    "word": "お酒",
+    "reading": "おさけ",
     "segments": [
       {
-        "text": "お ",
+        "text": "お",
         "reading": "",
         "type": "kana"
       },
@@ -11013,8 +10673,8 @@
   {
     "id": 284,
     "lesson": 6,
-    "word": "友達に 会います。",
-    "reading": "ともだちに あいます。",
+    "word": "友達に会います。",
+    "reading": "ともだちにあいます。",
     "segments": [
       {
         "text": "友",
@@ -11027,7 +10687,7 @@
         "type": "kanji"
       },
       {
-        "text": "に ",
+        "text": "に",
         "reading": "",
         "type": "kana"
       },
@@ -11129,11 +10789,11 @@
   {
     "id": 287,
     "lesson": 6,
-    "word": "お 花見",
-    "reading": "お はなみ",
+    "word": "お花見",
+    "reading": "おはなみ",
     "segments": [
       {
-        "text": "お ",
+        "text": "お",
         "reading": "",
         "type": "kana"
       },
@@ -11448,11 +11108,11 @@
   {
     "id": 296,
     "lesson": 6,
-    "word": "お 茶",
-    "reading": "お ちゃ",
+    "word": "お茶",
+    "reading": "おちゃ",
     "segments": [
       {
-        "text": "お ",
+        "text": "お",
         "reading": "",
         "type": "kana"
       },
@@ -11708,8 +11368,8 @@
   {
     "id": 303,
     "lesson": 6,
-    "word": "写真を 撮ります。",
-    "reading": "しゃしんを とります。",
+    "word": "写真を撮ります。",
+    "reading": "しゃしんをとります。",
     "segments": [
       {
         "text": "写",
@@ -11722,7 +11382,7 @@
         "type": "kanji"
       },
       {
-        "text": "を ",
+        "text": "を",
         "reading": "",
         "type": "kana"
       },
@@ -11804,11 +11464,11 @@
   {
     "id": 306,
     "lesson": 6,
-    "word": "たばこを 吸います。",
-    "reading": "たばこを すいます。",
+    "word": "たばこを吸います。",
+    "reading": "たばこをすいます。",
     "segments": [
       {
-        "text": "たばこを ",
+        "text": "たばこを",
         "reading": "",
         "type": "kana"
       },
@@ -11972,8 +11632,8 @@
   {
     "id": 311,
     "lesson": 6,
-    "word": "昼ご 飯",
-    "reading": "ひるご はん",
+    "word": "昼ご飯",
+    "reading": "ひるごはん",
     "segments": [
       {
         "text": "昼",
@@ -11981,7 +11641,7 @@
         "type": "kanji"
       },
       {
-        "text": "ご ",
+        "text": "ご",
         "reading": "",
         "type": "kana"
       },
@@ -12187,15 +11847,10 @@
     "id": 317,
     "lesson": 6,
     "word": "時々",
-    "reading": "時ときどき",
+    "reading": "ときどき",
     "segments": [
       {
-        "text": "時",
-        "reading": "",
-        "type": "kana"
-      },
-      {
-        "text": "々",
+        "text": "時々",
         "reading": "ときどき",
         "type": "kanji"
       }
@@ -12599,11 +12254,11 @@
   {
     "id": 329,
     "lesson": 7,
-    "word": "もう6 時ですね。",
-    "reading": "もう6 じですね。",
+    "word": "もう6時ですね。",
+    "reading": "もう6じですね。",
     "segments": [
       {
-        "text": "もう6 ",
+        "text": "もう6",
         "reading": "",
         "type": "kana"
       },
@@ -12631,15 +12286,10 @@
     "id": 330,
     "lesson": 7,
     "word": "切符",
-    "reading": "切きっぷ",
+    "reading": "きっぷ",
     "segments": [
       {
-        "text": "切",
-        "reading": "",
-        "type": "kana"
-      },
-      {
-        "text": "符",
+        "text": "切符",
         "reading": "きっぷ",
         "type": "kanji"
       }
@@ -12764,11 +12414,11 @@
   {
     "id": 334,
     "lesson": 7,
-    "word": "どうぞお 上がりください。",
-    "reading": "どうぞお あがりください。",
+    "word": "どうぞお上がりください。",
+    "reading": "どうぞおあがりください。",
     "segments": [
       {
-        "text": "どうぞお ",
+        "text": "どうぞお",
         "reading": "",
         "type": "kana"
       },
@@ -12941,11 +12591,11 @@
   {
     "id": 340,
     "lesson": 7,
-    "word": "～、 素敵ですね。",
-    "reading": "～、 すてきですね。",
+    "word": "～、素敵ですね。",
+    "reading": "～、すてきですね。",
     "segments": [
       {
-        "text": "～、 ",
+        "text": "～、",
         "reading": "",
         "type": "kana"
       },
@@ -13507,11 +13157,11 @@
   {
     "id": 358,
     "lesson": 7,
-    "word": "イーさんにお 金を 貸します。",
-    "reading": "イーさんにお かねを かします。",
+    "word": "イーさんにお金を貸します。",
+    "reading": "イーさんにおかねをかします。",
     "segments": [
       {
-        "text": "イーさんにお ",
+        "text": "イーさんにお",
         "reading": "",
         "type": "kana"
       },
@@ -13521,7 +13171,7 @@
         "type": "kanji"
       },
       {
-        "text": "を ",
+        "text": "を",
         "reading": "",
         "type": "kana"
       },
@@ -13582,8 +13232,8 @@
   {
     "id": 360,
     "lesson": 7,
-    "word": "学生に 日本語を 教えます。",
-    "reading": "がくせいに にほんごを おしえます。",
+    "word": "学生に日本語を教えます。",
+    "reading": "がくせいににほんごをおしえます。",
     "segments": [
       {
         "text": "学",
@@ -13596,7 +13246,7 @@
         "type": "kanji"
       },
       {
-        "text": "に ",
+        "text": "に",
         "reading": "",
         "type": "kana"
       },
@@ -13616,7 +13266,7 @@
         "type": "kanji"
       },
       {
-        "text": "を ",
+        "text": "を",
         "reading": "",
         "type": "kana"
       },
@@ -13785,8 +13435,8 @@
   {
     "id": 365,
     "lesson": 7,
-    "word": "王さんに 本を 借ります。",
-    "reading": "おうさんに ほんを かります。",
+    "word": "王さんに本を借ります。",
+    "reading": "おうさんにほんをかります。",
     "segments": [
       {
         "text": "王",
@@ -13794,7 +13444,7 @@
         "type": "kanji"
       },
       {
-        "text": "さんに ",
+        "text": "さんに",
         "reading": "",
         "type": "kana"
       },
@@ -13804,7 +13454,7 @@
         "type": "kanji"
       },
       {
-        "text": "を ",
+        "text": "を",
         "reading": "",
         "type": "kana"
       },
@@ -13917,11 +13567,11 @@
   {
     "id": 369,
     "lesson": 7,
-    "word": "お 金",
-    "reading": "お かね",
+    "word": "お金",
+    "reading": "おかね",
     "segments": [
       {
-        "text": "お ",
+        "text": "お",
         "reading": "",
         "type": "kana"
       },
@@ -13958,11 +13608,11 @@
   {
     "id": 370,
     "lesson": 7,
-    "word": "お 母さん",
-    "reading": "お かあさん",
+    "word": "お母さん",
+    "reading": "おかあさん",
     "segments": [
       {
-        "text": "お ",
+        "text": "お",
         "reading": "",
         "type": "kana"
       },
@@ -14004,11 +13654,11 @@
   {
     "id": 371,
     "lesson": 7,
-    "word": "お 父さん",
-    "reading": "お とうさん",
+    "word": "お父さん",
+    "reading": "おとうさん",
     "segments": [
       {
-        "text": "お ",
+        "text": "お",
         "reading": "",
         "type": "kana"
       },
@@ -14686,8 +14336,8 @@
   {
     "id": 390,
     "lesson": 8,
-    "word": "古いですが、 便利です。",
-    "reading": "ふるいですが、 べんりです。",
+    "word": "古いですが、便利です。",
+    "reading": "ふるいですが、べんりです。",
     "segments": [
       {
         "text": "古",
@@ -14695,7 +14345,7 @@
         "type": "kanji"
       },
       {
-        "text": "いですが、 ",
+        "text": "いですが、",
         "reading": "",
         "type": "kana"
       },
@@ -14871,8 +14521,8 @@
   {
     "id": 395,
     "lesson": 8,
-    "word": "七人の 侍",
-    "reading": "しちにんの さむらい",
+    "word": "七人の侍",
+    "reading": "しちにんのさむらい",
     "segments": [
       {
         "text": "七",
@@ -14885,7 +14535,7 @@
         "type": "kanji"
       },
       {
-        "text": "の ",
+        "text": "の",
         "reading": "",
         "type": "kana"
       },
@@ -14907,11 +14557,11 @@
   {
     "id": 396,
     "lesson": 8,
-    "word": "そろそろ 失礼します。",
-    "reading": "そろそろ しつれいします。",
+    "word": "そろそろ失礼します。",
+    "reading": "そろそろしつれいします。",
     "segments": [
       {
-        "text": "そろそろ ",
+        "text": "そろそろ",
         "reading": "",
         "type": "kana"
       },
@@ -15025,11 +14675,11 @@
   {
     "id": 399,
     "lesson": 8,
-    "word": "お 仕事",
-    "reading": "お しごと",
+    "word": "お仕事",
+    "reading": "おしごと",
     "segments": [
       {
-        "text": "お ",
+        "text": "お",
         "reading": "",
         "type": "kana"
       },
@@ -15195,11 +14845,11 @@
   {
     "id": 404,
     "lesson": 8,
-    "word": "～、もう 一杯いかがですか。",
-    "reading": "～、もう いっぱいいかがですか。",
+    "word": "～、もう一杯いかがですか。",
+    "reading": "～、もういっぱいいかがですか。",
     "segments": [
       {
-        "text": "～、もう ",
+        "text": "～、もう",
         "reading": "",
         "type": "kana"
       },
@@ -15929,8 +15579,8 @@
   {
     "id": 425,
     "lesson": 8,
-    "word": "食べ 物",
-    "reading": "たべ もの",
+    "word": "食べ物",
+    "reading": "たべもの",
     "segments": [
       {
         "text": "食",
@@ -15938,7 +15588,7 @@
         "type": "kanji"
       },
       {
-        "text": "べ ",
+        "text": "べ",
         "reading": "",
         "type": "kana"
       },
@@ -16098,11 +15748,11 @@
   {
     "id": 429,
     "lesson": 8,
-    "word": "お 元気ですか。",
-    "reading": "お げんきですか。",
+    "word": "お元気ですか。",
+    "reading": "おげんきですか。",
     "segments": [
       {
-        "text": "お ",
+        "text": "お",
         "reading": "",
         "type": "kana"
       },
@@ -16580,8 +16230,8 @@
   {
     "id": 441,
     "lesson": 9,
-    "word": "日本語が 好きです。",
-    "reading": "にほんごが すきです。",
+    "word": "日本語が好きです。",
+    "reading": "にほんごがすきです。",
     "segments": [
       {
         "text": "日",
@@ -16599,7 +16249,7 @@
         "type": "kanji"
       },
       {
-        "text": "が ",
+        "text": "が",
         "reading": "",
         "type": "kana"
       },
@@ -17014,8 +16664,8 @@
   {
     "id": 452,
     "lesson": 9,
-    "word": "細かいお 金",
-    "reading": "こまかいお かね",
+    "word": "細かいお金",
+    "reading": "こまかいおかね",
     "segments": [
       {
         "text": "細",
@@ -17023,7 +16673,7 @@
         "type": "kanji"
       },
       {
-        "text": "かいお ",
+        "text": "かいお",
         "reading": "",
         "type": "kana"
       },
@@ -17536,11 +17186,11 @@
   {
     "id": 467,
     "lesson": 9,
-    "word": "また 今度お 願いします。",
-    "reading": "また こんどお ねがいします。",
+    "word": "また今度お願いします。",
+    "reading": "またこんどおねがいします。",
     "segments": [
       {
-        "text": "また ",
+        "text": "また",
         "reading": "",
         "type": "kana"
       },
@@ -17555,7 +17205,7 @@
         "type": "kanji"
       },
       {
-        "text": "お ",
+        "text": "お",
         "reading": "",
         "type": "kana"
       },
@@ -17844,8 +17494,8 @@
   {
     "id": 475,
     "lesson": 9,
-    "word": "飲み 物",
-    "reading": "のみ もの",
+    "word": "飲み物",
+    "reading": "のみもの",
     "segments": [
       {
         "text": "飲",
@@ -17853,7 +17503,7 @@
         "type": "kanji"
       },
       {
-        "text": "み ",
+        "text": "み",
         "reading": "",
         "type": "kana"
       },
@@ -18034,11 +17684,11 @@
   {
     "id": 480,
     "lesson": 9,
-    "word": "ローマ 字",
-    "reading": "ローマ じ",
+    "word": "ローマ字",
+    "reading": "ローマじ",
     "segments": [
       {
-        "text": "ローマ ",
+        "text": "ローマ",
         "reading": "",
         "type": "kana"
       },
@@ -18236,15 +17886,10 @@
     "id": 486,
     "lesson": 9,
     "word": "下手",
-    "reading": "下へた",
+    "reading": "へた",
     "segments": [
       {
-        "text": "下",
-        "reading": "",
-        "type": "kana"
-      },
-      {
-        "text": "手",
+        "text": "下手",
         "reading": "へた",
         "type": "kanji"
       }
@@ -18276,11 +17921,11 @@
   {
     "id": 487,
     "lesson": 9,
-    "word": "ご 主人",
-    "reading": "ご しゅじん",
+    "word": "ご主人",
+    "reading": "ごしゅじん",
     "segments": [
       {
-        "text": "ご ",
+        "text": "ご",
         "reading": "",
         "type": "kana"
       },
@@ -18738,8 +18383,8 @@
   {
     "id": 501,
     "lesson": 10,
-    "word": "男の 人",
-    "reading": "おとこの ひと",
+    "word": "男の人",
+    "reading": "おとこのひと",
     "segments": [
       {
         "text": "男",
@@ -18747,7 +18392,7 @@
         "type": "kanji"
       },
       {
-        "text": "の ",
+        "text": "の",
         "reading": "",
         "type": "kana"
       },
@@ -19254,8 +18899,8 @@
   {
     "id": 517,
     "lesson": 10,
-    "word": "女の 人",
-    "reading": "おんなの ひと",
+    "word": "女の人",
+    "reading": "おんなのひと",
     "segments": [
       {
         "text": "女",
@@ -19263,7 +18908,7 @@
         "type": "kanji"
       },
       {
-        "text": "の ",
+        "text": "の",
         "reading": "",
         "type": "kana"
       },
@@ -19576,8 +19221,8 @@
   {
     "id": 526,
     "lesson": 10,
-    "word": "男の 子",
-    "reading": "おとこの こ",
+    "word": "男の子",
+    "reading": "おとこのこ",
     "segments": [
       {
         "text": "男",
@@ -19585,7 +19230,7 @@
         "type": "kanji"
       },
       {
-        "text": "の ",
+        "text": "の",
         "reading": "",
         "type": "kana"
       },
@@ -19622,8 +19267,8 @@
   {
     "id": 527,
     "lesson": 10,
-    "word": "女の 子",
-    "reading": "おんなの こ",
+    "word": "女の子",
+    "reading": "おんなのこ",
     "segments": [
       {
         "text": "女",
@@ -19631,7 +19276,7 @@
         "type": "kanji"
       },
       {
-        "text": "の ",
+        "text": "の",
         "reading": "",
         "type": "kana"
       },
@@ -19715,15 +19360,10 @@
     "id": 529,
     "lesson": 10,
     "word": "色々",
-    "reading": "色いろいろ",
+    "reading": "いろいろ",
     "segments": [
       {
-        "text": "色",
-        "reading": "",
-        "type": "kana"
-      },
-      {
-        "text": "々",
+        "text": "色々",
         "reading": "いろいろ",
         "type": "kanji"
       }
@@ -20012,8 +19652,8 @@
   {
     "id": 537,
     "lesson": 10,
-    "word": "乗り 場",
-    "reading": "のり ば",
+    "word": "乗り場",
+    "reading": "のりば",
     "segments": [
       {
         "text": "乗",
@@ -20021,7 +19661,7 @@
         "type": "kanji"
       },
       {
-        "text": "り ",
+        "text": "り",
         "reading": "",
         "type": "kana"
       },
@@ -20130,11 +19770,11 @@
   {
     "id": 540,
     "lesson": 10,
-    "word": "～ 屋",
-    "reading": "～ や",
+    "word": "～屋",
+    "reading": "～や",
     "segments": [
       {
-        "text": "～ ",
+        "text": "～",
         "reading": "",
         "type": "kana"
       },
@@ -20171,11 +19811,11 @@
   {
     "id": 541,
     "lesson": 10,
-    "word": "お 土産屋",
-    "reading": "お みやげや",
+    "word": "お土産屋",
+    "reading": "おみやげや",
     "segments": [
       {
-        "text": "お ",
+        "text": "お",
         "reading": "",
         "type": "kana"
       },
@@ -20584,15 +20224,10 @@
     "id": 552,
     "lesson": 11,
     "word": "切手",
-    "reading": "切きって",
+    "reading": "きって",
     "segments": [
       {
-        "text": "切",
-        "reading": "",
-        "type": "kana"
-      },
-      {
-        "text": "手",
+        "text": "切手",
         "reading": "きって",
         "type": "kanji"
       }
@@ -20624,11 +20259,11 @@
   {
     "id": 553,
     "lesson": 11,
-    "word": "― 枚",
-    "reading": "― まい",
+    "word": "―枚",
+    "reading": "―まい",
     "segments": [
       {
-        "text": "― ",
+        "text": "―",
         "reading": "",
         "type": "kana"
       },
@@ -20778,11 +20413,11 @@
   {
     "id": 557,
     "lesson": 11,
-    "word": "― 人",
-    "reading": "― にん",
+    "word": "―人",
+    "reading": "―にん",
     "segments": [
       {
-        "text": "― ",
+        "text": "―",
         "reading": "",
         "type": "kana"
       },
@@ -21007,11 +20642,11 @@
   {
     "id": 563,
     "lesson": 11,
-    "word": "お 姉さん",
-    "reading": "お ねえさん",
+    "word": "お姉さん",
+    "reading": "おねえさん",
     "segments": [
       {
-        "text": "お ",
+        "text": "お",
         "reading": "",
         "type": "kana"
       },
@@ -21130,11 +20765,11 @@
   {
     "id": 566,
     "lesson": 11,
-    "word": "お 兄さん",
-    "reading": "お にいさん",
+    "word": "お兄さん",
+    "reading": "おにいさん",
     "segments": [
       {
-        "text": "お ",
+        "text": "お",
         "reading": "",
         "type": "kana"
       },
@@ -21217,11 +20852,11 @@
   {
     "id": 568,
     "lesson": 11,
-    "word": "― 週間",
-    "reading": "― しゅうかん",
+    "word": "―週間",
+    "reading": "―しゅうかん",
     "segments": [
       {
-        "text": "― ",
+        "text": "―",
         "reading": "",
         "type": "kana"
       },
@@ -21263,11 +20898,11 @@
   {
     "id": 569,
     "lesson": 11,
-    "word": "― 回",
-    "reading": "― かい",
+    "word": "―回",
+    "reading": "―かい",
     "segments": [
       {
-        "text": "― ",
+        "text": "―",
         "reading": "",
         "type": "kana"
       },
@@ -21376,11 +21011,11 @@
   {
     "id": 572,
     "lesson": 11,
-    "word": "―カ 月",
-    "reading": "―カ げつ",
+    "word": "―カ月",
+    "reading": "―カげつ",
     "segments": [
       {
-        "text": "―カ ",
+        "text": "―カ",
         "reading": "",
         "type": "kana"
       },
@@ -21459,11 +21094,11 @@
   {
     "id": 575,
     "lesson": 11,
-    "word": "お 願いします。",
-    "reading": "お ねがいします。",
+    "word": "お願いします。",
+    "reading": "おねがいします。",
     "segments": [
       {
-        "text": "お ",
+        "text": "お",
         "reading": "",
         "type": "kana"
       },
@@ -21505,11 +21140,11 @@
   {
     "id": 576,
     "lesson": 11,
-    "word": "いいお 天気ですね。",
-    "reading": "いいお てんきですね。",
+    "word": "いいお天気ですね。",
+    "reading": "いいおてんきですね。",
     "segments": [
       {
-        "text": "いいお ",
+        "text": "いいお",
         "reading": "",
         "type": "kana"
       },
@@ -21541,11 +21176,11 @@
   {
     "id": 577,
     "lesson": 11,
-    "word": "お 出かけですか。",
-    "reading": "お でかけですか。",
+    "word": "お出かけですか。",
+    "reading": "おでかけですか。",
     "segments": [
       {
-        "text": "お ",
+        "text": "お",
         "reading": "",
         "type": "kana"
       },
@@ -21967,11 +21602,11 @@
   {
     "id": 590,
     "lesson": 11,
-    "word": "― 時間",
-    "reading": "― じかん",
+    "word": "―時間",
+    "reading": "―じかん",
     "segments": [
       {
-        "text": "― ",
+        "text": "―",
         "reading": "",
         "type": "kana"
       },
@@ -22177,11 +21812,11 @@
   {
     "id": 595,
     "lesson": 11,
-    "word": "― 台",
-    "reading": "― だい",
+    "word": "―台",
+    "reading": "―だい",
     "segments": [
       {
-        "text": "― ",
+        "text": "―",
         "reading": "",
         "type": "kana"
       },
@@ -22327,8 +21962,8 @@
   {
     "id": 599,
     "lesson": 11,
-    "word": "会社を 休みます。",
-    "reading": "かいしゃを やすみます。",
+    "word": "会社を休みます。",
+    "reading": "かいしゃをやすみます。",
     "segments": [
       {
         "text": "会",
@@ -22341,7 +21976,7 @@
         "type": "kanji"
       },
       {
-        "text": "を ",
+        "text": "を",
         "reading": "",
         "type": "kana"
       },
@@ -23294,11 +22929,11 @@
   {
     "id": 627,
     "lesson": 12,
-    "word": "お 帰りなさい。",
-    "reading": "お かえりなさい。",
+    "word": "お帰りなさい。",
+    "reading": "おかえりなさい。",
     "segments": [
       {
-        "text": "お ",
+        "text": "お",
         "reading": "",
         "type": "kana"
       },
@@ -23325,11 +22960,11 @@
   {
     "id": 628,
     "lesson": 12,
-    "word": "お 祭り",
-    "reading": "お まつり",
+    "word": "お祭り",
+    "reading": "おまつり",
     "segments": [
       {
-        "text": "お ",
+        "text": "お",
         "reading": "",
         "type": "kana"
       },
@@ -23371,11 +23006,11 @@
   {
     "id": 629,
     "lesson": 12,
-    "word": "わあ、すごい 人ですね。",
-    "reading": "わあ、すごい ひとですね。",
+    "word": "わあ、すごい人ですね。",
+    "reading": "わあ、すごいひとですね。",
     "segments": [
       {
-        "text": "わあ、すごい ",
+        "text": "わあ、すごい",
         "reading": "",
         "type": "kana"
       },
@@ -23739,8 +23374,8 @@
   {
     "id": 639,
     "lesson": 12,
-    "word": "人が 多い。",
-    "reading": "ひとが おおい。",
+    "word": "人が多い。",
+    "reading": "ひとがおおい。",
     "segments": [
       {
         "text": "人",
@@ -23748,7 +23383,7 @@
         "type": "kanji"
       },
       {
-        "text": "が ",
+        "text": "が",
         "reading": "",
         "type": "kana"
       },
@@ -24364,11 +23999,11 @@
   {
     "id": 655,
     "lesson": 12,
-    "word": "お 寿司",
-    "reading": "お すし",
+    "word": "お寿司",
+    "reading": "おすし",
     "segments": [
       {
-        "text": "お ",
+        "text": "お",
         "reading": "",
         "type": "kana"
       },
@@ -24466,15 +24101,10 @@
     "id": 658,
     "lesson": 12,
     "word": "紅葉",
-    "reading": "紅もみじ",
+    "reading": "もみじ",
     "segments": [
       {
-        "text": "紅",
-        "reading": "",
-        "type": "kana"
-      },
-      {
-        "text": "葉",
+        "text": "紅葉",
         "reading": "もみじ",
         "type": "kanji"
       }
@@ -24588,8 +24218,8 @@
   {
     "id": 661,
     "lesson": 12,
-    "word": "人が 少ない。",
-    "reading": "ひとが すくない。",
+    "word": "人が少ない。",
+    "reading": "ひとがすくない。",
     "segments": [
       {
         "text": "人",
@@ -24597,7 +24227,7 @@
         "type": "kanji"
       },
       {
-        "text": "が ",
+        "text": "が",
         "reading": "",
         "type": "kana"
       },
@@ -24706,11 +24336,11 @@
   {
     "id": 664,
     "lesson": 12,
-    "word": "すき 焼き",
-    "reading": "すき やき",
+    "word": "すき焼き",
+    "reading": "すきやき",
     "segments": [
       {
-        "text": "すき ",
+        "text": "すき",
         "reading": "",
         "type": "kana"
       },
@@ -25181,15 +24811,10 @@
     "id": 677,
     "lesson": 13,
     "word": "別々に",
-    "reading": "別べつべつに",
+    "reading": "べつべつに",
     "segments": [
       {
-        "text": "別",
-        "reading": "",
-        "type": "kana"
-      },
-      {
-        "text": "々",
+        "text": "別々",
         "reading": "べつべつ",
         "type": "kanji"
       },
@@ -25260,11 +24885,11 @@
   {
     "id": 679,
     "lesson": 13,
-    "word": "ご 注文は？",
-    "reading": "ご ちゅうもんは？",
+    "word": "ご注文は？",
+    "reading": "ごちゅうもんは？",
     "segments": [
       {
-        "text": "ご ",
+        "text": "ご",
         "reading": "",
         "type": "kana"
       },
@@ -25364,15 +24989,10 @@
     "id": 682,
     "lesson": 13,
     "word": "少々",
-    "reading": "少しょうしょう",
+    "reading": "しょうしょう",
     "segments": [
       {
-        "text": "少",
-        "reading": "",
-        "type": "kana"
-      },
-      {
-        "text": "々",
+        "text": "少々",
         "reading": "しょうしょう",
         "type": "kanji"
       }
@@ -25404,21 +25024,16 @@
   {
     "id": 683,
     "lesson": 13,
-    "word": "少々お 待ちください。",
-    "reading": "少しょうしょうお まちください。",
+    "word": "少々お待ちください。",
+    "reading": "しょうしょうおまちください。",
     "segments": [
       {
-        "text": "少",
-        "reading": "",
-        "type": "kana"
-      },
-      {
-        "text": "々",
+        "text": "少々",
         "reading": "しょうしょう",
         "type": "kanji"
       },
       {
-        "text": "お ",
+        "text": "お",
         "reading": "",
         "type": "kana"
       },
@@ -25598,8 +25213,8 @@
   {
     "id": 689,
     "lesson": 13,
-    "word": "友達を 迎えます。",
-    "reading": "ともだちを むかえます。",
+    "word": "友達を迎えます。",
+    "reading": "ともだちをむかえます。",
     "segments": [
       {
         "text": "友",
@@ -25612,7 +25227,7 @@
         "type": "kanji"
       },
       {
-        "text": "を ",
+        "text": "を",
         "reading": "",
         "type": "kana"
       },
@@ -25678,8 +25293,8 @@
   {
     "id": 691,
     "lesson": 13,
-    "word": "公園を 散歩します。",
-    "reading": "こうえんを さんぽします。",
+    "word": "公園を散歩します。",
+    "reading": "こうえんをさんぽします。",
     "segments": [
       {
         "text": "公",
@@ -25692,7 +25307,7 @@
         "type": "kanji"
       },
       {
-        "text": "を ",
+        "text": "を",
         "reading": "",
         "type": "kana"
       },
@@ -25724,8 +25339,8 @@
   {
     "id": 692,
     "lesson": 13,
-    "word": "買い 物します",
-    "reading": "かい ものします",
+    "word": "買い物します",
+    "reading": "かいものします",
     "segments": [
       {
         "text": "買",
@@ -25733,7 +25348,7 @@
         "type": "kanji"
       },
       {
-        "text": "い ",
+        "text": "い",
         "reading": "",
         "type": "kana"
       },
@@ -25938,11 +25553,11 @@
   {
     "id": 698,
     "lesson": 13,
-    "word": "プールで 泳ぎます。",
-    "reading": "プールで およぎます。",
+    "word": "プールで泳ぎます。",
+    "reading": "プールでおよぎます。",
     "segments": [
       {
-        "text": "プールで ",
+        "text": "プールで",
         "reading": "",
         "type": "kana"
       },
@@ -25969,11 +25584,11 @@
   {
     "id": 699,
     "lesson": 13,
-    "word": "～ 頃",
-    "reading": "～ ごろ",
+    "word": "～頃",
+    "reading": "～ごろ",
     "segments": [
       {
-        "text": "～ ",
+        "text": "～",
         "reading": "",
         "type": "kana"
       },
@@ -26010,11 +25625,11 @@
   {
     "id": 700,
     "lesson": 13,
-    "word": "２ 時ごろ",
-    "reading": "２ じごろ",
+    "word": "２時ごろ",
+    "reading": "２じごろ",
     "segments": [
       {
-        "text": "２ ",
+        "text": "２",
         "reading": "",
         "type": "kana"
       },
@@ -26144,8 +25759,8 @@
   {
     "id": 704,
     "lesson": 13,
-    "word": "喉が 渇きます。",
-    "reading": "のどが かわきます。",
+    "word": "喉が渇きます。",
+    "reading": "のどがかわきます。",
     "segments": [
       {
         "text": "喉",
@@ -26153,7 +25768,7 @@
         "type": "kanji"
       },
       {
-        "text": "が ",
+        "text": "が",
         "reading": "",
         "type": "kana"
       },
@@ -26227,11 +25842,11 @@
   {
     "id": 707,
     "lesson": 13,
-    "word": "お 腹",
-    "reading": "お なか",
+    "word": "お腹",
+    "reading": "おなか",
     "segments": [
       {
-        "text": "お ",
+        "text": "お",
         "reading": "",
         "type": "kana"
       },
@@ -26315,11 +25930,11 @@
   {
     "id": 710,
     "lesson": 13,
-    "word": "お 正月",
-    "reading": "お しょうがつ",
+    "word": "お正月",
+    "reading": "おしょうがつ",
     "segments": [
       {
-        "text": "お ",
+        "text": "お",
         "reading": "",
         "type": "kana"
       },
@@ -26462,8 +26077,8 @@
   {
     "id": 714,
     "lesson": 14,
-    "word": "読み 方",
-    "reading": "よみ かた",
+    "word": "読み方",
+    "reading": "よみかた",
     "segments": [
       {
         "text": "読",
@@ -26471,7 +26086,7 @@
         "type": "kanji"
       },
       {
-        "text": "み ",
+        "text": "み",
         "reading": "",
         "type": "kana"
       },
@@ -26493,11 +26108,11 @@
   {
     "id": 715,
     "lesson": 14,
-    "word": "～ 方",
-    "reading": "～ かた",
+    "word": "～方",
+    "reading": "～かた",
     "segments": [
       {
-        "text": "～ ",
+        "text": "～",
         "reading": "",
         "type": "kana"
       },
@@ -26609,8 +26224,8 @@
   {
     "id": 718,
     "lesson": 14,
-    "word": "住所を 教えます。",
-    "reading": "じゅうしょを おしえます。",
+    "word": "住所を教えます。",
+    "reading": "じゅうしょをおしえます。",
     "segments": [
       {
         "text": "住",
@@ -26623,7 +26238,7 @@
         "type": "kanji"
       },
       {
-        "text": "を ",
+        "text": "を",
         "reading": "",
         "type": "kana"
       },
@@ -26684,8 +26299,8 @@
   {
     "id": 720,
     "lesson": 14,
-    "word": "窓を 開けます。",
-    "reading": "まどを あけます。",
+    "word": "窓を開けます。",
+    "reading": "まどをあけます。",
     "segments": [
       {
         "text": "窓",
@@ -26693,7 +26308,7 @@
         "type": "kanji"
       },
       {
-        "text": "を ",
+        "text": "を",
         "reading": "",
         "type": "kana"
       },
@@ -26852,8 +26467,8 @@
   {
     "id": 725,
     "lesson": 14,
-    "word": "雨が 降ります。",
-    "reading": "あめが ふります。",
+    "word": "雨が降ります。",
+    "reading": "あめがふります。",
     "segments": [
       {
         "text": "雨",
@@ -26861,7 +26476,7 @@
         "type": "kanji"
       },
       {
-        "text": "が ",
+        "text": "が",
         "reading": "",
         "type": "kana"
       },
@@ -26929,8 +26544,8 @@
   {
     "id": 727,
     "lesson": 14,
-    "word": "信号を 右へ 曲がってください。",
-    "reading": "しんごうを みぎへ まがってください。",
+    "word": "信号を右へ曲がってください。",
+    "reading": "しんごうをみぎへまがってください。",
     "segments": [
       {
         "text": "信",
@@ -26943,7 +26558,7 @@
         "type": "kanji"
       },
       {
-        "text": "を ",
+        "text": "を",
         "reading": "",
         "type": "kana"
       },
@@ -26953,7 +26568,7 @@
         "type": "kanji"
       },
       {
-        "text": "へ ",
+        "text": "へ",
         "reading": "",
         "type": "kana"
       },
@@ -27035,11 +26650,11 @@
   {
     "id": 730,
     "lesson": 14,
-    "word": "これでお 願いします。",
-    "reading": "これでお ねがいします。",
+    "word": "これでお願いします。",
+    "reading": "これでおねがいします。",
     "segments": [
       {
-        "text": "これでお ",
+        "text": "これでお",
         "reading": "",
         "type": "kana"
       },
@@ -27066,11 +26681,11 @@
   {
     "id": 731,
     "lesson": 14,
-    "word": "お 釣り",
-    "reading": "お つり",
+    "word": "お釣り",
+    "reading": "おつり",
     "segments": [
       {
-        "text": "お ",
+        "text": "お",
         "reading": "",
         "type": "kana"
       },
@@ -27376,11 +26991,11 @@
   {
     "id": 740,
     "lesson": 14,
-    "word": "ドアを 閉めます。",
-    "reading": "ドアを しめます。",
+    "word": "ドアを閉めます。",
+    "reading": "ドアをしめます。",
     "segments": [
       {
-        "text": "ドアを ",
+        "text": "ドアを",
         "reading": "",
         "type": "kana"
       },
@@ -27576,11 +27191,11 @@
   {
     "id": 747,
     "lesson": 14,
-    "word": "もう 少し",
-    "reading": "もう すこし",
+    "word": "もう少し",
+    "reading": "もうすこし",
     "segments": [
       {
-        "text": "もう ",
+        "text": "もう",
         "reading": "",
         "type": "kana"
       },
@@ -27699,8 +27314,8 @@
   {
     "id": 750,
     "lesson": 14,
-    "word": "喫茶店に 入ります。",
-    "reading": "きっさてんに はいります。",
+    "word": "喫茶店に入ります。",
+    "reading": "きっさてんにはいります。",
     "segments": [
       {
         "text": "喫",
@@ -27718,7 +27333,7 @@
         "type": "kanji"
       },
       {
-        "text": "に ",
+        "text": "に",
         "reading": "",
         "type": "kana"
       },
@@ -27786,8 +27401,8 @@
   {
     "id": 752,
     "lesson": 14,
-    "word": "喫茶店を 出ます。",
-    "reading": "きっさてんを でます。",
+    "word": "喫茶店を出ます。",
+    "reading": "きっさてんをでます。",
     "segments": [
       {
         "text": "喫",
@@ -27805,7 +27420,7 @@
         "type": "kanji"
       },
       {
-        "text": "を ",
+        "text": "を",
         "reading": "",
         "type": "kana"
       },
@@ -28318,8 +27933,8 @@
   {
     "id": 768,
     "lesson": 15,
-    "word": "北京に 住んでいます。",
-    "reading": "ぺきんに すんでいます。",
+    "word": "北京に住んでいます。",
+    "reading": "ぺきんにすんでいます。",
     "segments": [
       {
         "text": "北",
@@ -28332,7 +27947,7 @@
         "type": "kanji"
       },
       {
-        "text": "に ",
+        "text": "に",
         "reading": "",
         "type": "kana"
       },
@@ -28482,8 +28097,8 @@
   {
     "id": 772,
     "lesson": 15,
-    "word": "思い 出します",
-    "reading": "おもい だします",
+    "word": "思い出します",
+    "reading": "おもいだします",
     "segments": [
       {
         "text": "思",
@@ -28491,7 +28106,7 @@
         "type": "kanji"
       },
       {
-        "text": "い ",
+        "text": "い",
         "reading": "",
         "type": "kana"
       },
@@ -28741,15 +28356,10 @@
     "id": 779,
     "lesson": 15,
     "word": "日本橋",
-    "reading": "日にっぽんばし",
+    "reading": "にっぽんばし",
     "segments": [
       {
-        "text": "日",
-        "reading": "",
-        "type": "kana"
-      },
-      {
-        "text": "本",
+        "text": "日本",
         "reading": "にっぽん",
         "type": "kanji"
       },
@@ -29288,11 +28898,11 @@
   {
     "id": 794,
     "lesson": 16,
-    "word": "シャワーを 浴びます。",
-    "reading": "シャワーを あびます。",
+    "word": "シャワーを浴びます。",
+    "reading": "シャワーをあびます。",
     "segments": [
       {
-        "text": "シャワーを ",
+        "text": "シャワーを",
         "reading": "",
         "type": "kana"
       },
@@ -29411,11 +29021,11 @@
   {
     "id": 797,
     "lesson": 16,
-    "word": "― 番",
-    "reading": "― ばん",
+    "word": "―番",
+    "reading": "―ばん",
     "segments": [
       {
-        "text": "― ",
+        "text": "―",
         "reading": "",
         "type": "kana"
       },
@@ -29486,8 +29096,8 @@
   {
     "id": 799,
     "lesson": 16,
-    "word": "電車に 乗ります。",
-    "reading": "でんしゃに のります。",
+    "word": "電車に乗ります。",
+    "reading": "でんしゃにのります。",
     "segments": [
       {
         "text": "電",
@@ -29500,7 +29110,7 @@
         "type": "kanji"
       },
       {
-        "text": "に ",
+        "text": "に",
         "reading": "",
         "type": "kana"
       },
@@ -29576,8 +29186,8 @@
   {
     "id": 801,
     "lesson": 16,
-    "word": "電車を 降ります。",
-    "reading": "でんしゃを おります。",
+    "word": "電車を降ります。",
+    "reading": "でんしゃをおります。",
     "segments": [
       {
         "text": "電",
@@ -29590,7 +29200,7 @@
         "type": "kanji"
       },
       {
-        "text": "を ",
+        "text": "を",
         "reading": "",
         "type": "kana"
       },
@@ -29826,11 +29436,11 @@
   {
     "id": 808,
     "lesson": 16,
-    "word": "お 引き 出しですか。",
-    "reading": "お ひき だしですか。",
+    "word": "お引き出しですか。",
+    "reading": "おひきだしですか。",
     "segments": [
       {
-        "text": "お ",
+        "text": "お",
         "reading": "",
         "type": "kana"
       },
@@ -29840,7 +29450,7 @@
         "type": "kanji"
       },
       {
-        "text": "き ",
+        "text": "き",
         "reading": "",
         "type": "kana"
       },
@@ -30221,8 +29831,8 @@
   {
     "id": 819,
     "lesson": 16,
-    "word": "背が 高い",
-    "reading": "せが たかい",
+    "word": "背が高い",
+    "reading": "せがたかい",
     "segments": [
       {
         "text": "背",
@@ -30230,7 +29840,7 @@
         "type": "kanji"
       },
       {
-        "text": "が ",
+        "text": "が",
         "reading": "",
         "type": "kana"
       },
@@ -30730,8 +30340,8 @@
   {
     "id": 833,
     "lesson": 16,
-    "word": "乗り 換えます",
-    "reading": "のり かえます",
+    "word": "乗り換えます",
+    "reading": "のりかえます",
     "segments": [
       {
         "text": "乗",
@@ -30739,7 +30349,7 @@
         "type": "kanji"
       },
       {
-        "text": "り ",
+        "text": "り",
         "reading": "",
         "type": "kana"
       },
@@ -30792,11 +30402,11 @@
   {
     "id": 835,
     "lesson": 16,
-    "word": "お 金を 下ろします。",
-    "reading": "お かねを おろします。",
+    "word": "お金を下ろします。",
+    "reading": "おかねをおろします。",
     "segments": [
       {
-        "text": "お ",
+        "text": "お",
         "reading": "",
         "type": "kana"
       },
@@ -30806,7 +30416,7 @@
         "type": "kanji"
       },
       {
-        "text": "を ",
+        "text": "を",
         "reading": "",
         "type": "kana"
       },
@@ -31062,11 +30672,11 @@
   {
     "id": 842,
     "lesson": 16,
-    "word": "お 寺",
-    "reading": "お てら",
+    "word": "お寺",
+    "reading": "おてら",
     "segments": [
       {
-        "text": "お ",
+        "text": "お",
         "reading": "",
         "type": "kana"
       },
@@ -31285,8 +30895,8 @@
   {
     "id": 850,
     "lesson": 16,
-    "word": "大学に 入ります。",
-    "reading": "だいがくに はいります。",
+    "word": "大学に入ります。",
+    "reading": "だいがくにはいります。",
     "segments": [
       {
         "text": "大",
@@ -31299,7 +30909,7 @@
         "type": "kanji"
       },
       {
-        "text": "に ",
+        "text": "に",
         "reading": "",
         "type": "kana"
       },
@@ -31367,8 +30977,8 @@
   {
     "id": 852,
     "lesson": 16,
-    "word": "大学を 出ます。",
-    "reading": "だいがくを でます。",
+    "word": "大学を出ます。",
+    "reading": "だいがくをでます。",
     "segments": [
       {
         "text": "大",
@@ -31381,7 +30991,7 @@
         "type": "kanji"
       },
       {
-        "text": "を ",
+        "text": "を",
         "reading": "",
         "type": "kana"
       },
@@ -31629,11 +31239,11 @@
   {
     "id": 859,
     "lesson": 17,
-    "word": "お 金を 払います。",
-    "reading": "お かねを はらいます。",
+    "word": "お金を払います。",
+    "reading": "おかねをはらいます。",
     "segments": [
       {
-        "text": "お ",
+        "text": "お",
         "reading": "",
         "type": "kana"
       },
@@ -31643,7 +31253,7 @@
         "type": "kanji"
       },
       {
-        "text": "を ",
+        "text": "を",
         "reading": "",
         "type": "kana"
       },
@@ -31805,11 +31415,11 @@
   {
     "id": 864,
     "lesson": 17,
-    "word": "～が 痛いです。",
-    "reading": "～が いたいです。",
+    "word": "～が痛いです。",
+    "reading": "～がいたいです。",
     "segments": [
       {
-        "text": "～が ",
+        "text": "～が",
         "reading": "",
         "type": "kana"
       },
@@ -31851,11 +31461,11 @@
   {
     "id": 865,
     "lesson": 17,
-    "word": "のどが 痛いです。",
-    "reading": "のどが いたいです。",
+    "word": "のどが痛いです。",
+    "reading": "のどがいたいです。",
     "segments": [
       {
-        "text": "のどが ",
+        "text": "のどが",
         "reading": "",
         "type": "kana"
       },
@@ -32008,8 +31618,8 @@
   {
     "id": 869,
     "lesson": 17,
-    "word": "二、 三日",
-    "reading": "に、 さんにち",
+    "word": "二、三日",
+    "reading": "に、さんにち",
     "segments": [
       {
         "text": "二",
@@ -32017,7 +31627,7 @@
         "type": "kanji"
       },
       {
-        "text": "、 ",
+        "text": "、",
         "reading": "",
         "type": "kana"
       },
@@ -32044,8 +31654,8 @@
   {
     "id": 870,
     "lesson": 17,
-    "word": "二、 三～",
-    "reading": "に、 さん～",
+    "word": "二、三～",
+    "reading": "に、さん～",
     "segments": [
       {
         "text": "二",
@@ -32053,7 +31663,7 @@
         "type": "kanji"
       },
       {
-        "text": "、 ",
+        "text": "、",
         "reading": "",
         "type": "kana"
       },
@@ -32203,8 +31813,8 @@
   {
     "id": 874,
     "lesson": 17,
-    "word": "薬を 飲みます。",
-    "reading": "くすりを のみます。",
+    "word": "薬を飲みます。",
+    "reading": "くすりをのみます。",
     "segments": [
       {
         "text": "薬",
@@ -32212,7 +31822,7 @@
         "type": "kanji"
       },
       {
-        "text": "を ",
+        "text": "を",
         "reading": "",
         "type": "kana"
       },
@@ -32260,11 +31870,11 @@
   {
     "id": 876,
     "lesson": 17,
-    "word": "お 風呂",
-    "reading": "お ふろ",
+    "word": "お風呂",
+    "reading": "おふろ",
     "segments": [
       {
-        "text": "お ",
+        "text": "お",
         "reading": "",
         "type": "kana"
       },
@@ -32347,11 +31957,11 @@
   {
     "id": 878,
     "lesson": 17,
-    "word": "お 風呂に 入ります。",
-    "reading": "お ふろに はいります。",
+    "word": "お風呂に入ります。",
+    "reading": "おふろにはいります。",
     "segments": [
       {
-        "text": "お ",
+        "text": "お",
         "reading": "",
         "type": "kana"
       },
@@ -32366,7 +31976,7 @@
         "type": "kanji"
       },
       {
-        "text": "に ",
+        "text": "に",
         "reading": "",
         "type": "kana"
       },
@@ -32442,11 +32052,11 @@
   {
     "id": 880,
     "lesson": 17,
-    "word": "お 大事に。",
-    "reading": "お だいじに。",
+    "word": "お大事に。",
+    "reading": "おだいじに。",
     "segments": [
       {
-        "text": "お ",
+        "text": "お",
         "reading": "",
         "type": "kana"
       },
@@ -32595,8 +32205,8 @@
   {
     "id": 885,
     "lesson": 17,
-    "word": "靴を 脱ぎます。",
-    "reading": "くつを ぬぎます。",
+    "word": "靴を脱ぎます。",
+    "reading": "くつをぬぎます。",
     "segments": [
       {
         "text": "靴",
@@ -32604,7 +32214,7 @@
         "type": "kanji"
       },
       {
-        "text": "を ",
+        "text": "を",
         "reading": "",
         "type": "kana"
       },
@@ -32806,8 +32416,8 @@
   {
     "id": 891,
     "lesson": 17,
-    "word": "持って 行きます",
-    "reading": "もって いきます",
+    "word": "持って行きます",
+    "reading": "もっていきます",
     "segments": [
       {
         "text": "持",
@@ -32815,7 +32425,7 @@
         "type": "kanji"
       },
       {
-        "text": "って ",
+        "text": "って",
         "reading": "",
         "type": "kana"
       },
@@ -32950,8 +32560,8 @@
   {
     "id": 895,
     "lesson": 17,
-    "word": "持って 来ます",
-    "reading": "もって きます",
+    "word": "持って来ます",
+    "reading": "もってきます",
     "segments": [
       {
         "text": "持",
@@ -32959,7 +32569,7 @@
         "type": "kanji"
       },
       {
-        "text": "って ",
+        "text": "って",
         "reading": "",
         "type": "kana"
       },
@@ -33202,8 +32812,8 @@
   {
     "id": 902,
     "lesson": 18,
-    "word": "車の 運転",
-    "reading": "くるまの うんてん",
+    "word": "車の運転",
+    "reading": "くるまのうんてん",
     "segments": [
       {
         "text": "車",
@@ -33211,7 +32821,7 @@
         "type": "kanji"
       },
       {
-        "text": "の ",
+        "text": "の",
         "reading": "",
         "type": "kana"
       },
@@ -33625,11 +33235,11 @@
   {
     "id": 915,
     "lesson": 18,
-    "word": "ピアノを 弾きます。",
-    "reading": "ピアノを ひきます。",
+    "word": "ピアノを弾きます。",
+    "reading": "ピアノをひきます。",
     "segments": [
       {
-        "text": "ピアノを ",
+        "text": "ピアノを",
         "reading": "",
         "type": "kana"
       },
@@ -33702,11 +33312,11 @@
   {
     "id": 917,
     "lesson": 18,
-    "word": "ホテルの 予約",
-    "reading": "ホテルの よやく",
+    "word": "ホテルの予約",
+    "reading": "ホテルのよやく",
     "segments": [
       {
-        "text": "ホテルの ",
+        "text": "ホテルの",
         "reading": "",
         "type": "kana"
       },
@@ -33955,11 +33565,11 @@
   {
     "id": 925,
     "lesson": 18,
-    "word": "お 祈り",
-    "reading": "お いのり",
+    "word": "お祈り",
+    "reading": "おいのり",
     "segments": [
       {
-        "text": "お ",
+        "text": "お",
         "reading": "",
         "type": "kana"
       },
@@ -34243,15 +33853,10 @@
     "id": 933,
     "lesson": 19,
     "word": "段々",
-    "reading": "段だんだん",
+    "reading": "だんだん",
     "segments": [
       {
-        "text": "段",
-        "reading": "",
-        "type": "kana"
-      },
-      {
-        "text": "々",
+        "text": "段々",
         "reading": "だんだん",
         "type": "kanji"
       }
@@ -34456,8 +34061,8 @@
   {
     "id": 939,
     "lesson": 19,
-    "word": "調子が 悪い",
-    "reading": "ちょうしが わるい",
+    "word": "調子が悪い",
+    "reading": "ちょうしがわるい",
     "segments": [
       {
         "text": "調",
@@ -34470,7 +34075,7 @@
         "type": "kanji"
       },
       {
-        "text": "が ",
+        "text": "が",
         "reading": "",
         "type": "kana"
       },
@@ -34497,11 +34102,11 @@
   {
     "id": 940,
     "lesson": 19,
-    "word": "お 蔭様で",
-    "reading": "お かげさまで",
+    "word": "お蔭様で",
+    "reading": "おかげさまで",
     "segments": [
       {
-        "text": "お ",
+        "text": "お",
         "reading": "",
         "type": "kana"
       },
@@ -34820,11 +34425,11 @@
   {
     "id": 950,
     "lesson": 19,
-    "word": "ホテルに 泊まります。",
-    "reading": "ホテルに とまります。",
+    "word": "ホテルに泊まります。",
+    "reading": "ホテルにとまります。",
     "segments": [
       {
-        "text": "ホテルに ",
+        "text": "ホテルに",
         "reading": "",
         "type": "kana"
       },
@@ -35113,11 +34718,11 @@
   {
     "id": 958,
     "lesson": 19,
-    "word": "もう 直ぐ",
-    "reading": "もう すぐ",
+    "word": "もう直ぐ",
+    "reading": "もうすぐ",
     "segments": [
       {
-        "text": "もう ",
+        "text": "もう",
         "reading": "",
         "type": "kana"
       },
@@ -35458,11 +35063,11 @@
   {
     "id": 969,
     "lesson": 20,
-    "word": "～ 君",
-    "reading": "～ くん",
+    "word": "～君",
+    "reading": "～くん",
     "segments": [
       {
-        "text": "～ ",
+        "text": "～",
         "reading": "",
         "type": "kana"
       },
@@ -35561,8 +35166,8 @@
   {
     "id": 972,
     "lesson": 20,
-    "word": "初め 頃",
-    "reading": "はじめ ごろ",
+    "word": "初め頃",
+    "reading": "はじめごろ",
     "segments": [
       {
         "text": "初",
@@ -35570,7 +35175,7 @@
         "type": "kanji"
       },
       {
-        "text": "め ",
+        "text": "め",
         "reading": "",
         "type": "kana"
       },
@@ -35593,15 +35198,10 @@
     "id": 973,
     "lesson": 20,
     "word": "色々",
-    "reading": "色いろいろ",
+    "reading": "いろいろ",
     "segments": [
       {
-        "text": "色",
-        "reading": "",
-        "type": "kana"
-      },
-      {
-        "text": "々",
+        "text": "色々",
         "reading": "いろいろ",
         "type": "kanji"
       }
@@ -35918,8 +35518,8 @@
   {
     "id": 983,
     "lesson": 20,
-    "word": "終わり 頃",
-    "reading": "おわり ごろ",
+    "word": "終わり頃",
+    "reading": "おわりごろ",
     "segments": [
       {
         "text": "終",
@@ -35927,7 +35527,7 @@
         "type": "kanji"
       },
       {
-        "text": "わり ",
+        "text": "わり",
         "reading": "",
         "type": "kana"
       },
@@ -36310,11 +35910,11 @@
   {
     "id": 994,
     "lesson": 21,
-    "word": "かぐや 姫",
-    "reading": "かぐや ひめ",
+    "word": "かぐや姫",
+    "reading": "かぐやひめ",
     "segments": [
       {
-        "text": "かぐや ",
+        "text": "かぐや",
         "reading": "",
         "type": "kana"
       },
@@ -36490,11 +36090,11 @@
   {
     "id": 999,
     "lesson": 21,
-    "word": "お 祭りがあります。",
-    "reading": "お まつりがあります。",
+    "word": "お祭りがあります。",
+    "reading": "おまつりがあります。",
     "segments": [
       {
-        "text": "お ",
+        "text": "お",
         "reading": "",
         "type": "kana"
       },
@@ -36547,11 +36147,11 @@
   {
     "id": 1001,
     "lesson": 21,
-    "word": "～でも 飲みませんか。",
-    "reading": "～でも のみませんか。",
+    "word": "～でも飲みませんか。",
+    "reading": "～でものみませんか。",
     "segments": [
       {
-        "text": "～でも ",
+        "text": "～でも",
         "reading": "",
         "type": "kana"
       },
@@ -36767,11 +36367,11 @@
   {
     "id": 1008,
     "lesson": 21,
-    "word": "もう 帰らないと……。",
-    "reading": "もう かえらないと……。",
+    "word": "もう帰らないと……。",
+    "reading": "もうかえらないと……。",
     "segments": [
       {
-        "text": "もう ",
+        "text": "もう",
         "reading": "",
         "type": "kana"
       },
@@ -37030,8 +36630,8 @@
   {
     "id": 1016,
     "lesson": 21,
-    "word": "役に 立ちます",
-    "reading": "やくに たちます",
+    "word": "役に立ちます",
+    "reading": "やくにたちます",
     "segments": [
       {
         "text": "役",
@@ -37039,7 +36639,7 @@
         "type": "kanji"
       },
       {
-        "text": "に ",
+        "text": "に",
         "reading": "",
         "type": "kana"
       },
@@ -37225,11 +36825,11 @@
   {
     "id": 1021,
     "lesson": 21,
-    "word": "キング 牧師",
-    "reading": "キング ぼくし",
+    "word": "キング牧師",
+    "reading": "キングぼくし",
     "segments": [
       {
-        "text": "キング ",
+        "text": "キング",
         "reading": "",
         "type": "kana"
       },
@@ -37897,8 +37497,8 @@
   {
     "id": 1042,
     "lesson": 22,
-    "word": "万里の 長城",
-    "reading": "ばんりの ちょうじょう",
+    "word": "万里の長城",
+    "reading": "ばんりのちょうじょう",
     "segments": [
       {
         "text": "万",
@@ -37911,7 +37511,7 @@
         "type": "kanji"
       },
       {
-        "text": "の ",
+        "text": "の",
         "reading": "",
         "type": "kana"
       },
@@ -37972,8 +37572,8 @@
   {
     "id": 1044,
     "lesson": 22,
-    "word": "着物を 着ます",
-    "reading": "きものを きます",
+    "word": "着物を着ます",
+    "reading": "きものをきます",
     "segments": [
       {
         "text": "着",
@@ -37986,7 +37586,7 @@
         "type": "kanji"
       },
       {
-        "text": "を ",
+        "text": "を",
         "reading": "",
         "type": "kana"
       },
@@ -38013,11 +37613,11 @@
   {
     "id": 1045,
     "lesson": 22,
-    "word": "お 探しですか。",
-    "reading": "お さがしですか。",
+    "word": "お探しですか。",
+    "reading": "おさがしですか。",
     "segments": [
       {
-        "text": "お ",
+        "text": "お",
         "reading": "",
         "type": "kana"
       },
@@ -38530,8 +38130,8 @@
   {
     "id": 1061,
     "lesson": 22,
-    "word": "靴を 履きます。",
-    "reading": "くつを はきます。",
+    "word": "靴を履きます。",
+    "reading": "くつをはきます。",
     "segments": [
       {
         "text": "靴",
@@ -38539,7 +38139,7 @@
         "type": "kanji"
       },
       {
-        "text": "を ",
+        "text": "を",
         "reading": "",
         "type": "kana"
       },
@@ -38649,8 +38249,8 @@
   {
     "id": 1065,
     "lesson": 22,
-    "word": "帽子を 被ります。",
-    "reading": "ぼうしを かぶります。",
+    "word": "帽子を被ります。",
+    "reading": "ぼうしをかぶります。",
     "segments": [
       {
         "text": "帽",
@@ -38663,7 +38263,7 @@
         "type": "kanji"
       },
       {
-        "text": "を ",
+        "text": "を",
         "reading": "",
         "type": "kana"
       },
@@ -38716,11 +38316,11 @@
   {
     "id": 1067,
     "lesson": 22,
-    "word": "お 弁当",
-    "reading": "お べんとう",
+    "word": "お弁当",
+    "reading": "おべんとう",
     "segments": [
       {
-        "text": "お ",
+        "text": "お",
         "reading": "",
         "type": "kana"
       },
@@ -39083,11 +38683,11 @@
   {
     "id": 1078,
     "lesson": 23,
-    "word": "お 湯",
-    "reading": "お ゆ",
+    "word": "お湯",
+    "reading": "おゆ",
     "segments": [
       {
-        "text": "お ",
+        "text": "お",
         "reading": "",
         "type": "kana"
       },
@@ -39150,11 +38750,11 @@
   {
     "id": 1080,
     "lesson": 23,
-    "word": "お 釣りが 出ます。",
-    "reading": "お つりが でます。",
+    "word": "お釣りが出ます。",
+    "reading": "おつりがでます。",
     "segments": [
       {
-        "text": "お ",
+        "text": "お",
         "reading": "",
         "type": "kana"
       },
@@ -39164,7 +38764,7 @@
         "type": "kanji"
       },
       {
-        "text": "りが ",
+        "text": "りが",
         "reading": "",
         "type": "kana"
       },
@@ -39191,11 +38791,11 @@
   {
     "id": 1081,
     "lesson": 23,
-    "word": "― 目",
-    "reading": "― め",
+    "word": "―目",
+    "reading": "―め",
     "segments": [
       {
-        "text": "― ",
+        "text": "―",
         "reading": "",
         "type": "kana"
       },
@@ -39232,8 +38832,8 @@
   {
     "id": 1082,
     "lesson": 23,
-    "word": "三つ 目",
-    "reading": "みっつ め",
+    "word": "三つ目",
+    "reading": "みっつめ",
     "segments": [
       {
         "text": "三",
@@ -39241,7 +38841,7 @@
         "type": "kanji"
       },
       {
-        "text": "つ ",
+        "text": "つ",
         "reading": "",
         "type": "kana"
       },
@@ -39366,8 +38966,8 @@
   {
     "id": 1086,
     "lesson": 23,
-    "word": "橋を 渡ります。",
-    "reading": "はしを わたります。",
+    "word": "橋を渡ります。",
+    "reading": "はしをわたります。",
     "segments": [
       {
         "text": "橋",
@@ -39375,7 +38975,7 @@
         "type": "kanji"
       },
       {
-        "text": "を ",
+        "text": "を",
         "reading": "",
         "type": "kana"
       },
@@ -39402,8 +39002,8 @@
   {
     "id": 1087,
     "lesson": 23,
-    "word": "道を 渡ります。",
-    "reading": "みちを わたります。",
+    "word": "道を渡ります。",
+    "reading": "みちをわたります。",
     "segments": [
       {
         "text": "道",
@@ -39411,7 +39011,7 @@
         "type": "kanji"
       },
       {
-        "text": "を ",
+        "text": "を",
         "reading": "",
         "type": "kana"
       },
@@ -39472,8 +39072,8 @@
   {
     "id": 1089,
     "lesson": 23,
-    "word": "先生に 聞きます。",
-    "reading": "せんせいに ききます。",
+    "word": "先生に聞きます。",
+    "reading": "せんせいにききます。",
     "segments": [
       {
         "text": "先",
@@ -39486,7 +39086,7 @@
         "type": "kanji"
       },
       {
-        "text": "に ",
+        "text": "に",
         "reading": "",
         "type": "kana"
       },
@@ -39513,8 +39113,8 @@
   {
     "id": 1090,
     "lesson": 23,
-    "word": "道を 聞きます。",
-    "reading": "みちを ききます。",
+    "word": "道を聞きます。",
+    "reading": "みちをききます。",
     "segments": [
       {
         "text": "道",
@@ -39522,7 +39122,7 @@
         "type": "kanji"
       },
       {
-        "text": "を ",
+        "text": "を",
         "reading": "",
         "type": "kana"
       },
@@ -39736,11 +39336,11 @@
   {
     "id": 1097,
     "lesson": 23,
-    "word": "ドアに 触ります。",
-    "reading": "ドアに さわります。",
+    "word": "ドアに触ります。",
+    "reading": "ドアにさわります。",
     "segments": [
       {
-        "text": "ドアに ",
+        "text": "ドアに",
         "reading": "",
         "type": "kana"
       },
@@ -40084,8 +39684,8 @@
   {
     "id": 1107,
     "lesson": 23,
-    "word": "右へ 曲がります。",
-    "reading": "みぎへ まがります。",
+    "word": "右へ曲がります。",
+    "reading": "みぎへまがります。",
     "segments": [
       {
         "text": "右",
@@ -40093,7 +39693,7 @@
         "type": "kanji"
       },
       {
-        "text": "へ ",
+        "text": "へ",
         "reading": "",
         "type": "kana"
       },
@@ -40247,8 +39847,8 @@
   {
     "id": 1112,
     "lesson": 24,
-    "word": "人を 送ります。",
-    "reading": "ひとを おくります。",
+    "word": "人を送ります。",
+    "reading": "ひとをおくります。",
     "segments": [
       {
         "text": "人",
@@ -40256,7 +39856,7 @@
         "type": "kanji"
       },
       {
-        "text": "を ",
+        "text": "を",
         "reading": "",
         "type": "kana"
       },
@@ -40369,11 +39969,11 @@
   {
     "id": 1116,
     "lesson": 24,
-    "word": "お 菓子",
-    "reading": "お かし",
+    "word": "お菓子",
+    "reading": "おかし",
     "segments": [
       {
-        "text": "お ",
+        "text": "お",
         "reading": "",
         "type": "kana"
       },
@@ -40536,8 +40136,8 @@
   {
     "id": 1120,
     "lesson": 24,
-    "word": "母の 日",
-    "reading": "ははの ひ",
+    "word": "母の日",
+    "reading": "ははのひ",
     "segments": [
       {
         "text": "母",
@@ -40545,7 +40145,7 @@
         "type": "kanji"
       },
       {
-        "text": "の ",
+        "text": "の",
         "reading": "",
         "type": "kana"
       },
@@ -40653,8 +40253,8 @@
   {
     "id": 1124,
     "lesson": 24,
-    "word": "子どもを 連れていきます。",
-    "reading": "こどもを つれていきます。",
+    "word": "子どもを連れていきます。",
+    "reading": "こどもをつれていきます。",
     "segments": [
       {
         "text": "子",
@@ -40662,7 +40262,7 @@
         "type": "kanji"
       },
       {
-        "text": "どもを ",
+        "text": "どもを",
         "reading": "",
         "type": "kana"
       },
@@ -40746,8 +40346,8 @@
   {
     "id": 1127,
     "lesson": 24,
-    "word": "先生を 紹介します。",
-    "reading": "せんせいを しょうかいします。",
+    "word": "先生を紹介します。",
+    "reading": "せんせいをしょうかいします。",
     "segments": [
       {
         "text": "先",
@@ -40760,7 +40360,7 @@
         "type": "kanji"
       },
       {
-        "text": "を ",
+        "text": "を",
         "reading": "",
         "type": "kana"
       },
@@ -40823,8 +40423,8 @@
   {
     "id": 1129,
     "lesson": 24,
-    "word": "学校を 案内します。",
-    "reading": "がっこうを あんないします。",
+    "word": "学校を案内します。",
+    "reading": "がっこうをあんないします。",
     "segments": [
       {
         "text": "学",
@@ -40837,7 +40437,7 @@
         "type": "kanji"
       },
       {
-        "text": "を ",
+        "text": "を",
         "reading": "",
         "type": "kana"
       },
@@ -40869,11 +40469,11 @@
   {
     "id": 1130,
     "lesson": 24,
-    "word": "お 爺さん",
-    "reading": "お じいさん",
+    "word": "お爺さん",
+    "reading": "おじいさん",
     "segments": [
       {
-        "text": "お ",
+        "text": "お",
         "reading": "",
         "type": "kana"
       },
@@ -40900,11 +40500,11 @@
   {
     "id": 1131,
     "lesson": 24,
-    "word": "お 爺ちゃん",
-    "reading": "お じいちゃん",
+    "word": "お爺ちゃん",
+    "reading": "おじいちゃん",
     "segments": [
       {
-        "text": "お ",
+        "text": "お",
         "reading": "",
         "type": "kana"
       },
@@ -40939,11 +40539,11 @@
   {
     "id": 1132,
     "lesson": 24,
-    "word": "お 婆さん",
-    "reading": "お ばあさん",
+    "word": "お婆さん",
+    "reading": "おばあさん",
     "segments": [
       {
-        "text": "お ",
+        "text": "お",
         "reading": "",
         "type": "kana"
       },
@@ -40970,11 +40570,11 @@
   {
     "id": 1133,
     "lesson": 24,
-    "word": "お 婆ちゃん",
-    "reading": "お ばあちゃん",
+    "word": "お婆ちゃん",
+    "reading": "おばあちゃん",
     "segments": [
       {
-        "text": "お ",
+        "text": "お",
         "reading": "",
         "type": "kana"
       },
@@ -41367,21 +40967,16 @@
   {
     "id": 1145,
     "lesson": 25,
-    "word": "色々お 世話になりました。",
-    "reading": "色いろいろお せわになりました。",
+    "word": "色々お世話になりました。",
+    "reading": "いろいろおせわになりました。",
     "segments": [
       {
-        "text": "色",
-        "reading": "",
-        "type": "kana"
-      },
-      {
-        "text": "々",
+        "text": "色々",
         "reading": "いろいろ",
         "type": "kanji"
       },
       {
-        "text": "お ",
+        "text": "お",
         "reading": "",
         "type": "kana"
       },
@@ -41444,11 +41039,11 @@
   {
     "id": 1147,
     "lesson": 25,
-    "word": "どうぞお 元気で。",
-    "reading": "どうぞお げんきで。",
+    "word": "どうぞお元気で。",
+    "reading": "どうぞおげんきで。",
     "segments": [
       {
-        "text": "どうぞお ",
+        "text": "どうぞお",
         "reading": "",
         "type": "kana"
       },
@@ -41658,8 +41253,8 @@
   {
     "id": 1153,
     "lesson": 25,
-    "word": "年を 取ります。",
-    "reading": "としを とります。",
+    "word": "年を取ります。",
+    "reading": "としをとります。",
     "segments": [
       {
         "text": "年",
@@ -41667,7 +41262,7 @@
         "type": "kanji"
       },
       {
-        "text": "を ",
+        "text": "を",
         "reading": "",
         "type": "kana"
       },
@@ -41736,11 +41331,11 @@
   {
     "id": 1156,
     "lesson": 26,
-    "word": "～ 弁",
-    "reading": "～ べん",
+    "word": "～弁",
+    "reading": "～べん",
     "segments": [
       {
-        "text": "～ ",
+        "text": "～",
         "reading": "",
         "type": "kana"
       },
@@ -41870,8 +41465,8 @@
   {
     "id": 1160,
     "lesson": 26,
-    "word": "時間に 遅れます。",
-    "reading": "じかんに おくれます。",
+    "word": "時間に遅れます。",
+    "reading": "じかんにおくれます。",
     "segments": [
       {
         "text": "時",
@@ -41884,7 +41479,7 @@
         "type": "kanji"
       },
       {
-        "text": "に ",
+        "text": "に",
         "reading": "",
         "type": "kana"
       },
@@ -42219,11 +41814,11 @@
   {
     "id": 1171,
     "lesson": 26,
-    "word": "ごみを 出します。",
-    "reading": "ごみを だします。",
+    "word": "ごみを出します。",
+    "reading": "ごみをだします。",
     "segments": [
       {
-        "text": "ごみを ",
+        "text": "ごみを",
         "reading": "",
         "type": "kana"
       },
@@ -42281,8 +41876,8 @@
   {
     "id": 1173,
     "lesson": 26,
-    "word": "荷物が 片付きます。",
-    "reading": "にもつが かたづきます。",
+    "word": "荷物が片付きます。",
+    "reading": "にもつがかたづきます。",
     "segments": [
       {
         "text": "荷",
@@ -42295,7 +41890,7 @@
         "type": "kanji"
       },
       {
-        "text": "が ",
+        "text": "が",
         "reading": "",
         "type": "kana"
       },
@@ -42361,8 +41956,8 @@
   {
     "id": 1175,
     "lesson": 26,
-    "word": "置き 場",
-    "reading": "おき ば",
+    "word": "置き場",
+    "reading": "おきば",
     "segments": [
       {
         "text": "置",
@@ -42370,7 +41965,7 @@
         "type": "kanji"
       },
       {
-        "text": "き ",
+        "text": "き",
         "reading": "",
         "type": "kana"
       },
@@ -42392,11 +41987,11 @@
   {
     "id": 1176,
     "lesson": 26,
-    "word": "ゴミ 置き 場",
-    "reading": "ゴミ おき ば",
+    "word": "ゴミ置き場",
+    "reading": "ゴミおきば",
     "segments": [
       {
-        "text": "ゴミ ",
+        "text": "ゴミ",
         "reading": "",
         "type": "kana"
       },
@@ -42406,7 +42001,7 @@
         "type": "kanji"
       },
       {
-        "text": "き ",
+        "text": "き",
         "reading": "",
         "type": "kana"
       },
@@ -42565,11 +42160,11 @@
   {
     "id": 1181,
     "lesson": 26,
-    "word": "～ 会社",
-    "reading": "～ かいしゃ",
+    "word": "～会社",
+    "reading": "～かいしゃ",
     "segments": [
       {
-        "text": "～ ",
+        "text": "～",
         "reading": "",
         "type": "kana"
       },
@@ -42611,11 +42206,11 @@
   {
     "id": 1182,
     "lesson": 26,
-    "word": "ガス 会社",
-    "reading": "ガス がいしゃ",
+    "word": "ガス会社",
+    "reading": "ガスがいしゃ",
     "segments": [
       {
-        "text": "ガス ",
+        "text": "ガス",
         "reading": "",
         "type": "kana"
       },
@@ -42734,8 +42329,8 @@
   {
     "id": 1185,
     "lesson": 26,
-    "word": "都合が 悪い",
-    "reading": "つごうが わるい",
+    "word": "都合が悪い",
+    "reading": "つごうがわるい",
     "segments": [
       {
         "text": "都",
@@ -42748,7 +42343,7 @@
         "type": "kanji"
       },
       {
-        "text": "が ",
+        "text": "が",
         "reading": "",
         "type": "kana"
       },
@@ -42984,8 +42579,8 @@
   {
     "id": 1192,
     "lesson": 26,
-    "word": "気分が 悪い",
-    "reading": "きぶんが わるい",
+    "word": "気分が悪い",
+    "reading": "きぶんがわるい",
     "segments": [
       {
         "text": "気",
@@ -42998,7 +42593,7 @@
         "type": "kanji"
       },
       {
-        "text": "が ",
+        "text": "が",
         "reading": "",
         "type": "kana"
       },
@@ -43033,8 +42628,8 @@
   {
     "id": 1193,
     "lesson": 26,
-    "word": "間に 合います",
-    "reading": "まに あいます",
+    "word": "間に合います",
+    "reading": "まにあいます",
     "segments": [
       {
         "text": "間",
@@ -43042,7 +42637,7 @@
         "type": "kanji"
       },
       {
-        "text": "に ",
+        "text": "に",
         "reading": "",
         "type": "kana"
       },
@@ -43077,8 +42672,8 @@
   {
     "id": 1194,
     "lesson": 26,
-    "word": "時間に 間に 合います。",
-    "reading": "じかんに まに あいます。",
+    "word": "時間に間に合います。",
+    "reading": "じかんにまにあいます。",
     "segments": [
       {
         "text": "時",
@@ -43091,7 +42686,7 @@
         "type": "kanji"
       },
       {
-        "text": "に ",
+        "text": "に",
         "reading": "",
         "type": "kana"
       },
@@ -43101,7 +42696,7 @@
         "type": "kanji"
       },
       {
-        "text": "に ",
+        "text": "に",
         "reading": "",
         "type": "kana"
       },
@@ -43265,11 +42860,11 @@
   {
     "id": 1199,
     "lesson": 26,
-    "word": "そんな 人",
-    "reading": "そんな ひと",
+    "word": "そんな人",
+    "reading": "そんなひと",
     "segments": [
       {
-        "text": "そんな ",
+        "text": "そんな",
         "reading": "",
         "type": "kana"
       },
@@ -43483,11 +43078,11 @@
   {
     "id": 1207,
     "lesson": 26,
-    "word": "～ 様",
-    "reading": "～ さま",
+    "word": "～様",
+    "reading": "～さま",
     "segments": [
       {
-        "text": "～ ",
+        "text": "～",
         "reading": "",
         "type": "kana"
       },
@@ -43809,8 +43404,8 @@
   {
     "id": 1215,
     "lesson": 27,
-    "word": "山が 見えます。",
-    "reading": "やまが みえます。",
+    "word": "山が見えます。",
+    "reading": "やまがみえます。",
     "segments": [
       {
         "text": "山",
@@ -43818,7 +43413,7 @@
         "type": "kanji"
       },
       {
-        "text": "が ",
+        "text": "が",
         "reading": "",
         "type": "kana"
       },
@@ -43891,8 +43486,8 @@
   {
     "id": 1217,
     "lesson": 27,
-    "word": "道が 出来ます。",
-    "reading": "みちが できます。",
+    "word": "道が出来ます。",
+    "reading": "みちができます。",
     "segments": [
       {
         "text": "道",
@@ -43900,7 +43495,7 @@
         "type": "kanji"
       },
       {
-        "text": "が ",
+        "text": "が",
         "reading": "",
         "type": "kana"
       },
@@ -44045,8 +43640,8 @@
   {
     "id": 1221,
     "lesson": 27,
-    "word": "音が 聞こえる。",
-    "reading": "おとが きこえる。",
+    "word": "音が聞こえる。",
+    "reading": "おとがきこえる。",
     "segments": [
       {
         "text": "音",
@@ -44054,7 +43649,7 @@
         "type": "kanji"
       },
       {
-        "text": "が ",
+        "text": "が",
         "reading": "",
         "type": "kana"
       },
@@ -44201,8 +43796,8 @@
   {
     "id": 1226,
     "lesson": 27,
-    "word": "犬を 飼います",
-    "reading": "いぬを かいます",
+    "word": "犬を飼います",
+    "reading": "いぬをかいます",
     "segments": [
       {
         "text": "犬",
@@ -44210,7 +43805,7 @@
         "type": "kanji"
       },
       {
-        "text": "を ",
+        "text": "を",
         "reading": "",
         "type": "kana"
       },
@@ -44523,8 +44118,8 @@
   {
     "id": 1235,
     "lesson": 27,
-    "word": "道を 走ります。",
-    "reading": "みちを はしります。",
+    "word": "道を走ります。",
+    "reading": "みちをはしります。",
     "segments": [
       {
         "text": "道",
@@ -44532,7 +44127,7 @@
         "type": "kanji"
       },
       {
-        "text": "を ",
+        "text": "を",
         "reading": "",
         "type": "kana"
       },
@@ -44686,11 +44281,11 @@
   {
     "id": 1240,
     "lesson": 27,
-    "word": "～ 教室",
-    "reading": "～ きょうしつ",
+    "word": "～教室",
+    "reading": "～きょうしつ",
     "segments": [
       {
-        "text": "～ ",
+        "text": "～",
         "reading": "",
         "type": "kana"
       },
@@ -44809,8 +44404,8 @@
   {
     "id": 1243,
     "lesson": 27,
-    "word": "教室を 開きます。",
-    "reading": "きょうしつを ひらきます。",
+    "word": "教室を開きます。",
+    "reading": "きょうしつをひらきます。",
     "segments": [
       {
         "text": "教",
@@ -44823,7 +44418,7 @@
         "type": "kanji"
       },
       {
-        "text": "を ",
+        "text": "を",
         "reading": "",
         "type": "kana"
       },
@@ -44977,11 +44572,11 @@
   {
     "id": 1248,
     "lesson": 27,
-    "word": "～ 後",
-    "reading": "～ ご",
+    "word": "～後",
+    "reading": "～ご",
     "segments": [
       {
-        "text": "～ ",
+        "text": "～",
         "reading": "",
         "type": "kana"
       },
@@ -45018,11 +44613,11 @@
   {
     "id": 1249,
     "lesson": 27,
-    "word": "１ 時間後",
-    "reading": "１ じかんご",
+    "word": "１時間後",
+    "reading": "１じかんご",
     "segments": [
       {
-        "text": "１ ",
+        "text": "１",
         "reading": "",
         "type": "kana"
       },
@@ -45787,11 +45382,11 @@
   {
     "id": 1271,
     "lesson": 28,
-    "word": "ガムを 噛みます。",
-    "reading": "ガムを かみます。",
+    "word": "ガムを噛みます。",
+    "reading": "ガムをかみます。",
     "segments": [
       {
-        "text": "ガムを ",
+        "text": "ガムを",
         "reading": "",
         "type": "kana"
       },
@@ -46040,11 +45635,11 @@
   {
     "id": 1279,
     "lesson": 28,
-    "word": "ちょっとお 願いがあるんですが。",
-    "reading": "ちょっとお ねがいがあるんですが。",
+    "word": "ちょっとお願いがあるんですが。",
+    "reading": "ちょっとおねがいがあるんですが。",
     "segments": [
       {
-        "text": "ちょっとお ",
+        "text": "ちょっとお",
         "reading": "",
         "type": "kana"
       },
@@ -46413,8 +46008,8 @@
   {
     "id": 1289,
     "lesson": 28,
-    "word": "力が 強い",
-    "reading": "ちからが つよい",
+    "word": "力が強い",
+    "reading": "ちからがつよい",
     "segments": [
       {
         "text": "力",
@@ -46422,7 +46017,7 @@
         "type": "kanji"
       },
       {
-        "text": "が ",
+        "text": "が",
         "reading": "",
         "type": "kana"
       },
@@ -46785,8 +46380,8 @@
   {
     "id": 1300,
     "lesson": 28,
-    "word": "大学に 通います。",
-    "reading": "だいがくに かよいます。",
+    "word": "大学に通います。",
+    "reading": "だいがくにかよいます。",
     "segments": [
       {
         "text": "大",
@@ -46799,7 +46394,7 @@
         "type": "kanji"
       },
       {
-        "text": "に ",
+        "text": "に",
         "reading": "",
         "type": "kana"
       },
@@ -46826,11 +46421,11 @@
   {
     "id": 1301,
     "lesson": 28,
-    "word": "～ 機",
-    "reading": "～ き",
+    "word": "～機",
+    "reading": "～き",
     "segments": [
       {
-        "text": "～ ",
+        "text": "～",
         "reading": "",
         "type": "kana"
       },
@@ -47097,11 +46692,11 @@
   {
     "id": 1309,
     "lesson": 28,
-    "word": "パンが 売れます。",
-    "reading": "パンが うれます。",
+    "word": "パンが売れます。",
+    "reading": "パンがうれます。",
     "segments": [
       {
-        "text": "パンが ",
+        "text": "パンが",
         "reading": "",
         "type": "kana"
       },
@@ -47280,11 +46875,11 @@
   {
     "id": 1314,
     "lesson": 28,
-    "word": "～ 家",
-    "reading": "～ か",
+    "word": "～家",
+    "reading": "～か",
     "segments": [
       {
-        "text": "～ ",
+        "text": "～",
         "reading": "",
         "type": "kana"
       },
@@ -47437,11 +47032,11 @@
   {
     "id": 1318,
     "lesson": 28,
-    "word": "お 知らせ",
-    "reading": "お しらせ",
+    "word": "お知らせ",
+    "reading": "おしらせ",
     "segments": [
       {
-        "text": "お ",
+        "text": "お",
         "reading": "",
         "type": "kana"
       },
@@ -47729,11 +47324,11 @@
   {
     "id": 1327,
     "lesson": 29,
-    "word": "ドアが 閉まります。",
-    "reading": "ドアが しまります。",
+    "word": "ドアが閉まります。",
+    "reading": "ドアがしまります。",
     "segments": [
       {
-        "text": "ドアが ",
+        "text": "ドアが",
         "reading": "",
         "type": "kana"
       },
@@ -47807,11 +47402,11 @@
   {
     "id": 1330,
     "lesson": 29,
-    "word": "お 先にどうぞ。",
-    "reading": "お さきにどうぞ。",
+    "word": "お先にどうぞ。",
+    "reading": "おさきにどうぞ。",
     "segments": [
       {
-        "text": "お ",
+        "text": "お",
         "reading": "",
         "type": "kana"
       },
@@ -47869,8 +47464,8 @@
   {
     "id": 1332,
     "lesson": 29,
-    "word": "忘れ 物",
-    "reading": "わすれ もの",
+    "word": "忘れ物",
+    "reading": "わすれもの",
     "segments": [
       {
         "text": "忘",
@@ -47878,7 +47473,7 @@
         "type": "kanji"
       },
       {
-        "text": "れ ",
+        "text": "れ",
         "reading": "",
         "type": "kana"
       },
@@ -47944,8 +47539,8 @@
   {
     "id": 1334,
     "lesson": 29,
-    "word": "今の 電車",
-    "reading": "いまの でんしゃ",
+    "word": "今の電車",
+    "reading": "いまのでんしゃ",
     "segments": [
       {
         "text": "今",
@@ -47953,7 +47548,7 @@
         "type": "kanji"
       },
       {
-        "text": "の ",
+        "text": "の",
         "reading": "",
         "type": "kana"
       },
@@ -48001,11 +47596,11 @@
   {
     "id": 1336,
     "lesson": 29,
-    "word": "～ 側",
-    "reading": "～ がわ",
+    "word": "～側",
+    "reading": "～がわ",
     "segments": [
       {
-        "text": "～ ",
+        "text": "～",
         "reading": "",
         "type": "kana"
       },
@@ -48094,11 +47689,11 @@
   {
     "id": 1339,
     "lesson": 29,
-    "word": "ポケットが 付きます。",
-    "reading": "ポケットが つきます。",
+    "word": "ポケットが付きます。",
+    "reading": "ポケットがつきます。",
     "segments": [
       {
-        "text": "ポケットが ",
+        "text": "ポケットが",
         "reading": "",
         "type": "kana"
       },
@@ -48125,11 +47720,11 @@
   {
     "id": 1340,
     "lesson": 29,
-    "word": "～ 辺",
-    "reading": "～ へん",
+    "word": "～辺",
+    "reading": "～へん",
     "segments": [
       {
-        "text": "～ ",
+        "text": "～",
         "reading": "",
         "type": "kana"
       },
@@ -48166,11 +47761,11 @@
   {
     "id": 1341,
     "lesson": 29,
-    "word": "どの 辺",
-    "reading": "どの へん",
+    "word": "どの辺",
+    "reading": "どのへん",
     "segments": [
       {
-        "text": "どの ",
+        "text": "どの",
         "reading": "",
         "type": "kana"
       },
@@ -48381,11 +47976,11 @@
   {
     "id": 1348,
     "lesson": 29,
-    "word": "ドアが 開きます。",
-    "reading": "ドアが あきます。",
+    "word": "ドアが開きます。",
+    "reading": "ドアがあきます。",
     "segments": [
       {
-        "text": "ドアが ",
+        "text": "ドアが",
         "reading": "",
         "type": "kana"
       },
@@ -48438,8 +48033,8 @@
   {
     "id": 1350,
     "lesson": 29,
-    "word": "車が 止まります。",
-    "reading": "くるまが とまります。",
+    "word": "車が止まります。",
+    "reading": "くるまがとまります。",
     "segments": [
       {
         "text": "車",
@@ -48447,7 +48042,7 @@
         "type": "kanji"
       },
       {
-        "text": "が ",
+        "text": "が",
         "reading": "",
         "type": "kana"
       },
@@ -48536,11 +48131,11 @@
   {
     "id": 1353,
     "lesson": 29,
-    "word": "コップが 割れます。",
-    "reading": "コップが われます。",
+    "word": "コップが割れます。",
+    "reading": "コップがわれます。",
     "segments": [
       {
-        "text": "コップが ",
+        "text": "コップが",
         "reading": "",
         "type": "kana"
       },
@@ -48629,8 +48224,8 @@
   {
     "id": 1356,
     "lesson": 29,
-    "word": "紙が 破れます。",
-    "reading": "かみが やぶれます。",
+    "word": "紙が破れます。",
+    "reading": "かみがやぶれます。",
     "segments": [
       {
         "text": "紙",
@@ -48638,7 +48233,7 @@
         "type": "kanji"
       },
       {
-        "text": "が ",
+        "text": "が",
         "reading": "",
         "type": "kana"
       },
@@ -48691,8 +48286,8 @@
   {
     "id": 1358,
     "lesson": 29,
-    "word": "木が 折れます。",
-    "reading": "きが おれます。",
+    "word": "木が折れます。",
+    "reading": "きがおれます。",
     "segments": [
       {
         "text": "木",
@@ -48700,7 +48295,7 @@
         "type": "kanji"
       },
       {
-        "text": "が ",
+        "text": "が",
         "reading": "",
         "type": "kana"
       },
@@ -48815,8 +48410,8 @@
   {
     "id": 1362,
     "lesson": 29,
-    "word": "椅子が 壊れます。",
-    "reading": "いすが こわれます。",
+    "word": "椅子が壊れます。",
+    "reading": "いすがこわれます。",
     "segments": [
       {
         "text": "椅",
@@ -48829,7 +48424,7 @@
         "type": "kanji"
       },
       {
-        "text": "が ",
+        "text": "が",
         "reading": "",
         "type": "kana"
       },
@@ -48856,11 +48451,11 @@
   {
     "id": 1363,
     "lesson": 29,
-    "word": "お 皿",
-    "reading": "お さら",
+    "word": "お皿",
+    "reading": "おさら",
     "segments": [
       {
-        "text": "お ",
+        "text": "お",
         "reading": "",
         "type": "kana"
       },
@@ -49033,8 +48628,8 @@
   {
     "id": 1369,
     "lesson": 29,
-    "word": "服が 汚れます。",
-    "reading": "ふくが よごれます。",
+    "word": "服が汚れます。",
+    "reading": "ふくがよごれます。",
     "segments": [
       {
         "text": "服",
@@ -49042,7 +48637,7 @@
         "type": "kanji"
       },
       {
-        "text": "が ",
+        "text": "が",
         "reading": "",
         "type": "kana"
       },
@@ -49095,8 +48690,8 @@
   {
     "id": 1371,
     "lesson": 29,
-    "word": "取り 替えます",
-    "reading": "とり かえます",
+    "word": "取り替えます",
+    "reading": "とりかえます",
     "segments": [
       {
         "text": "取",
@@ -49104,7 +48699,7 @@
         "type": "kanji"
       },
       {
-        "text": "り ",
+        "text": "り",
         "reading": "",
         "type": "kana"
       },
@@ -49309,11 +48904,11 @@
   {
     "id": 1377,
     "lesson": 29,
-    "word": "ボタンが 外れます。",
-    "reading": "ボタンが はずれます。",
+    "word": "ボタンが外れます。",
+    "reading": "ボタンがはずれます。",
     "segments": [
       {
-        "text": "ボタンが ",
+        "text": "ボタンが",
         "reading": "",
         "type": "kana"
       },
@@ -49467,8 +49062,8 @@
   {
     "id": 1382,
     "lesson": 29,
-    "word": "電気が 消えます。",
-    "reading": "でんきが きえます。",
+    "word": "電気が消えます。",
+    "reading": "でんきがきえます。",
     "segments": [
       {
         "text": "電",
@@ -49481,7 +49076,7 @@
         "type": "kanji"
       },
       {
-        "text": "が ",
+        "text": "が",
         "reading": "",
         "type": "kana"
       },
@@ -49743,11 +49338,11 @@
   {
     "id": 1390,
     "lesson": 29,
-    "word": "～の 方",
-    "reading": "～の ほう",
+    "word": "～の方",
+    "reading": "～のほう",
     "segments": [
       {
-        "text": "～の ",
+        "text": "～の",
         "reading": "",
         "type": "kana"
       },
@@ -49865,8 +49460,8 @@
   {
     "id": 1394,
     "lesson": 30,
-    "word": "引き 出し",
-    "reading": "ひき だし",
+    "word": "引き出し",
+    "reading": "ひきだし",
     "segments": [
       {
         "text": "引",
@@ -49874,7 +49469,7 @@
         "type": "kanji"
       },
       {
-        "text": "き ",
+        "text": "き",
         "reading": "",
         "type": "kana"
       },
@@ -49983,8 +49578,8 @@
   {
     "id": 1397,
     "lesson": 30,
-    "word": "元の 所",
-    "reading": "もとの ところ",
+    "word": "元の所",
+    "reading": "もとのところ",
     "segments": [
       {
         "text": "元",
@@ -49992,7 +49587,7 @@
         "type": "kanji"
       },
       {
-        "text": "の ",
+        "text": "の",
         "reading": "",
         "type": "kana"
       },
@@ -50040,8 +49635,8 @@
   {
     "id": 1399,
     "lesson": 30,
-    "word": "其の 儘",
-    "reading": "その まま",
+    "word": "其の儘",
+    "reading": "そのまま",
     "segments": [
       {
         "text": "其",
@@ -50049,7 +49644,7 @@
         "type": "kanji"
       },
       {
-        "text": "の ",
+        "text": "の",
         "reading": "",
         "type": "kana"
       },
@@ -50133,11 +49728,11 @@
   {
     "id": 1402,
     "lesson": 30,
-    "word": "まだ 使っています。",
-    "reading": "まだ つかっています。",
+    "word": "まだ使っています。",
+    "reading": "まだつかっています。",
     "segments": [
       {
-        "text": "まだ ",
+        "text": "まだ",
         "reading": "",
         "type": "kana"
       },
@@ -50446,8 +50041,8 @@
   {
     "id": 1412,
     "lesson": 30,
-    "word": "壁に 絵を 掛けます。",
-    "reading": "かべに えを かけます。",
+    "word": "壁に絵を掛けます。",
+    "reading": "かべにえをかけます。",
     "segments": [
       {
         "text": "壁",
@@ -50455,7 +50050,7 @@
         "type": "kanji"
       },
       {
-        "text": "に ",
+        "text": "に",
         "reading": "",
         "type": "kana"
       },
@@ -50465,7 +50060,7 @@
         "type": "kanji"
       },
       {
-        "text": "を ",
+        "text": "を",
         "reading": "",
         "type": "kana"
       },
@@ -50518,11 +50113,11 @@
   {
     "id": 1414,
     "lesson": 30,
-    "word": "ごみ 箱",
-    "reading": "ごみ ばこ",
+    "word": "ごみ箱",
+    "reading": "ごみばこ",
     "segments": [
       {
-        "text": "ごみ ",
+        "text": "ごみ",
         "reading": "",
         "type": "kana"
       },
@@ -50637,8 +50232,8 @@
   {
     "id": 1418,
     "lesson": 30,
-    "word": "名前を 決めます。",
-    "reading": "なまえを きめます。",
+    "word": "名前を決めます。",
+    "reading": "なまえをきめます。",
     "segments": [
       {
         "text": "名",
@@ -50651,7 +50246,7 @@
         "type": "kanji"
       },
       {
-        "text": "を ",
+        "text": "を",
         "reading": "",
         "type": "kana"
       },
@@ -50822,8 +50417,8 @@
   {
     "id": 1423,
     "lesson": 30,
-    "word": "真ん 中",
-    "reading": "まん なか",
+    "word": "真ん中",
+    "reading": "まんなか",
     "segments": [
       {
         "text": "真",
@@ -50831,7 +50426,7 @@
         "type": "kanji"
       },
       {
-        "text": "ん ",
+        "text": "ん",
         "reading": "",
         "type": "kana"
       },
@@ -50879,8 +50474,8 @@
   {
     "id": 1425,
     "lesson": 30,
-    "word": "木を 植えます",
-    "reading": "きを うえます",
+    "word": "木を植えます",
+    "reading": "きをうえます",
     "segments": [
       {
         "text": "木",
@@ -50888,7 +50483,7 @@
         "type": "kanji"
       },
       {
-        "text": "を ",
+        "text": "を",
         "reading": "",
         "type": "kana"
       },
@@ -51380,11 +50975,11 @@
   {
     "id": 1440,
     "lesson": 30,
-    "word": "ある 日",
-    "reading": "ある ひ",
+    "word": "ある日",
+    "reading": "あるひ",
     "segments": [
       {
-        "text": "ある ",
+        "text": "ある",
         "reading": "",
         "type": "kana"
       },
@@ -51406,8 +51001,8 @@
   {
     "id": 1441,
     "lesson": 30,
-    "word": "夢を 見ます",
-    "reading": "ゆめを みます",
+    "word": "夢を見ます",
+    "reading": "ゆめをみます",
     "segments": [
       {
         "text": "夢",
@@ -51415,7 +51010,7 @@
         "type": "kanji"
       },
       {
-        "text": "を ",
+        "text": "を",
         "reading": "",
         "type": "kana"
       },
@@ -51597,8 +51192,8 @@
   {
     "id": 1446,
     "lesson": 30,
-    "word": "目が 覚めます",
-    "reading": "めが さめます",
+    "word": "目が覚めます",
+    "reading": "めがさめます",
     "segments": [
       {
         "text": "目",
@@ -51606,7 +51201,7 @@
         "type": "kanji"
       },
       {
-        "text": "が ",
+        "text": "が",
         "reading": "",
         "type": "kana"
       },
@@ -51708,8 +51303,8 @@
   {
     "id": 1449,
     "lesson": 31,
-    "word": "柔道を 続けます。",
-    "reading": "じゅうどうを つづけます。",
+    "word": "柔道を続けます。",
+    "reading": "じゅうどうをつづけます。",
     "segments": [
       {
         "text": "柔",
@@ -51722,7 +51317,7 @@
         "type": "kanji"
       },
       {
-        "text": "を ",
+        "text": "を",
         "reading": "",
         "type": "kana"
       },
@@ -51814,8 +51409,8 @@
   {
     "id": 1452,
     "lesson": 31,
-    "word": "試験を 受けます。",
-    "reading": "しけんを うけます。",
+    "word": "試験を受けます。",
+    "reading": "しけんをうけます。",
     "segments": [
       {
         "text": "試",
@@ -51828,7 +51423,7 @@
         "type": "kanji"
       },
       {
-        "text": "を ",
+        "text": "を",
         "reading": "",
         "type": "kana"
       },
@@ -51915,8 +51510,8 @@
   {
     "id": 1455,
     "lesson": 31,
-    "word": "東京に 残ります。",
-    "reading": "とうきょうに のこります。",
+    "word": "東京に残ります。",
+    "reading": "とうきょうにのこります。",
     "segments": [
       {
         "text": "東",
@@ -51929,7 +51524,7 @@
         "type": "kanji"
       },
       {
-        "text": "に ",
+        "text": "に",
         "reading": "",
         "type": "kana"
       },
@@ -52113,8 +51708,8 @@
   {
     "id": 1460,
     "lesson": 31,
-    "word": "仕事を 見つけます。",
-    "reading": "しごとを みつけます。",
+    "word": "仕事を見つけます。",
+    "reading": "しごとをみつけます。",
     "segments": [
       {
         "text": "仕",
@@ -52127,7 +51722,7 @@
         "type": "kanji"
       },
       {
-        "text": "を ",
+        "text": "を",
         "reading": "",
         "type": "kana"
       },
@@ -52329,8 +51924,8 @@
   {
     "id": 1466,
     "lesson": 31,
-    "word": "申し 込みます",
-    "reading": "もうし こみます",
+    "word": "申し込みます",
+    "reading": "もうしこみます",
     "segments": [
       {
         "text": "申",
@@ -52338,7 +51933,7 @@
         "type": "kanji"
       },
       {
-        "text": "し ",
+        "text": "し",
         "reading": "",
         "type": "kana"
       },
@@ -52458,11 +52053,11 @@
   {
     "id": 1470,
     "lesson": 31,
-    "word": "お 子さん",
-    "reading": "お こさん",
+    "word": "お子さん",
+    "reading": "おこさん",
     "segments": [
       {
-        "text": "お ",
+        "text": "お",
         "reading": "",
         "type": "kana"
       },
@@ -52571,11 +52166,11 @@
   {
     "id": 1473,
     "lesson": 31,
-    "word": "お 葬式",
-    "reading": "お そうしき",
+    "word": "お葬式",
+    "reading": "おそうしき",
     "segments": [
       {
-        "text": "お ",
+        "text": "お",
         "reading": "",
         "type": "kana"
       },
@@ -52665,8 +52260,8 @@
   {
     "id": 1476,
     "lesson": 31,
-    "word": "休みを 取ります",
-    "reading": "やすみを とります",
+    "word": "休みを取ります",
+    "reading": "やすみをとります",
     "segments": [
       {
         "text": "休",
@@ -52674,7 +52269,7 @@
         "type": "kanji"
       },
       {
-        "text": "みを ",
+        "text": "みを",
         "reading": "",
         "type": "kana"
       },
@@ -52701,11 +52296,11 @@
   {
     "id": 1477,
     "lesson": 31,
-    "word": "― 号",
-    "reading": "― ごう",
+    "word": "―号",
+    "reading": "―ごう",
     "segments": [
       {
-        "text": "― ",
+        "text": "―",
         "reading": "",
         "type": "kana"
       },
@@ -53051,8 +52646,8 @@
   {
     "id": 1487,
     "lesson": 31,
-    "word": "目を 閉じます。",
-    "reading": "めを とじます。",
+    "word": "目を閉じます。",
+    "reading": "めをとじます。",
     "segments": [
       {
         "text": "目",
@@ -53060,7 +52655,7 @@
         "type": "kanji"
       },
       {
-        "text": "を ",
+        "text": "を",
         "reading": "",
         "type": "kana"
       },
@@ -53347,8 +52942,8 @@
   {
     "id": 1495,
     "lesson": 32,
-    "word": "熱が 続きます。",
-    "reading": "ねつが つづきます。",
+    "word": "熱が続きます。",
+    "reading": "ねつがつづきます。",
     "segments": [
       {
         "text": "熱",
@@ -53356,7 +52951,7 @@
         "type": "kanji"
       },
       {
-        "text": "が ",
+        "text": "が",
         "reading": "",
         "type": "kana"
       },
@@ -53888,8 +53483,8 @@
   {
     "id": 1511,
     "lesson": 32,
-    "word": "風邪を 引きます。",
-    "reading": "かぜを ひきます。",
+    "word": "風邪を引きます。",
+    "reading": "かぜをひきます。",
     "segments": [
       {
         "text": "風",
@@ -53902,7 +53497,7 @@
         "type": "kanji"
       },
       {
-        "text": "を ",
+        "text": "を",
         "reading": "",
         "type": "kana"
       },
@@ -53996,8 +53591,8 @@
   {
     "id": 1514,
     "lesson": 32,
-    "word": "雨が 止みます。",
-    "reading": "あめが やみます。",
+    "word": "雨が止みます。",
+    "reading": "あめがやみます。",
     "segments": [
       {
         "text": "雨",
@@ -54005,7 +53600,7 @@
         "type": "kanji"
       },
       {
-        "text": "が ",
+        "text": "が",
         "reading": "",
         "type": "kana"
       },
@@ -54187,8 +53782,8 @@
   {
     "id": 1520,
     "lesson": 32,
-    "word": "道が 空きます。",
-    "reading": "みちが すきます。",
+    "word": "道が空きます。",
+    "reading": "みちがすきます。",
     "segments": [
       {
         "text": "道",
@@ -54196,7 +53791,7 @@
         "type": "kanji"
       },
       {
-        "text": "が ",
+        "text": "が",
         "reading": "",
         "type": "kana"
       },
@@ -54264,8 +53859,8 @@
   {
     "id": 1522,
     "lesson": 32,
-    "word": "試合に 出ます。",
-    "reading": "しあいに でます。",
+    "word": "試合に出ます。",
+    "reading": "しあいにでます。",
     "segments": [
       {
         "text": "試",
@@ -54278,7 +53873,7 @@
         "type": "kanji"
       },
       {
-        "text": "に ",
+        "text": "に",
         "reading": "",
         "type": "kana"
       },
@@ -54305,11 +53900,11 @@
   {
     "id": 1523,
     "lesson": 32,
-    "word": "パーティーに 出ます。",
-    "reading": "パーティーに でます。",
+    "word": "パーティーに出ます。",
+    "reading": "パーティーにでます。",
     "segments": [
       {
-        "text": "パーティーに ",
+        "text": "パーティーに",
         "reading": "",
         "type": "kana"
       },
@@ -54460,8 +54055,8 @@
   {
     "id": 1528,
     "lesson": 32,
-    "word": "道が 込みます。",
-    "reading": "みちが こみます。",
+    "word": "道が込みます。",
+    "reading": "みちがこみます。",
     "segments": [
       {
         "text": "道",
@@ -54469,7 +54064,7 @@
         "type": "kanji"
       },
       {
-        "text": "が ",
+        "text": "が",
         "reading": "",
         "type": "kana"
       },
@@ -54568,8 +54163,8 @@
   {
     "id": 1531,
     "lesson": 32,
-    "word": "試験に 合格します。",
-    "reading": "しけんに ごうかくします。",
+    "word": "試験に合格します。",
+    "reading": "しけんにごうかくします。",
     "segments": [
       {
         "text": "試",
@@ -54582,7 +54177,7 @@
         "type": "kanji"
       },
       {
-        "text": "に ",
+        "text": "に",
         "reading": "",
         "type": "kana"
       },
@@ -54815,8 +54410,8 @@
   {
     "id": 1538,
     "lesson": 32,
-    "word": "試験に 失敗します",
-    "reading": "しけんに しっぱいします",
+    "word": "試験に失敗します",
+    "reading": "しけんにしっぱいします",
     "segments": [
       {
         "text": "試",
@@ -54829,7 +54424,7 @@
         "type": "kanji"
       },
       {
-        "text": "に ",
+        "text": "に",
         "reading": "",
         "type": "kana"
       },
@@ -54897,11 +54492,11 @@
   {
     "id": 1540,
     "lesson": 32,
-    "word": "ずいぶん 前から",
-    "reading": "ずいぶん まえから",
+    "word": "ずいぶん前から",
+    "reading": "ずいぶんまえから",
     "segments": [
       {
-        "text": "ずいぶん ",
+        "text": "ずいぶん",
         "reading": "",
         "type": "kana"
       },
@@ -55123,8 +54718,8 @@
   {
     "id": 1548,
     "lesson": 32,
-    "word": "宝くじが 当たります。",
-    "reading": "たからくじが あたります。",
+    "word": "宝くじが当たります。",
+    "reading": "たからくじがあたります。",
     "segments": [
       {
         "text": "宝",
@@ -55132,7 +54727,7 @@
         "type": "kanji"
       },
       {
-        "text": "くじが ",
+        "text": "くじが",
         "reading": "",
         "type": "kana"
       },
@@ -55652,11 +55247,11 @@
   {
     "id": 1563,
     "lesson": 33,
-    "word": "どういう 意味",
-    "reading": "どういう いみ",
+    "word": "どういう意味",
+    "reading": "どういういみ",
     "segments": [
       {
-        "text": "どういう ",
+        "text": "どういう",
         "reading": "",
         "type": "kana"
       },
@@ -56026,11 +55621,11 @@
   {
     "id": 1574,
     "lesson": 33,
-    "word": "～ 程",
-    "reading": "～ ほど",
+    "word": "～程",
+    "reading": "～ほど",
     "segments": [
       {
-        "text": "～ ",
+        "text": "～",
         "reading": "",
         "type": "kana"
       },
@@ -56067,8 +55662,8 @@
   {
     "id": 1575,
     "lesson": 33,
-    "word": "締め 切り",
-    "reading": "しめ きり",
+    "word": "締め切り",
+    "reading": "しめきり",
     "segments": [
       {
         "text": "締",
@@ -56076,7 +55671,7 @@
         "type": "kanji"
       },
       {
-        "text": "め ",
+        "text": "め",
         "reading": "",
         "type": "kana"
       },
@@ -56356,8 +55951,8 @@
   {
     "id": 1583,
     "lesson": 33,
-    "word": "車に 注意します。",
-    "reading": "くるまに ちゅういします。",
+    "word": "車に注意します。",
+    "reading": "くるまにちゅういします。",
     "segments": [
       {
         "text": "車",
@@ -56365,7 +55960,7 @@
         "type": "kanji"
       },
       {
-        "text": "に ",
+        "text": "に",
         "reading": "",
         "type": "kana"
       },
@@ -56459,11 +56054,11 @@
   {
     "id": 1586,
     "lesson": 33,
-    "word": "～ 中",
-    "reading": "～ ちゅう",
+    "word": "～中",
+    "reading": "～ちゅう",
     "segments": [
       {
-        "text": "～ ",
+        "text": "～",
         "reading": "",
         "type": "kana"
       },
@@ -56649,8 +56244,8 @@
   {
     "id": 1591,
     "lesson": 33,
-    "word": "会議に 出席します。",
-    "reading": "かいぎに しゅっせきします。",
+    "word": "会議に出席します。",
+    "reading": "かいぎにしゅっせきします。",
     "segments": [
       {
         "text": "会",
@@ -56663,7 +56258,7 @@
         "type": "kanji"
       },
       {
-        "text": "に ",
+        "text": "に",
         "reading": "",
         "type": "kana"
       },
@@ -56777,8 +56372,8 @@
   {
     "id": 1594,
     "lesson": 33,
-    "word": "式が 始まります。",
-    "reading": "しきが はじまります。",
+    "word": "式が始まります。",
+    "reading": "しきがはじまります。",
     "segments": [
       {
         "text": "式",
@@ -56786,7 +56381,7 @@
         "type": "kanji"
       },
       {
-        "text": "が ",
+        "text": "が",
         "reading": "",
         "type": "kana"
       },
@@ -56890,8 +56485,8 @@
   {
     "id": 1597,
     "lesson": 33,
-    "word": "飲み 放題",
-    "reading": "のみ ほうだい",
+    "word": "飲み放題",
+    "reading": "のみほうだい",
     "segments": [
       {
         "text": "飲",
@@ -56899,7 +56494,7 @@
         "type": "kanji"
       },
       {
-        "text": "み ",
+        "text": "み",
         "reading": "",
         "type": "kana"
       },
@@ -57151,8 +56746,8 @@
   {
     "id": 1605,
     "lesson": 33,
-    "word": "席を 外します。",
-    "reading": "せきを はずします。",
+    "word": "席を外します。",
+    "reading": "せきをはずします。",
     "segments": [
       {
         "text": "席",
@@ -57160,7 +56755,7 @@
         "type": "kanji"
       },
       {
-        "text": "を ",
+        "text": "を",
         "reading": "",
         "type": "kana"
       },
@@ -57228,8 +56823,8 @@
   {
     "id": 1607,
     "lesson": 33,
-    "word": "助け 合います",
-    "reading": "たすけ あいます",
+    "word": "助け合います",
+    "reading": "たすけあいます",
     "segments": [
       {
         "text": "助",
@@ -57237,7 +56832,7 @@
         "type": "kanji"
       },
       {
-        "text": "け ",
+        "text": "け",
         "reading": "",
         "type": "kana"
       },
@@ -57514,8 +57109,8 @@
   {
     "id": 1615,
     "lesson": 34,
-    "word": "歯を 磨きます",
-    "reading": "はを みがきます",
+    "word": "歯を磨きます",
+    "reading": "はをみがきます",
     "segments": [
       {
         "text": "歯",
@@ -57523,7 +57118,7 @@
         "type": "kanji"
       },
       {
-        "text": "を ",
+        "text": "を",
         "reading": "",
         "type": "kana"
       },
@@ -57550,8 +57145,8 @@
   {
     "id": 1616,
     "lesson": 34,
-    "word": "組み 立てます",
-    "reading": "くみ たてます",
+    "word": "組み立てます",
+    "reading": "くみたてます",
     "segments": [
       {
         "text": "組",
@@ -57559,7 +57154,7 @@
         "type": "kanji"
       },
       {
-        "text": "み ",
+        "text": "み",
         "reading": "",
         "type": "kana"
       },
@@ -58049,11 +57644,11 @@
   {
     "id": 1631,
     "lesson": 34,
-    "word": "お 茶を 立てます",
-    "reading": "お ちゃを たてます",
+    "word": "お茶を立てます",
+    "reading": "おちゃをたてます",
     "segments": [
       {
-        "text": "お ",
+        "text": "お",
         "reading": "",
         "type": "kana"
       },
@@ -58063,7 +57658,7 @@
         "type": "kanji"
       },
       {
-        "text": "を ",
+        "text": "を",
         "reading": "",
         "type": "kana"
       },
@@ -58288,8 +57883,8 @@
   {
     "id": 1639,
     "lesson": 34,
-    "word": "木の 枝を 折ります。",
-    "reading": "きの えだを おります。",
+    "word": "木の枝を折ります。",
+    "reading": "きのえだをおります。",
     "segments": [
       {
         "text": "木",
@@ -58297,7 +57892,7 @@
         "type": "kanji"
       },
       {
-        "text": "の ",
+        "text": "の",
         "reading": "",
         "type": "kana"
       },
@@ -58307,7 +57902,7 @@
         "type": "kanji"
       },
       {
-        "text": "を ",
+        "text": "を",
         "reading": "",
         "type": "kana"
       },
@@ -58440,11 +58035,11 @@
   {
     "id": 1643,
     "lesson": 34,
-    "word": "お 城",
-    "reading": "お しろ",
+    "word": "お城",
+    "reading": "おしろ",
     "segments": [
       {
-        "text": "お ",
+        "text": "お",
         "reading": "",
         "type": "kana"
       },
@@ -58505,8 +58100,8 @@
   {
     "id": 1645,
     "lesson": 34,
-    "word": "先生に 質問します。",
-    "reading": "せんせいに しつもんします。",
+    "word": "先生に質問します。",
+    "reading": "せんせいにしつもんします。",
     "segments": [
       {
         "text": "先",
@@ -58519,7 +58114,7 @@
         "type": "kanji"
       },
       {
-        "text": "に ",
+        "text": "に",
         "reading": "",
         "type": "kana"
       },
@@ -58577,11 +58172,11 @@
   {
     "id": 1647,
     "lesson": 34,
-    "word": "かぎが 見つかります。",
-    "reading": "かぎが みつかります。",
+    "word": "かぎが見つかります。",
+    "reading": "かぎがみつかります。",
     "segments": [
       {
-        "text": "かぎが ",
+        "text": "かぎが",
         "reading": "",
         "type": "kana"
       },
@@ -58634,8 +58229,8 @@
   {
     "id": 1649,
     "lesson": 34,
-    "word": "忘れ 物に 気がつきます。",
-    "reading": "わすれ ものに きがつきます。",
+    "word": "忘れ物に気がつきます。",
+    "reading": "わすれものにきがつきます。",
     "segments": [
       {
         "text": "忘",
@@ -58643,7 +58238,7 @@
         "type": "kanji"
       },
       {
-        "text": "れ ",
+        "text": "れ",
         "reading": "",
         "type": "kana"
       },
@@ -58653,7 +58248,7 @@
         "type": "kanji"
       },
       {
-        "text": "に ",
+        "text": "に",
         "reading": "",
         "type": "kana"
       },
@@ -58753,11 +58348,11 @@
   {
     "id": 1653,
     "lesson": 34,
-    "word": "お 客さん",
-    "reading": "お きゃくさん",
+    "word": "お客さん",
+    "reading": "おきゃくさん",
     "segments": [
       {
-        "text": "お ",
+        "text": "お",
         "reading": "",
         "type": "kana"
       },
@@ -58864,11 +58459,11 @@
   {
     "id": 1656,
     "lesson": 34,
-    "word": "～ 分",
-    "reading": "～ ぶん",
+    "word": "～分",
+    "reading": "～ぶん",
     "segments": [
       {
-        "text": "～ ",
+        "text": "～",
         "reading": "",
         "type": "kana"
       },
@@ -58941,11 +58536,11 @@
   {
     "id": 1658,
     "lesson": 34,
-    "word": "― 個",
-    "reading": "― こ",
+    "word": "―個",
+    "reading": "―こ",
     "segments": [
       {
-        "text": "― ",
+        "text": "―",
         "reading": "",
         "type": "kana"
       },
@@ -59023,8 +58618,8 @@
   {
     "id": 1660,
     "lesson": 34,
-    "word": "４分の １",
-    "reading": "よんぶんの いち",
+    "word": "４分の１",
+    "reading": "よんぶんのいち",
     "segments": [
       {
         "text": "４",
@@ -59037,7 +58632,7 @@
         "type": "kanji"
       },
       {
-        "text": "の ",
+        "text": "の",
         "reading": "",
         "type": "kana"
       },
@@ -59192,8 +58787,8 @@
   {
     "id": 1665,
     "lesson": 34,
-    "word": "適当な 大きさに",
-    "reading": "てきとうな おおきさに",
+    "word": "適当な大きさに",
+    "reading": "てきとうなおおきさに",
     "segments": [
       {
         "text": "適",
@@ -59206,7 +58801,7 @@
         "type": "kanji"
       },
       {
-        "text": "な ",
+        "text": "な",
         "reading": "",
         "type": "kana"
       },
@@ -59471,8 +59066,8 @@
   {
     "id": 1674,
     "lesson": 35,
-    "word": "花が 咲きます",
-    "reading": "はなが さきます",
+    "word": "花が咲きます",
+    "reading": "はながさきます",
     "segments": [
       {
         "text": "花",
@@ -59480,7 +59075,7 @@
         "type": "kanji"
       },
       {
-        "text": "が ",
+        "text": "が",
         "reading": "",
         "type": "kana"
       },
@@ -59584,11 +59179,11 @@
   {
     "id": 1677,
     "lesson": 35,
-    "word": "これで 終わりましょう。",
-    "reading": "これで おわりましょう。",
+    "word": "これで終わりましょう。",
+    "reading": "これでおわりましょう。",
     "segments": [
       {
-        "text": "これで ",
+        "text": "これで",
         "reading": "",
         "type": "kana"
       },
@@ -59942,11 +59537,11 @@
   {
     "id": 1688,
     "lesson": 35,
-    "word": "スキー 場",
-    "reading": "スキー じょう",
+    "word": "スキー場",
+    "reading": "スキーじょう",
     "segments": [
       {
-        "text": "スキー ",
+        "text": "スキー",
         "reading": "",
         "type": "kana"
       },
@@ -60007,11 +59602,11 @@
   {
     "id": 1690,
     "lesson": 35,
-    "word": "みんなの 学校",
-    "reading": "みんなの がっこう",
+    "word": "みんなの学校",
+    "reading": "みんなのがっこう",
     "segments": [
       {
-        "text": "みんなの ",
+        "text": "みんなの",
         "reading": "",
         "type": "kana"
       },
@@ -60115,8 +59710,8 @@
   {
     "id": 1693,
     "lesson": 35,
-    "word": "色が 変わります",
-    "reading": "いろが かわります",
+    "word": "色が変わります",
+    "reading": "いろがかわります",
     "segments": [
       {
         "text": "色",
@@ -60124,7 +59719,7 @@
         "type": "kanji"
       },
       {
-        "text": "が ",
+        "text": "が",
         "reading": "",
         "type": "kana"
       },
@@ -60358,8 +59953,8 @@
   {
     "id": 1701,
     "lesson": 35,
-    "word": "病気が 治ります。",
-    "reading": "びょうきが なおります。",
+    "word": "病気が治ります。",
+    "reading": "びょうきがなおります。",
     "segments": [
       {
         "text": "病",
@@ -60372,7 +59967,7 @@
         "type": "kanji"
       },
       {
-        "text": "が ",
+        "text": "が",
         "reading": "",
         "type": "kana"
       },
@@ -60399,8 +59994,8 @@
   {
     "id": 1702,
     "lesson": 35,
-    "word": "故障が 直ります。",
-    "reading": "こしょうが なおります。",
+    "word": "故障が直ります。",
+    "reading": "こしょうがなおります。",
     "segments": [
       {
         "text": "故",
@@ -60413,7 +60008,7 @@
         "type": "kanji"
       },
       {
-        "text": "が ",
+        "text": "が",
         "reading": "",
         "type": "kana"
       },
@@ -60837,8 +60432,8 @@
   {
     "id": 1714,
     "lesson": 35,
-    "word": "母の 味",
-    "reading": "ははの あじ",
+    "word": "母の味",
+    "reading": "ははのあじ",
     "segments": [
       {
         "text": "母",
@@ -60846,7 +60441,7 @@
         "type": "kanji"
       },
       {
-        "text": "の ",
+        "text": "の",
         "reading": "",
         "type": "kana"
       },
@@ -60956,8 +60551,8 @@
   {
     "id": 1718,
     "lesson": 35,
-    "word": "振り 仮名",
-    "reading": "ふり がな",
+    "word": "振り仮名",
+    "reading": "ふりがな",
     "segments": [
       {
         "text": "振",
@@ -60965,7 +60560,7 @@
         "type": "kanji"
       },
       {
-        "text": "り ",
+        "text": "り",
         "reading": "",
         "type": "kana"
       },
@@ -61449,8 +61044,8 @@
   {
     "id": 1733,
     "lesson": 36,
-    "word": "仕事に 慣れます。",
-    "reading": "しごとに なれます。",
+    "word": "仕事に慣れます。",
+    "reading": "しごとになれます。",
     "segments": [
       {
         "text": "仕",
@@ -61463,7 +61058,7 @@
         "type": "kanji"
       },
       {
-        "text": "に ",
+        "text": "に",
         "reading": "",
         "type": "kana"
       },
@@ -61685,8 +61280,8 @@
   {
     "id": 1739,
     "lesson": 36,
-    "word": "絶対に 間違いない。",
-    "reading": "ぜったいに まちがいない。",
+    "word": "絶対に間違いない。",
+    "reading": "ぜったいにまちがいない。",
     "segments": [
       {
         "text": "絶",
@@ -61699,7 +61294,7 @@
         "type": "kanji"
       },
       {
-        "text": "に ",
+        "text": "に",
         "reading": "",
         "type": "kana"
       },
@@ -61731,11 +61326,11 @@
   {
     "id": 1740,
     "lesson": 36,
-    "word": "お 客様",
-    "reading": "お きゃくさま",
+    "word": "お客様",
+    "reading": "おきゃくさま",
     "segments": [
       {
-        "text": "お ",
+        "text": "お",
         "reading": "",
         "type": "kana"
       },
@@ -62025,8 +61620,8 @@
   {
     "id": 1749,
     "lesson": 36,
-    "word": "事故に 遭います。",
-    "reading": "じこに あいます。",
+    "word": "事故に遭います。",
+    "reading": "じこにあいます。",
     "segments": [
       {
         "text": "事",
@@ -62039,7 +61634,7 @@
         "type": "kanji"
       },
       {
-        "text": "に ",
+        "text": "に",
         "reading": "",
         "type": "kana"
       },
@@ -62193,8 +61788,8 @@
   {
     "id": 1754,
     "lesson": 36,
-    "word": "食べ 物が 腐ります。",
-    "reading": "たべ ものが くさります。",
+    "word": "食べ物が腐ります。",
+    "reading": "たべものがくさります。",
     "segments": [
       {
         "text": "食",
@@ -62202,7 +61797,7 @@
         "type": "kanji"
       },
       {
-        "text": "べ ",
+        "text": "べ",
         "reading": "",
         "type": "kana"
       },
@@ -62212,7 +61807,7 @@
         "type": "kanji"
       },
       {
-        "text": "が ",
+        "text": "が",
         "reading": "",
         "type": "kana"
       },
@@ -62327,8 +61922,8 @@
   {
     "id": 1758,
     "lesson": 36,
-    "word": "７時を 過ぎます",
-    "reading": "しちじを すぎます",
+    "word": "７時を過ぎます",
+    "reading": "しちじをすぎます",
     "segments": [
       {
         "text": "７",
@@ -62341,7 +61936,7 @@
         "type": "kanji"
       },
       {
-        "text": "を ",
+        "text": "を",
         "reading": "",
         "type": "kana"
       },
@@ -62630,8 +62225,8 @@
   {
     "id": 1766,
     "lesson": 36,
-    "word": "乗り 物",
-    "reading": "のり もの",
+    "word": "乗り物",
+    "reading": "のりもの",
     "segments": [
       {
         "text": "乗",
@@ -62639,7 +62234,7 @@
         "type": "kanji"
       },
       {
-        "text": "り ",
+        "text": "り",
         "reading": "",
         "type": "kana"
       },
@@ -62661,11 +62256,11 @@
   {
     "id": 1767,
     "lesson": 36,
-    "word": "― 世紀",
-    "reading": "― せいき",
+    "word": "―世紀",
+    "reading": "―せいき",
     "segments": [
       {
-        "text": "― ",
+        "text": "―",
         "reading": "",
         "type": "kana"
       },
@@ -62903,8 +62498,8 @@
   {
     "id": 1773,
     "lesson": 36,
-    "word": "大勢の 人",
-    "reading": "おおぜいの ひと",
+    "word": "大勢の人",
+    "reading": "おおぜいのひと",
     "segments": [
       {
         "text": "大",
@@ -62917,7 +62512,7 @@
         "type": "kanji"
       },
       {
-        "text": "の ",
+        "text": "の",
         "reading": "",
         "type": "kana"
       },
@@ -63063,8 +62658,8 @@
   {
     "id": 1778,
     "lesson": 37,
-    "word": "足を 踏みます。",
-    "reading": "あしを ふみます。",
+    "word": "足を踏みます。",
+    "reading": "あしをふみます。",
     "segments": [
       {
         "text": "足",
@@ -63072,7 +62667,7 @@
         "type": "kanji"
       },
       {
-        "text": "を ",
+        "text": "を",
         "reading": "",
         "type": "kana"
       },
@@ -63202,8 +62797,8 @@
   {
     "id": 1782,
     "lesson": 37,
-    "word": "星を 発見します。",
-    "reading": "ほしを はっけんします。",
+    "word": "星を発見します。",
+    "reading": "ほしをはっけんします。",
     "segments": [
       {
         "text": "星",
@@ -63211,7 +62806,7 @@
         "type": "kanji"
       },
       {
-        "text": "を ",
+        "text": "を",
         "reading": "",
         "type": "kana"
       },
@@ -63485,11 +63080,11 @@
   {
     "id": 1790,
     "lesson": 37,
-    "word": "その 後",
-    "reading": "その ご",
+    "word": "その後",
+    "reading": "そのご",
     "segments": [
       {
-        "text": "その ",
+        "text": "その",
         "reading": "",
         "type": "kana"
       },
@@ -63562,11 +63157,11 @@
   {
     "id": 1792,
     "lesson": 37,
-    "word": "～の 一つ",
-    "reading": "～の ひとつ",
+    "word": "～の一つ",
+    "reading": "～のひとつ",
     "segments": [
       {
-        "text": "～の ",
+        "text": "～の",
         "reading": "",
         "type": "kana"
       },
@@ -63874,8 +63469,8 @@
   {
     "id": 1801,
     "lesson": 37,
-    "word": "国際会議を 行います。",
-    "reading": "こくさいかいぎを おこないます。",
+    "word": "国際会議を行います。",
+    "reading": "こくさいかいぎをおこないます。",
     "segments": [
       {
         "text": "国",
@@ -63898,7 +63493,7 @@
         "type": "kanji"
       },
       {
-        "text": "を ",
+        "text": "を",
         "reading": "",
         "type": "kana"
       },
@@ -63982,11 +63577,11 @@
   {
     "id": 1804,
     "lesson": 37,
-    "word": "～ 中",
-    "reading": "～ じゅう",
+    "word": "～中",
+    "reading": "～じゅう",
     "segments": [
       {
-        "text": "～ ",
+        "text": "～",
         "reading": "",
         "type": "kana"
       },
@@ -64208,8 +63803,8 @@
   {
     "id": 1810,
     "lesson": 37,
-    "word": "海を 汚します。",
-    "reading": "うみを よごします。",
+    "word": "海を汚します。",
+    "reading": "うみをよごします。",
     "segments": [
       {
         "text": "海",
@@ -64217,7 +63812,7 @@
         "type": "kanji"
       },
       {
-        "text": "を ",
+        "text": "を",
         "reading": "",
         "type": "kana"
       },
@@ -64728,8 +64323,8 @@
   {
     "id": 1827,
     "lesson": 37,
-    "word": "眠り 猫",
-    "reading": "ねむり ねこ",
+    "word": "眠り猫",
+    "reading": "ねむりねこ",
     "segments": [
       {
         "text": "眠",
@@ -64737,7 +64332,7 @@
         "type": "kanji"
       },
       {
-        "text": "り ",
+        "text": "り",
         "reading": "",
         "type": "kana"
       },
@@ -64819,8 +64414,8 @@
   {
     "id": 1830,
     "lesson": 37,
-    "word": "言い 伝え",
-    "reading": "いい つたえ",
+    "word": "言い伝え",
+    "reading": "いいつたえ",
     "segments": [
       {
         "text": "言",
@@ -64828,7 +64423,7 @@
         "type": "kanji"
       },
       {
-        "text": "い ",
+        "text": "い",
         "reading": "",
         "type": "kana"
       },
@@ -65005,11 +64600,11 @@
   {
     "id": 1836,
     "lesson": 37,
-    "word": "その 後",
-    "reading": "その あと",
+    "word": "その後",
+    "reading": "そのあと",
     "segments": [
       {
-        "text": "その ",
+        "text": "その",
         "reading": "",
         "type": "kana"
       },
@@ -65157,8 +64752,8 @@
   {
     "id": 1840,
     "lesson": 38,
-    "word": "旅行に 参加します。",
-    "reading": "りょこうに さんかします。",
+    "word": "旅行に参加します。",
+    "reading": "りょこうにさんかします。",
     "segments": [
       {
         "text": "旅",
@@ -65171,7 +64766,7 @@
         "type": "kanji"
       },
       {
-        "text": "に ",
+        "text": "に",
         "reading": "",
         "type": "kana"
       },
@@ -65540,11 +65135,11 @@
   {
     "id": 1852,
     "lesson": 38,
-    "word": "― 冊",
-    "reading": "― さつ",
+    "word": "―冊",
+    "reading": "―さつ",
     "segments": [
       {
-        "text": "― ",
+        "text": "―",
         "reading": "",
         "type": "kana"
       },
@@ -65674,8 +65269,8 @@
   {
     "id": 1856,
     "lesson": 38,
-    "word": "判子を 押します。",
-    "reading": "はんこを おします。",
+    "word": "判子を押します。",
+    "reading": "はんこをおします。",
     "segments": [
       {
         "text": "判",
@@ -65688,7 +65283,7 @@
         "type": "kanji"
       },
       {
-        "text": "を ",
+        "text": "を",
         "reading": "",
         "type": "kana"
       },
@@ -65761,8 +65356,8 @@
   {
     "id": 1858,
     "lesson": 38,
-    "word": "気持ちが 悪い",
-    "reading": "きもちが わるい",
+    "word": "気持ちが悪い",
+    "reading": "きもちがわるい",
     "segments": [
       {
         "text": "気",
@@ -65775,7 +65370,7 @@
         "type": "kanji"
       },
       {
-        "text": "ちが ",
+        "text": "ちが",
         "reading": "",
         "type": "kana"
       },
@@ -65951,11 +65546,11 @@
   {
     "id": 1863,
     "lesson": 38,
-    "word": "～ 製",
-    "reading": "～ せい",
+    "word": "～製",
+    "reading": "～せい",
     "segments": [
       {
-        "text": "～ ",
+        "text": "～",
         "reading": "",
         "type": "kana"
       },
@@ -66223,15 +65818,10 @@
     "id": 1871,
     "lesson": 38,
     "word": "出雲大社",
-    "reading": "出いずもたいしゃ",
+    "reading": "いずもたいしゃ",
     "segments": [
       {
-        "text": "出",
-        "reading": "",
-        "type": "kana"
-      },
-      {
-        "text": "雲",
+        "text": "出雲",
         "reading": "いずも",
         "type": "kanji"
       },
@@ -66280,15 +65870,10 @@
     "id": 1873,
     "lesson": 38,
     "word": "一昨年",
-    "reading": "一昨おととし",
+    "reading": "おととし",
     "segments": [
       {
-        "text": "一昨",
-        "reading": "",
-        "type": "kana"
-      },
-      {
-        "text": "年",
+        "text": "一昨年",
         "reading": "おととし",
         "type": "kanji"
       }
@@ -66331,8 +65916,8 @@
   {
     "id": 1875,
     "lesson": 38,
-    "word": "鍵を 掛けます。",
-    "reading": "かぎを かけます。",
+    "word": "鍵を掛けます。",
+    "reading": "かぎをかけます。",
     "segments": [
       {
         "text": "鍵",
@@ -66340,7 +65925,7 @@
         "type": "kanji"
       },
       {
-        "text": "を ",
+        "text": "を",
         "reading": "",
         "type": "kana"
       },
@@ -66367,11 +65952,11 @@
   {
     "id": 1876,
     "lesson": 38,
-    "word": "お 先に 失礼します。",
-    "reading": "お さきに しつれいします。",
+    "word": "お先に失礼します。",
+    "reading": "おさきにしつれいします。",
     "segments": [
       {
-        "text": "お ",
+        "text": "お",
         "reading": "",
         "type": "kana"
       },
@@ -66381,7 +65966,7 @@
         "type": "kanji"
       },
       {
-        "text": "に ",
+        "text": "に",
         "reading": "",
         "type": "kana"
       },
@@ -66473,8 +66058,8 @@
   {
     "id": 1879,
     "lesson": 38,
-    "word": "電源を 切ります。",
-    "reading": "でんげんを きります。",
+    "word": "電源を切ります。",
+    "reading": "でんげんをきります。",
     "segments": [
       {
         "text": "電",
@@ -66487,7 +66072,7 @@
         "type": "kanji"
       },
       {
-        "text": "を ",
+        "text": "を",
         "reading": "",
         "type": "kana"
       },
@@ -66555,8 +66140,8 @@
   {
     "id": 1881,
     "lesson": 38,
-    "word": "電源を 入れます。",
-    "reading": "でんげんを いれます。",
+    "word": "電源を入れます。",
+    "reading": "でんげんをいれます。",
     "segments": [
       {
         "text": "電",
@@ -66569,7 +66154,7 @@
         "type": "kanji"
       },
       {
-        "text": "を ",
+        "text": "を",
         "reading": "",
         "type": "kana"
       },
@@ -66849,15 +66434,10 @@
     "id": 1889,
     "lesson": 38,
     "word": "大人しい",
-    "reading": "大おとなしい",
+    "reading": "おとなしい",
     "segments": [
       {
-        "text": "大",
-        "reading": "",
-        "type": "kana"
-      },
-      {
-        "text": "人",
+        "text": "大人",
         "reading": "おとな",
         "type": "kanji"
       },
@@ -66967,11 +66547,11 @@
   {
     "id": 1893,
     "lesson": 38,
-    "word": "― 点",
-    "reading": "― てん",
+    "word": "―点",
+    "reading": "―てん",
     "segments": [
       {
-        "text": "― ",
+        "text": "―",
         "reading": "",
         "type": "kana"
       },
@@ -67008,8 +66588,8 @@
   {
     "id": 1894,
     "lesson": 38,
-    "word": "気が 強い",
-    "reading": "きが つよい",
+    "word": "気が強い",
+    "reading": "きがつよい",
     "segments": [
       {
         "text": "気",
@@ -67017,7 +66597,7 @@
         "type": "kanji"
       },
       {
-        "text": "が ",
+        "text": "が",
         "reading": "",
         "type": "kana"
       },
@@ -67178,11 +66758,11 @@
   {
     "id": 1899,
     "lesson": 39,
-    "word": "ビルが 倒れます。",
-    "reading": "ビルが たおれます。",
+    "word": "ビルが倒れます。",
+    "reading": "ビルがたおれます。",
     "segments": [
       {
-        "text": "ビルが ",
+        "text": "ビルが",
         "reading": "",
         "type": "kana"
       },
@@ -67209,11 +66789,11 @@
   {
     "id": 1900,
     "lesson": 39,
-    "word": "お 見合い",
-    "reading": "お みあい",
+    "word": "お見合い",
+    "reading": "おみあい",
     "segments": [
       {
-        "text": "お ",
+        "text": "お",
         "reading": "",
         "type": "kana"
       },
@@ -67369,11 +66949,11 @@
   {
     "id": 1905,
     "lesson": 39,
-    "word": "お 疲れ 様でした。",
-    "reading": "お つかれ さまでした。",
+    "word": "お疲れ様でした。",
+    "reading": "おつかれさまでした。",
     "segments": [
       {
-        "text": "お ",
+        "text": "お",
         "reading": "",
         "type": "kana"
       },
@@ -67383,7 +66963,7 @@
         "type": "kanji"
       },
       {
-        "text": "れ ",
+        "text": "れ",
         "reading": "",
         "type": "kana"
       },
@@ -67869,8 +67449,8 @@
   {
     "id": 1919,
     "lesson": 39,
-    "word": "質問に 答えます。",
-    "reading": "しつもんに こたえます。",
+    "word": "質問に答えます。",
+    "reading": "しつもんにこたえます。",
     "segments": [
       {
         "text": "質",
@@ -67883,7 +67463,7 @@
         "type": "kanji"
       },
       {
-        "text": "に ",
+        "text": "に",
         "reading": "",
         "type": "kana"
       },
@@ -67936,8 +67516,8 @@
   {
     "id": 1921,
     "lesson": 39,
-    "word": "道を 通ります。",
-    "reading": "みちを とおります。",
+    "word": "道を通ります。",
+    "reading": "みちをとおります。",
     "segments": [
       {
         "text": "道",
@@ -67945,7 +67525,7 @@
         "type": "kanji"
       },
       {
-        "text": "を ",
+        "text": "を",
         "reading": "",
         "type": "kana"
       },
@@ -68013,11 +67593,11 @@
   {
     "id": 1923,
     "lesson": 39,
-    "word": "～ 屋",
-    "reading": "～ や",
+    "word": "～屋",
+    "reading": "～や",
     "segments": [
       {
-        "text": "～ ",
+        "text": "～",
         "reading": "",
         "type": "kana"
       },
@@ -68106,11 +67686,11 @@
   {
     "id": 1926,
     "lesson": 39,
-    "word": "～ 代",
-    "reading": "～ だい",
+    "word": "～代",
+    "reading": "～だい",
     "segments": [
       {
-        "text": "～ ",
+        "text": "～",
         "reading": "",
         "type": "kana"
       },
@@ -68449,11 +68029,11 @@
   {
     "id": 1936,
     "lesson": 39,
-    "word": "― 号室",
-    "reading": "― ごうしつ",
+    "word": "―号室",
+    "reading": "―ごうしつ",
     "segments": [
       {
-        "text": "― ",
+        "text": "―",
         "reading": "",
         "type": "kana"
       },
@@ -68600,15 +68180,10 @@
     "id": 1940,
     "lesson": 39,
     "word": "大人",
-    "reading": "大おとな",
+    "reading": "おとな",
     "segments": [
       {
-        "text": "大",
-        "reading": "",
-        "type": "kana"
-      },
-      {
-        "text": "人",
+        "text": "大人",
         "reading": "おとな",
         "type": "kanji"
       }
@@ -68903,11 +68478,11 @@
   {
     "id": 1949,
     "lesson": 40,
-    "word": "― 便",
-    "reading": "― びん",
+    "word": "―便",
+    "reading": "―びん",
     "segments": [
       {
-        "text": "― ",
+        "text": "―",
         "reading": "",
         "type": "kana"
       },
@@ -69629,8 +69204,8 @@
   {
     "id": 1969,
     "lesson": 40,
-    "word": "問題が 出ます",
-    "reading": "もんだいが でます",
+    "word": "問題が出ます",
+    "reading": "もんだいがでます",
     "segments": [
       {
         "text": "問",
@@ -69643,7 +69218,7 @@
         "type": "kanji"
       },
       {
-        "text": "が ",
+        "text": "が",
         "reading": "",
         "type": "kana"
       },
@@ -69861,11 +69436,11 @@
   {
     "id": 1976,
     "lesson": 40,
-    "word": "― 本",
-    "reading": "― ほん",
+    "word": "―本",
+    "reading": "―ほん",
     "segments": [
       {
-        "text": "― ",
+        "text": "―",
         "reading": "",
         "type": "kana"
       },
@@ -69902,11 +69477,11 @@
   {
     "id": 1977,
     "lesson": 40,
-    "word": "― 杯",
-    "reading": "― はい",
+    "word": "―杯",
+    "reading": "―はい",
     "segments": [
       {
-        "text": "― ",
+        "text": "―",
         "reading": "",
         "type": "kana"
       },
@@ -70121,11 +69696,11 @@
   {
     "id": 1983,
     "lesson": 40,
-    "word": "～ 以下",
-    "reading": "～ いか",
+    "word": "～以下",
+    "reading": "～いか",
     "segments": [
       {
-        "text": "～ ",
+        "text": "～",
         "reading": "",
         "type": "kana"
       },
@@ -70160,11 +69735,11 @@
   {
     "id": 1984,
     "lesson": 40,
-    "word": "～ 以上",
-    "reading": "～ いじょう",
+    "word": "～以上",
+    "reading": "～いじょう",
     "segments": [
       {
-        "text": "～ ",
+        "text": "～",
         "reading": "",
         "type": "kana"
       },
@@ -70235,11 +69810,11 @@
   {
     "id": 1986,
     "lesson": 40,
-    "word": "サイズが 合います。",
-    "reading": "サイズが あいます。",
+    "word": "サイズが合います。",
+    "reading": "サイズがあいます。",
     "segments": [
       {
-        "text": "サイズが ",
+        "text": "サイズが",
         "reading": "",
         "type": "kana"
       },
@@ -70297,11 +69872,11 @@
   {
     "id": 1988,
     "lesson": 40,
-    "word": "お 年寄り",
-    "reading": "お としより",
+    "word": "お年寄り",
+    "reading": "おとしより",
     "segments": [
       {
-        "text": "お ",
+        "text": "お",
         "reading": "",
         "type": "kana"
       },
@@ -70489,15 +70064,10 @@
     "id": 1993,
     "lesson": 40,
     "word": "七夕祭り",
-    "reading": "七たなばたまつり",
+    "reading": "たなばたまつり",
     "segments": [
       {
-        "text": "七",
-        "reading": "",
-        "type": "kana"
-      },
-      {
-        "text": "夕",
+        "text": "七夕",
         "reading": "たなばた",
         "type": "kanji"
       },
@@ -70950,8 +70520,8 @@
   {
     "id": 2005,
     "lesson": 40,
-    "word": "手に 入れます",
-    "reading": "てに いれます",
+    "word": "手に入れます",
+    "reading": "てにいれます",
     "segments": [
       {
         "text": "手",
@@ -70959,7 +70529,7 @@
         "type": "kanji"
       },
       {
-        "text": "に ",
+        "text": "に",
         "reading": "",
         "type": "kana"
       },
@@ -71180,11 +70750,11 @@
   {
     "id": 2011,
     "lesson": 41,
-    "word": "お 祝い",
-    "reading": "お いわい",
+    "word": "お祝い",
+    "reading": "おいわい",
     "segments": [
       {
-        "text": "お ",
+        "text": "お",
         "reading": "",
         "type": "kana"
       },
@@ -71291,11 +70861,11 @@
   {
     "id": 2014,
     "lesson": 41,
-    "word": "この 間",
-    "reading": "この あいだ",
+    "word": "この間",
+    "reading": "このあいだ",
     "segments": [
       {
-        "text": "この ",
+        "text": "この",
         "reading": "",
         "type": "kana"
       },
@@ -71467,11 +71037,11 @@
   {
     "id": 2019,
     "lesson": 41,
-    "word": "お 宅",
-    "reading": "お たく",
+    "word": "お宅",
+    "reading": "おたく",
     "segments": [
       {
-        "text": "お ",
+        "text": "お",
         "reading": "",
         "type": "kana"
       },
@@ -71508,11 +71078,11 @@
   {
     "id": 2020,
     "lesson": 41,
-    "word": "どうぞお 幸せに。",
-    "reading": "どうぞお しあわせに。",
+    "word": "どうぞお幸せに。",
+    "reading": "どうぞおしあわせに。",
     "segments": [
       {
-        "text": "どうぞお ",
+        "text": "どうぞお",
         "reading": "",
         "type": "kana"
       },
@@ -71965,11 +71535,11 @@
   {
     "id": 2033,
     "lesson": 41,
-    "word": "お 年玉",
-    "reading": "お としだま",
+    "word": "お年玉",
+    "reading": "おとしだま",
     "segments": [
       {
-        "text": "お ",
+        "text": "お",
         "reading": "",
         "type": "kana"
       },
@@ -72079,15 +71649,10 @@
     "id": 2036,
     "lesson": 41,
     "word": "玩具",
-    "reading": "玩おもちゃ",
+    "reading": "おもちゃ",
     "segments": [
       {
-        "text": "玩",
-        "reading": "",
-        "type": "kana"
-      },
-      {
-        "text": "具",
+        "text": "玩具",
         "reading": "おもちゃ",
         "type": "kanji"
       }
@@ -72171,11 +71736,11 @@
   {
     "id": 2039,
     "lesson": 41,
-    "word": "お 孫さん",
-    "reading": "お まごさん",
+    "word": "お孫さん",
+    "reading": "おまごさん",
     "segments": [
       {
-        "text": "お ",
+        "text": "お",
         "reading": "",
         "type": "kana"
       },
@@ -72461,15 +72026,10 @@
     "id": 2047,
     "lesson": 41,
     "word": "可愛い",
-    "reading": "可かわいい",
+    "reading": "かわいい",
     "segments": [
       {
-        "text": "可",
-        "reading": "",
-        "type": "kana"
-      },
-      {
-        "text": "愛",
+        "text": "可愛",
         "reading": "かわい",
         "type": "kanji"
       },
@@ -72595,11 +72155,11 @@
   {
     "id": 2051,
     "lesson": 41,
-    "word": "お 見舞い",
-    "reading": "お みまい",
+    "word": "お見舞い",
+    "reading": "おみまい",
     "segments": [
       {
-        "text": "お ",
+        "text": "お",
         "reading": "",
         "type": "kana"
       },
@@ -72766,11 +72326,11 @@
   {
     "id": 2057,
     "lesson": 41,
-    "word": "お 姫様",
-    "reading": "お ひめさま",
+    "word": "お姫様",
+    "reading": "おひめさま",
     "segments": [
       {
-        "text": "お ",
+        "text": "お",
         "reading": "",
         "type": "kana"
       },
@@ -72895,8 +72455,8 @@
   {
     "id": 2061,
     "lesson": 41,
-    "word": "真っ 白",
-    "reading": "まっ しろ",
+    "word": "真っ白",
+    "reading": "まっしろ",
     "segments": [
       {
         "text": "真",
@@ -72904,7 +72464,7 @@
         "type": "kanji"
       },
       {
-        "text": "っ ",
+        "text": "っ",
         "reading": "",
         "type": "kana"
       },
@@ -73051,11 +72611,11 @@
   {
     "id": 2066,
     "lesson": 42,
-    "word": "ボーナスが 出ます。",
-    "reading": "ボーナスが でます。",
+    "word": "ボーナスが出ます。",
+    "reading": "ボーナスがでます。",
     "segments": [
       {
-        "text": "ボーナスが ",
+        "text": "ボーナスが",
         "reading": "",
         "type": "kana"
       },
@@ -73680,11 +73240,11 @@
   {
     "id": 2084,
     "lesson": 42,
-    "word": "のし 袋",
-    "reading": "のし ぶくろ",
+    "word": "のし袋",
+    "reading": "のしぶくろ",
     "segments": [
       {
-        "text": "のし ",
+        "text": "のし",
         "reading": "",
         "type": "kana"
       },
@@ -74260,11 +73820,11 @@
   {
     "id": 2101,
     "lesson": 42,
-    "word": "お 湯を 沸かします。",
-    "reading": "お ゆを わかします。",
+    "word": "お湯を沸かします。",
+    "reading": "おゆをわかします。",
     "segments": [
       {
-        "text": "お ",
+        "text": "お",
         "reading": "",
         "type": "kana"
       },
@@ -74274,7 +73834,7 @@
         "type": "kanji"
       },
       {
-        "text": "を ",
+        "text": "を",
         "reading": "",
         "type": "kana"
       },
@@ -74711,11 +74271,11 @@
   {
     "id": 2116,
     "lesson": 43,
-    "word": "ボタンが 取れます。",
-    "reading": "ボタンが とれます。",
+    "word": "ボタンが取れます。",
+    "reading": "ボタンがとれます。",
     "segments": [
       {
-        "text": "ボタンが ",
+        "text": "ボタンが",
         "reading": "",
         "type": "kana"
       },
@@ -74825,8 +74385,8 @@
   {
     "id": 2120,
     "lesson": 43,
-    "word": "荷物が 落ちます。",
-    "reading": "にもつが おちます。",
+    "word": "荷物が落ちます。",
+    "reading": "にもつがおちます。",
     "segments": [
       {
         "text": "荷",
@@ -74839,7 +74399,7 @@
         "type": "kanji"
       },
       {
-        "text": "が ",
+        "text": "が",
         "reading": "",
         "type": "kana"
       },
@@ -74892,8 +74452,8 @@
   {
     "id": 2122,
     "lesson": 43,
-    "word": "輸出が 減ります。",
-    "reading": "ゆしゅつが へります。",
+    "word": "輸出が減ります。",
+    "reading": "ゆしゅつがへります。",
     "segments": [
       {
         "text": "輸",
@@ -74906,7 +74466,7 @@
         "type": "kanji"
       },
       {
-        "text": "が ",
+        "text": "が",
         "reading": "",
         "type": "kana"
       },
@@ -75045,8 +74605,8 @@
   {
     "id": 2127,
     "lesson": 43,
-    "word": "紐が 切れます。",
-    "reading": "ひもが きれます。",
+    "word": "紐が切れます。",
+    "reading": "ひもがきれます。",
     "segments": [
       {
         "text": "紐",
@@ -75054,7 +74614,7 @@
         "type": "kanji"
       },
       {
-        "text": "が ",
+        "text": "が",
         "reading": "",
         "type": "kana"
       },
@@ -75107,8 +74667,8 @@
   {
     "id": 2129,
     "lesson": 43,
-    "word": "値段が 上がります。",
-    "reading": "ねだんが あがります。",
+    "word": "値段が上がります。",
+    "reading": "ねだんがあがります。",
     "segments": [
       {
         "text": "値",
@@ -75121,7 +74681,7 @@
         "type": "kanji"
       },
       {
-        "text": "が ",
+        "text": "が",
         "reading": "",
         "type": "kana"
       },
@@ -75174,8 +74734,8 @@
   {
     "id": 2131,
     "lesson": 43,
-    "word": "値段が 下がります。",
-    "reading": "ねだんが さがります。",
+    "word": "値段が下がります。",
+    "reading": "ねだんがさがります。",
     "segments": [
       {
         "text": "値",
@@ -75188,7 +74748,7 @@
         "type": "kanji"
       },
       {
-        "text": "が ",
+        "text": "が",
         "reading": "",
         "type": "kana"
       },
@@ -75241,8 +74801,8 @@
   {
     "id": 2133,
     "lesson": 43,
-    "word": "輸出が 増えます。",
-    "reading": "ゆしゅつが ふえます。",
+    "word": "輸出が増えます。",
+    "reading": "ゆしゅつがふえます。",
     "segments": [
       {
         "text": "輸",
@@ -75255,7 +74815,7 @@
         "type": "kanji"
       },
       {
-        "text": "が ",
+        "text": "が",
         "reading": "",
         "type": "kana"
       },
@@ -75423,8 +74983,8 @@
   {
     "id": 2139,
     "lesson": 43,
-    "word": "変な 匂い",
-    "reading": "へんな におい",
+    "word": "変な匂い",
+    "reading": "へんなにおい",
     "segments": [
       {
         "text": "変",
@@ -75432,7 +74992,7 @@
         "type": "kanji"
       },
       {
-        "text": "な ",
+        "text": "な",
         "reading": "",
         "type": "kana"
       },
@@ -75602,8 +75162,8 @@
   {
     "id": 2145,
     "lesson": 43,
-    "word": "知り 合います",
-    "reading": "しり あいます",
+    "word": "知り合います",
+    "reading": "しりあいます",
     "segments": [
       {
         "text": "知",
@@ -75611,7 +75171,7 @@
         "type": "kanji"
       },
       {
-        "text": "り ",
+        "text": "り",
         "reading": "",
         "type": "kana"
       },
@@ -76060,11 +75620,11 @@
   {
     "id": 2160,
     "lesson": 44,
-    "word": "どうもお 疲れさまでした。",
-    "reading": "どうもお つかれさまでした。",
+    "word": "どうもお疲れさまでした。",
+    "reading": "どうもおつかれさまでした。",
     "segments": [
       {
-        "text": "どうもお ",
+        "text": "どうもお",
         "reading": "",
         "type": "kana"
       },
@@ -76091,8 +75651,8 @@
   {
     "id": 2161,
     "lesson": 44,
-    "word": "事故が 起きます。",
-    "reading": "じこが おきます。",
+    "word": "事故が起きます。",
+    "reading": "じこがおきます。",
     "segments": [
       {
         "text": "事",
@@ -76105,7 +75665,7 @@
         "type": "kanji"
       },
       {
-        "text": "が ",
+        "text": "が",
         "reading": "",
         "type": "kana"
       },
@@ -76199,11 +75759,11 @@
   {
     "id": 2164,
     "lesson": 44,
-    "word": "シャツが 乾きます。",
-    "reading": "シャツが かわきます。",
+    "word": "シャツが乾きます。",
+    "reading": "シャツがかわきます。",
     "segments": [
       {
-        "text": "シャツが ",
+        "text": "シャツが",
         "reading": "",
         "type": "kana"
       },
@@ -76308,11 +75868,11 @@
   {
     "id": 2168,
     "lesson": 44,
-    "word": "― 倍",
-    "reading": "― ばい",
+    "word": "―倍",
+    "reading": "―ばい",
     "segments": [
       {
-        "text": "― ",
+        "text": "―",
         "reading": "",
         "type": "kana"
       },
@@ -76524,11 +76084,11 @@
   {
     "id": 2174,
     "lesson": 44,
-    "word": "ホテル 広島",
-    "reading": "ホテル ひろしま",
+    "word": "ホテル広島",
+    "reading": "ホテルひろしま",
     "segments": [
       {
-        "text": "ホテル ",
+        "text": "ホテル",
         "reading": "",
         "type": "kana"
       },
@@ -76809,8 +76369,8 @@
   {
     "id": 2184,
     "lesson": 44,
-    "word": "掃除を 嫌がります。",
-    "reading": "そうじを いやがります。",
+    "word": "掃除を嫌がります。",
+    "reading": "そうじをいやがります。",
     "segments": [
       {
         "text": "掃",
@@ -76823,7 +76383,7 @@
         "type": "kanji"
       },
       {
-        "text": "を ",
+        "text": "を",
         "reading": "",
         "type": "kana"
       },
@@ -77027,8 +76587,8 @@
   {
     "id": 2191,
     "lesson": 44,
-    "word": "縁起が 悪い",
-    "reading": "えんぎが わるい",
+    "word": "縁起が悪い",
+    "reading": "えんぎがわるい",
     "segments": [
       {
         "text": "縁",
@@ -77041,7 +76601,7 @@
         "type": "kanji"
       },
       {
-        "text": "が ",
+        "text": "が",
         "reading": "",
         "type": "kana"
       },
@@ -77314,11 +76874,11 @@
   {
     "id": 2200,
     "lesson": 45,
-    "word": "― 位",
-    "reading": "― い",
+    "word": "―位",
+    "reading": "―い",
     "segments": [
       {
-        "text": "― ",
+        "text": "―",
         "reading": "",
         "type": "kana"
       },
@@ -77459,7 +77019,7 @@
     "id": 2204,
     "lesson": 45,
     "word": "110番",
-    "reading": "ひゃく1とおばん",
+    "reading": "ひゃくとおばん",
     "segments": [
       {
         "text": "1",
@@ -77467,12 +77027,7 @@
         "type": "kanji"
       },
       {
-        "text": "1",
-        "reading": "",
-        "type": "kana"
-      },
-      {
-        "text": "0",
+        "text": "10",
         "reading": "とお",
         "type": "kanji"
       },
@@ -77765,8 +77320,8 @@
   {
     "id": 2213,
     "lesson": 45,
-    "word": "目覚まし 時計",
-    "reading": "めざまし どけい",
+    "word": "目覚まし時計",
+    "reading": "めざましどけい",
     "segments": [
       {
         "text": "目",
@@ -77779,7 +77334,7 @@
         "type": "kanji"
       },
       {
-        "text": "まし ",
+        "text": "まし",
         "reading": "",
         "type": "kana"
       },
@@ -77927,11 +77482,11 @@
   {
     "id": 2217,
     "lesson": 45,
-    "word": "ベルが 鳴ります。",
-    "reading": "ベルが なります。",
+    "word": "ベルが鳴ります。",
+    "reading": "ベルがなります。",
     "segments": [
       {
-        "text": "ベルが ",
+        "text": "ベルが",
         "reading": "",
         "type": "kana"
       },
@@ -78111,11 +77666,11 @@
   {
     "id": 2223,
     "lesson": 46,
-    "word": "たった 今",
-    "reading": "たった いま",
+    "word": "たった今",
+    "reading": "たったいま",
     "segments": [
       {
-        "text": "たった ",
+        "text": "たった",
         "reading": "",
         "type": "kana"
       },
@@ -78145,11 +77700,11 @@
   {
     "id": 2224,
     "lesson": 46,
-    "word": "～の 所",
-    "reading": "～の ところ",
+    "word": "～の所",
+    "reading": "～のところ",
     "segments": [
       {
-        "text": "～の ",
+        "text": "～の",
         "reading": "",
         "type": "kana"
       },
@@ -78254,8 +77809,8 @@
   {
     "id": 2228,
     "lesson": 46,
-    "word": "申し 訳ありません。",
-    "reading": "もうし わけありません。",
+    "word": "申し訳ありません。",
+    "reading": "もうしわけありません。",
     "segments": [
       {
         "text": "申",
@@ -78263,7 +77818,7 @@
         "type": "kanji"
       },
       {
-        "text": "し ",
+        "text": "し",
         "reading": "",
         "type": "kana"
       },
@@ -78305,11 +77860,11 @@
   {
     "id": 2229,
     "lesson": 46,
-    "word": "どちら 様でしょうか。",
-    "reading": "どちら さまでしょうか。",
+    "word": "どちら様でしょうか。",
+    "reading": "どちらさまでしょうか。",
     "segments": [
       {
-        "text": "どちら ",
+        "text": "どちら",
         "reading": "",
         "type": "kana"
       },
@@ -78344,11 +77899,11 @@
   {
     "id": 2230,
     "lesson": 46,
-    "word": "お 待たせしました。",
-    "reading": "お またせしました。",
+    "word": "お待たせしました。",
+    "reading": "おまたせしました。",
     "segments": [
       {
-        "text": "お ",
+        "text": "お",
         "reading": "",
         "type": "kana"
       },
@@ -78471,11 +78026,11 @@
   {
     "id": 2234,
     "lesson": 46,
-    "word": "バスが 出ます。",
-    "reading": "バスが でます。",
+    "word": "バスが出ます。",
+    "reading": "バスがでます。",
     "segments": [
       {
-        "text": "バスが ",
+        "text": "バスが",
         "reading": "",
         "type": "kana"
       },
@@ -78569,8 +78124,8 @@
   {
     "id": 2237,
     "lesson": 46,
-    "word": "荷物が 届きます。",
-    "reading": "にもつが とどきます。",
+    "word": "荷物が届きます。",
+    "reading": "にもつがとどきます。",
     "segments": [
       {
         "text": "荷",
@@ -78583,7 +78138,7 @@
         "type": "kanji"
       },
       {
-        "text": "が ",
+        "text": "が",
         "reading": "",
         "type": "kana"
       },
@@ -78662,11 +78217,11 @@
   {
     "id": 2240,
     "lesson": 46,
-    "word": "パンが 焼けます。",
-    "reading": "パンが やけます。",
+    "word": "パンが焼けます。",
+    "reading": "パンがやけます。",
     "segments": [
       {
-        "text": "パンが ",
+        "text": "パンが",
         "reading": "",
         "type": "kana"
       },
@@ -78693,8 +78248,8 @@
   {
     "id": 2241,
     "lesson": 46,
-    "word": "肉が 焼けます。",
-    "reading": "にくが やけます。",
+    "word": "肉が焼けます。",
+    "reading": "にくがやけます。",
     "segments": [
       {
         "text": "肉",
@@ -78702,7 +78257,7 @@
         "type": "kanji"
       },
       {
-        "text": "が ",
+        "text": "が",
         "reading": "",
         "type": "kana"
       },
@@ -78786,8 +78341,8 @@
   {
     "id": 2244,
     "lesson": 46,
-    "word": "大学に 入学します。",
-    "reading": "だいがくに にゅうがくします。",
+    "word": "大学に入学します。",
+    "reading": "だいがくににゅうがくします。",
     "segments": [
       {
         "text": "大",
@@ -78800,7 +78355,7 @@
         "type": "kanji"
       },
       {
-        "text": "に ",
+        "text": "に",
         "reading": "",
         "type": "kana"
       },
@@ -78832,8 +78387,8 @@
   {
     "id": 2245,
     "lesson": 46,
-    "word": "大学を 卒業します。",
-    "reading": "だいがくを そつぎょうします。",
+    "word": "大学を卒業します。",
+    "reading": "だいがくをそつぎょうします。",
     "segments": [
       {
         "text": "大",
@@ -78846,7 +78401,7 @@
         "type": "kanji"
       },
       {
-        "text": "を ",
+        "text": "を",
         "reading": "",
         "type": "kana"
       },
@@ -78976,8 +78531,8 @@
   {
     "id": 2249,
     "lesson": 46,
-    "word": "李さんに 地図を 渡します。",
-    "reading": "イーさんに ちずを わたします。",
+    "word": "李さんに地図を渡します。",
+    "reading": "イーさんにちずをわたします。",
     "segments": [
       {
         "text": "李",
@@ -78985,7 +78540,7 @@
         "type": "kanji"
       },
       {
-        "text": "さんに ",
+        "text": "さんに",
         "reading": "",
         "type": "kana"
       },
@@ -79000,7 +78555,7 @@
         "type": "kanji"
       },
       {
-        "text": "を ",
+        "text": "を",
         "reading": "",
         "type": "kana"
       },
@@ -79445,8 +79000,8 @@
   {
     "id": 2263,
     "lesson": 47,
-    "word": "音/ 声がします。",
-    "reading": "おと/ こえがします。",
+    "word": "音/声がします。",
+    "reading": "おと/こえがします。",
     "segments": [
       {
         "text": "音",
@@ -79454,7 +79009,7 @@
         "type": "kanji"
       },
       {
-        "text": "/ ",
+        "text": "/",
         "reading": "",
         "type": "kana"
       },
@@ -79567,8 +79122,8 @@
   {
     "id": 2267,
     "lesson": 47,
-    "word": "人が 集まります。",
-    "reading": "ひとが あつまります。",
+    "word": "人が集まります。",
+    "reading": "ひとがあつまります。",
     "segments": [
       {
         "text": "人",
@@ -79576,7 +79131,7 @@
         "type": "kanji"
       },
       {
-        "text": "が ",
+        "text": "が",
         "reading": "",
         "type": "kana"
       },
@@ -79802,11 +79357,11 @@
   {
     "id": 2274,
     "lesson": 47,
-    "word": "ひどい 事故",
-    "reading": "ひどい じこ",
+    "word": "ひどい事故",
+    "reading": "ひどいじこ",
     "segments": [
       {
-        "text": "ひどい ",
+        "text": "ひどい",
         "reading": "",
         "type": "kana"
       },
@@ -80242,8 +79797,8 @@
   {
     "id": 2286,
     "lesson": 47,
-    "word": "人が 別れます。",
-    "reading": "ひとが わかれます。",
+    "word": "人が別れます。",
+    "reading": "ひとがわかれます。",
     "segments": [
       {
         "text": "人",
@@ -80251,7 +79806,7 @@
         "type": "kanji"
       },
       {
-        "text": "が ",
+        "text": "が",
         "reading": "",
         "type": "kana"
       },
@@ -80319,11 +79874,11 @@
   {
     "id": 2288,
     "lesson": 47,
-    "word": "ごみが 燃えます。",
-    "reading": "ごみが もえます。",
+    "word": "ごみが燃えます。",
+    "reading": "ごみがもえます。",
     "segments": [
       {
-        "text": "ごみが ",
+        "text": "ごみが",
         "reading": "",
         "type": "kana"
       },
@@ -80376,8 +79931,8 @@
   {
     "id": 2290,
     "lesson": 47,
-    "word": "風が 吹きます。",
-    "reading": "かぜが ふきます。",
+    "word": "風が吹きます。",
+    "reading": "かぜがふきます。",
     "segments": [
       {
         "text": "風",
@@ -80385,7 +79940,7 @@
         "type": "kanji"
       },
       {
-        "text": "が ",
+        "text": "が",
         "reading": "",
         "type": "kana"
       },
@@ -80648,11 +80203,11 @@
   {
     "id": 2297,
     "lesson": 48,
-    "word": "お 忙しいですか。",
-    "reading": "お いそがしいですか。",
+    "word": "お忙しいですか。",
+    "reading": "おいそがしいですか。",
     "segments": [
       {
-        "text": "お ",
+        "text": "お",
         "reading": "",
         "type": "kana"
       },
@@ -80679,11 +80234,11 @@
   {
     "id": 2298,
     "lesson": 48,
-    "word": "～ 間",
-    "reading": "～ かん",
+    "word": "～間",
+    "reading": "～かん",
     "segments": [
       {
-        "text": "～ ",
+        "text": "～",
         "reading": "",
         "type": "kana"
       },
@@ -81135,11 +80690,11 @@
   {
     "id": 2313,
     "lesson": 48,
-    "word": "その 次",
-    "reading": "その つぎ",
+    "word": "その次",
+    "reading": "そのつぎ",
     "segments": [
       {
-        "text": "その ",
+        "text": "その",
         "reading": "",
         "type": "kana"
       },
@@ -81269,11 +80824,11 @@
   {
     "id": 2317,
     "lesson": 49,
-    "word": "お 待ちください。",
-    "reading": "お まちください。",
+    "word": "お待ちください。",
+    "reading": "おまちください。",
     "segments": [
       {
-        "text": "お ",
+        "text": "お",
         "reading": "",
         "type": "kana"
       },
@@ -81315,11 +80870,11 @@
   {
     "id": 2318,
     "lesson": 49,
-    "word": "ご 覧になります",
-    "reading": "ご らんになります",
+    "word": "ご覧になります",
+    "reading": "ごらんになります",
     "segments": [
       {
-        "text": "ご ",
+        "text": "ご",
         "reading": "",
         "type": "kana"
       },
@@ -81414,8 +80969,8 @@
   {
     "id": 2322,
     "lesson": 49,
-    "word": "会社に 勤めます。",
-    "reading": "かいしゃに つとめます。",
+    "word": "会社に勤めます。",
+    "reading": "かいしゃにつとめます。",
     "segments": [
       {
         "text": "会",
@@ -81428,7 +80983,7 @@
         "type": "kanji"
       },
       {
-        "text": "に ",
+        "text": "に",
         "reading": "",
         "type": "kana"
       },
@@ -81485,15 +81040,10 @@
     "id": 2324,
     "lesson": 49,
     "word": "向日葵小学校",
-    "reading": "向日ひまわりしょうがっこう",
+    "reading": "ひまわりしょうがっこう",
     "segments": [
       {
-        "text": "向日",
-        "reading": "",
-        "type": "kana"
-      },
-      {
-        "text": "葵",
+        "text": "向日葵",
         "reading": "ひまわり",
         "type": "kanji"
       },
@@ -81525,11 +81075,11 @@
   {
     "id": 2325,
     "lesson": 49,
-    "word": "― 年― 組",
-    "reading": "― ねん― くみ",
+    "word": "―年―組",
+    "reading": "―ねん―くみ",
     "segments": [
       {
-        "text": "― ",
+        "text": "―",
         "reading": "",
         "type": "kana"
       },
@@ -81539,7 +81089,7 @@
         "type": "kanji"
       },
       {
-        "text": "― ",
+        "text": "―",
         "reading": "",
         "type": "kana"
       },
@@ -81602,8 +81152,8 @@
   {
     "id": 2327,
     "lesson": 49,
-    "word": "熱を 出します。",
-    "reading": "ねつを だします。",
+    "word": "熱を出します。",
+    "reading": "ねつをだします。",
     "segments": [
       {
         "text": "熱",
@@ -81611,7 +81161,7 @@
         "type": "kanji"
       },
       {
-        "text": "を ",
+        "text": "を",
         "reading": "",
         "type": "kana"
       },
@@ -81638,11 +81188,11 @@
   {
     "id": 2328,
     "lesson": 49,
-    "word": "よろしくお 伝えください。",
-    "reading": "よろしくお つたえください。",
+    "word": "よろしくお伝えください。",
+    "reading": "よろしくおつたえください。",
     "segments": [
       {
-        "text": "よろしくお ",
+        "text": "よろしくお",
         "reading": "",
         "type": "kana"
       },
@@ -81708,11 +81258,11 @@
   {
     "id": 2330,
     "lesson": 49,
-    "word": "ご 存知です",
-    "reading": "ご ぞんじです",
+    "word": "ご存知です",
+    "reading": "ごぞんじです",
     "segments": [
       {
-        "text": "ご ",
+        "text": "ご",
         "reading": "",
         "type": "kana"
       },
@@ -81759,8 +81309,8 @@
   {
     "id": 2331,
     "lesson": 49,
-    "word": "召し 上がります",
-    "reading": "めし あがります",
+    "word": "召し上がります",
+    "reading": "めしあがります",
     "segments": [
       {
         "text": "召",
@@ -81768,7 +81318,7 @@
         "type": "kanji"
       },
       {
-        "text": "し ",
+        "text": "し",
         "reading": "",
         "type": "kana"
       },
@@ -81821,8 +81371,8 @@
   {
     "id": 2333,
     "lesson": 49,
-    "word": "椅子に 掛けます。",
-    "reading": "いすに かけます。",
+    "word": "椅子に掛けます。",
+    "reading": "いすにかけます。",
     "segments": [
       {
         "text": "椅",
@@ -81835,7 +81385,7 @@
         "type": "kanji"
       },
       {
-        "text": "に ",
+        "text": "に",
         "reading": "",
         "type": "kana"
       },
@@ -81888,11 +81438,11 @@
   {
     "id": 2335,
     "lesson": 49,
-    "word": "バス 停",
-    "reading": "バス てい",
+    "word": "バス停",
+    "reading": "バスてい",
     "segments": [
       {
-        "text": "バス ",
+        "text": "バス",
         "reading": "",
         "type": "kana"
       },
@@ -82197,11 +81747,11 @@
   {
     "id": 2345,
     "lesson": 49,
-    "word": "アイピーエス 細胞",
-    "reading": "アイピーエス さいぼう",
+    "word": "アイピーエス細胞",
+    "reading": "アイピーエスさいぼう",
     "segments": [
       {
-        "text": "アイピーエス ",
+        "text": "アイピーエス",
         "reading": "",
         "type": "kana"
       },
@@ -82316,11 +81866,11 @@
   {
     "id": 2349,
     "lesson": 49,
-    "word": "ノーベル 賞",
-    "reading": "ノーベル しょう",
+    "word": "ノーベル賞",
+    "reading": "ノーベルしょう",
     "segments": [
       {
-        "text": "ノーベル ",
+        "text": "ノーベル",
         "reading": "",
         "type": "kana"
       },
@@ -82865,8 +82415,8 @@
   {
     "id": 2366,
     "lesson": 50,
-    "word": "夢が 叶います。",
-    "reading": "ゆめが かないます。",
+    "word": "夢が叶います。",
+    "reading": "ゆめがかないます。",
     "segments": [
       {
         "text": "夢",
@@ -82874,7 +82424,7 @@
         "type": "kanji"
       },
       {
-        "text": "が ",
+        "text": "が",
         "reading": "",
         "type": "kana"
       },
@@ -83080,11 +82630,11 @@
   {
     "id": 2373,
     "lesson": 50,
-    "word": "お 目にかかります",
-    "reading": "お めにかかります",
+    "word": "お目にかかります",
+    "reading": "おめにかかります",
     "segments": [
       {
-        "text": "お ",
+        "text": "お",
         "reading": "",
         "type": "kana"
       },
@@ -83246,11 +82796,11 @@
   {
     "id": 2379,
     "lesson": 50,
-    "word": "さ 来月",
-    "reading": "さ らいげつ",
+    "word": "さ来月",
+    "reading": "さらいげつ",
     "segments": [
       {
-        "text": "さ ",
+        "text": "さ",
         "reading": "",
         "type": "kana"
       },
@@ -83277,11 +82827,11 @@
   {
     "id": 2380,
     "lesson": 50,
-    "word": "さ 来週",
-    "reading": "さ らいしゅう",
+    "word": "さ来週",
+    "reading": "さらいしゅう",
     "segments": [
       {
-        "text": "さ ",
+        "text": "さ",
         "reading": "",
         "type": "kana"
       },
@@ -83308,11 +82858,11 @@
   {
     "id": 2381,
     "lesson": 50,
-    "word": "さ 来年",
-    "reading": "さ らいねん",
+    "word": "さ来年",
+    "reading": "さらいねん",
     "segments": [
       {
-        "text": "さ ",
+        "text": "さ",
         "reading": "",
         "type": "kana"
       },
@@ -83339,11 +82889,11 @@
   {
     "id": 2382,
     "lesson": 50,
-    "word": "お 礼",
-    "reading": "お れい",
+    "word": "お礼",
+    "reading": "おれい",
     "segments": [
       {
-        "text": "お ",
+        "text": "お",
         "reading": "",
         "type": "kana"
       },
@@ -83380,11 +82930,11 @@
   {
     "id": 2383,
     "lesson": 50,
-    "word": "お 元気でいらっしゃいますか。",
-    "reading": "お げんきでいらっしゃいますか。",
+    "word": "お元気でいらっしゃいますか。",
+    "reading": "おげんきでいらっしゃいますか。",
     "segments": [
       {
-        "text": "お ",
+        "text": "お",
         "reading": "",
         "type": "kana"
       },

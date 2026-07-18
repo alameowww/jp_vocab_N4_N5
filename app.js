@@ -720,12 +720,19 @@ function resetView(){
 let activeAudio = null;
 
 
-function stopAudio(){
-    if(activeAudio){
-        activeAudio.pause();
-        activeAudio.currentTime=0;
-        activeAudio=null;
+function stopAudio(player = activeAudio){
+    if(player){
+        player.onended=null;
+        player.onerror=null;
+        player.pause();
+        player.currentTime=0;
     }
+
+    if(player && activeAudio !== player){
+        return;
+    }
+
+    activeAudio=null;
 
     if(audioBtn){
         audioBtn.classList.remove("playing");
@@ -762,23 +769,30 @@ audioBtn.onclick=function(){
         document.baseURI
     ).href;
 
-    activeAudio = new Audio(source);
+    const player = new Audio(source);
+    activeAudio = player;
     audioBtn.classList.add("playing");
     audioBtn.disabled=true;
     audioBtn.setAttribute("aria-label", "正在播放单词读音");
 
-    activeAudio.onended=stopAudio;
-    activeAudio.onerror=function(){
-        stopAudio();
+    const finishCurrentAudio=function(){
+        if(activeAudio === player){
+            stopAudio(player);
+        }
+    };
+
+    const failCurrentAudio=function(){
+        if(activeAudio !== player){
+            return;
+        }
+        stopAudio(player);
         audioBtn.classList.add("audio-error");
         setTimeout(()=>audioBtn.classList.remove("audio-error"), 900);
     };
 
-    activeAudio.play().catch(function(){
-        stopAudio();
-        audioBtn.classList.add("audio-error");
-        setTimeout(()=>audioBtn.classList.remove("audio-error"), 900);
-    });
+    player.onended=finishCurrentAudio;
+    player.onerror=failCurrentAudio;
+    player.play().catch(failCurrentAudio);
 };
 
 
@@ -1225,7 +1239,83 @@ function escapeHtml(value){
 
 function getReading(word){
 
+    const segments = getDisplaySegments(word);
+
+    if(segments.length){
+
+        return segments.map(segment=>segment.reading || segment.text).join("");
+
+    }
+
     return word.reading || word.kana || "";
+
+}
+
+
+function parseDisplaySegments(word){
+
+    const display = String(word?.display_original || "").trim();
+
+    if(!display){
+
+        return [];
+
+    }
+
+    const parsed = [];
+
+    display.split(/\s+/u).filter(Boolean).forEach(token=>{
+
+        const pattern = /([^\[\]]+)\[([^\[\]]+)\]/gu;
+        let cursor = 0;
+        let match;
+
+        while((match = pattern.exec(token))){
+
+            if(match.index > cursor){
+
+                parsed.push({
+                    text: token.slice(cursor, match.index),
+                    reading: "",
+                    type: "kana"
+                });
+
+            }
+
+            parsed.push({
+                text: match[1],
+                reading: match[2],
+                type: "kanji"
+            });
+
+            cursor = pattern.lastIndex;
+
+        }
+
+        if(cursor < token.length){
+
+            parsed.push({
+                text: token.slice(cursor),
+                reading: "",
+                type: "kana"
+            });
+
+        }
+
+    });
+
+    return parsed;
+
+}
+
+
+function getDisplaySegments(word){
+
+    const parsed = parseDisplaySegments(word);
+
+    return parsed.length
+        ? parsed
+        : (Array.isArray(word?.segments) ? word.segments : []);
 
 }
 
@@ -1241,9 +1331,11 @@ function normalizeAnswer(value){
 
 function renderRubyAnswer(word){
 
-    if(Array.isArray(word.segments) && word.segments.length){
+    const segments = getDisplaySegments(word);
 
-        return word.segments.map(segment=>{
+    if(segments.length){
+
+        return segments.map(segment=>{
 
             const text = escapeHtml(segment.text);
             const reading = escapeHtml(segment.reading);
