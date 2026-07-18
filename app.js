@@ -754,11 +754,15 @@ submitBtn.onclick=function(){
 
     let correct =
 
-    input === getReading(word)
+    normalizeAnswer(input) === normalizeAnswer(
+        getReading(word)
+    )
 
     ||
 
-    input === word.word;
+    normalizeAnswer(input) === normalizeAnswer(
+        word.word
+    );
 
 
 
@@ -1118,6 +1122,14 @@ function escapeHtml(value){
 function getReading(word){
 
     return word.reading || word.kana || "";
+
+}
+
+
+function normalizeAnswer(value){
+
+    return String(value ?? "")
+    .replace(/\s+/gu, "");
 
 }
 
