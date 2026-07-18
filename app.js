@@ -729,7 +729,8 @@ function stopAudio(){
 
     if(audioBtn){
         audioBtn.classList.remove("playing");
-        audioBtn.innerText="🔊 播放读音";
+        audioBtn.disabled=false;
+        audioBtn.setAttribute("aria-label", "播放单词读音");
     }
 }
 
@@ -751,7 +752,6 @@ audioBtn.onclick=function(){
     }
 
     if(activeAudio){
-        stopAudio();
         return;
     }
 
@@ -764,17 +764,20 @@ audioBtn.onclick=function(){
 
     activeAudio = new Audio(source);
     audioBtn.classList.add("playing");
-    audioBtn.innerText="⏹ 停止播放";
+    audioBtn.disabled=true;
+    audioBtn.setAttribute("aria-label", "正在播放单词读音");
 
     activeAudio.onended=stopAudio;
     activeAudio.onerror=function(){
         stopAudio();
-        audioBtn.innerText="读音加载失败";
+        audioBtn.classList.add("audio-error");
+        setTimeout(()=>audioBtn.classList.remove("audio-error"), 900);
     };
 
     activeAudio.play().catch(function(){
         stopAudio();
-        audioBtn.innerText="读音播放失败";
+        audioBtn.classList.add("audio-error");
+        setTimeout(()=>audioBtn.classList.remove("audio-error"), 900);
     });
 };
 
@@ -819,7 +822,7 @@ rememberBtn.onclick=function(){
 // =====================
 
 
-submitBtn.onclick=function(){
+function submitAnswer(){
 
 
     let word =
@@ -829,6 +832,12 @@ submitBtn.onclick=function(){
 
     let input =
     answerInput.value.trim();
+
+
+    if(!input){
+        answerInput.focus();
+        return;
+    }
 
 
 
@@ -934,7 +943,18 @@ submitBtn.onclick=function(){
 
 
 
-};
+}
+
+
+submitBtn.onclick=submitAnswer;
+
+
+answerInput.addEventListener("keydown", function(event){
+    if(event.key === "Enter" && !event.isComposing){
+        event.preventDefault();
+        submitAnswer();
+    }
+});
 
 
 
@@ -1176,10 +1196,6 @@ function showResult(
 
     jpAnswer.innerHTML = `
         <div class="answer-word">${renderRubyAnswer(word)}</div>
-        <div class="answer-reading">
-            <span>读音</span>
-            ${escapeHtml(getReading(word))}
-        </div>
     `;
 
 
@@ -1309,26 +1325,39 @@ function renderExampleArea(word){
     }
 
     exampleArea.innerHTML = `
-        <h4>常用例句</h4>
-        ${examples.map((example, index)=>`
-            <article class="example-item">
-                <div class="example-number">${index + 1}</div>
-                <div>
-                    <p class="example-ja">
-                        ${highlightExampleWord(example.ja, word)}
-                    </p>
-                    <p class="example-zh">${escapeHtml(example.zh)}</p>
-                    ${example.source_url ? `
-                        <a href="${escapeHtml(example.source_url)}"
-                           target="_blank"
-                           rel="noreferrer">${escapeHtml(example.source_name || "例句来源")}</a>
-                    ` : ""}
-                </div>
-            </article>
-        `).join("")}
+        <button class="example-toggle" type="button" aria-expanded="false">
+            <span>常用例句 · ${examples.length}</span>
+            <span class="example-chevron">⌄</span>
+        </button>
+        <div class="example-content hidden">
+            ${examples.map((example, index)=>`
+                <article class="example-item">
+                    <div class="example-number">${index + 1}</div>
+                    <div>
+                        <p class="example-ja">
+                            ${highlightExampleWord(example.ja, word)}
+                        </p>
+                        <p class="example-zh">${escapeHtml(example.zh)}</p>
+                        ${example.source_url ? `
+                            <a href="${escapeHtml(example.source_url)}"
+                               target="_blank"
+                               rel="noreferrer">${escapeHtml(example.source_name || "例句来源")}</a>
+                        ` : ""}
+                    </div>
+                </article>
+            `).join("")}
+        </div>
     `;
 
     exampleArea.classList.remove("hidden");
+
+    const toggle = exampleArea.querySelector(".example-toggle");
+    const content = exampleArea.querySelector(".example-content");
+    toggle.onclick=function(){
+        const expanded = toggle.getAttribute("aria-expanded") === "true";
+        toggle.setAttribute("aria-expanded", String(!expanded));
+        content.classList.toggle("hidden", expanded);
+    };
 
 }
 

@@ -34,6 +34,7 @@ function hasStarted(status){
         || (status.ignored || 0) > 0
         || (status.reviewSuccesses || 0) > 0
         || (status.lastReviewAt || 0) > 0
+        || (status.introducedAt || 0) > 0
     );
 }
 
@@ -58,22 +59,27 @@ function escapeHtml(value){
     .replaceAll("'", "&#039;");
 }
 
-function getRoundProgress(word){
+function getReviewProgress(word){
     const status = getStatus(word);
-    if(!status){
-        return 0;
-    }
-
     const successes = Math.max(
         0,
-        Number(status.reviewSuccesses) || 0
+        Number(status?.reviewSuccesses) || 0
     );
 
-    if(status.awaitingReviewDecision && successes > 0){
-        return REVIEW_ROUND_SIZE;
-    }
+    const completedRounds = Math.floor(
+        successes / REVIEW_ROUND_SIZE
+    );
 
-    return successes % REVIEW_ROUND_SIZE;
+    const goal =
+    status?.awaitingReviewDecision && successes > 0
+        ? Math.max(REVIEW_ROUND_SIZE, completedRounds * REVIEW_ROUND_SIZE)
+        : (completedRounds + 1) * REVIEW_ROUND_SIZE;
+
+    return {
+        completed:successes,
+        goal,
+        remaining:Math.max(0, goal - successes)
+    };
 }
 
 function renderReviewProgress(word){
@@ -81,18 +87,18 @@ function renderReviewProgress(word){
         return "";
     }
 
-    const completed = getRoundProgress(word);
+    const progress = getReviewProgress(word);
     const dots = Array.from(
-        {length:REVIEW_ROUND_SIZE},
-        (_, index)=>`<i class="review-progress-dot${index < completed ? " complete" : ""}"></i>`
+        {length:progress.goal},
+        (_, index)=>`<i class="review-progress-dot${index < progress.completed ? " complete" : ""}"></i>`
     ).join("");
 
     return `
         <div class="review-progress"
              role="img"
-             aria-label="本轮复习进度 ${completed}/${REVIEW_ROUND_SIZE}">
+             aria-label="累计复习进度 ${progress.completed}/${progress.goal}，还需 ${progress.remaining} 次">
             <span class="review-progress-dots">${dots}</span>
-            <small>本轮 ${completed}/${REVIEW_ROUND_SIZE}</small>
+            <small>已完成 ${progress.completed}/${progress.goal} · 还需 ${progress.remaining} 次</small>
         </div>
     `;
 }
