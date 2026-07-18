@@ -1,2 +1,6 @@
 *.colpkg
 audio_extraction_report.json
+.idea/
+__pycache__/
+*.pyc
+所有牌组.txt
