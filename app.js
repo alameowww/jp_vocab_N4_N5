@@ -60,6 +60,10 @@ const meaning =
 document.getElementById("meaning");
 
 
+const audioBtn =
+document.getElementById("audioBtn");
+
+
 const todayCount =
 document.getElementById("todayCount");
 
@@ -628,6 +632,9 @@ function renderWord(){
     word.meaning;
 
 
+    prepareAudio(word);
+
+
 
     updateProgress();
 
@@ -655,6 +662,9 @@ function renderWord(){
 
 
 function resetView(){
+
+
+    stopAudio();
 
 
     recallArea.classList.remove(
@@ -705,6 +715,68 @@ function resetView(){
 
 
 }
+
+
+let activeAudio = null;
+
+
+function stopAudio(){
+    if(activeAudio){
+        activeAudio.pause();
+        activeAudio.currentTime=0;
+        activeAudio=null;
+    }
+
+    if(audioBtn){
+        audioBtn.classList.remove("playing");
+        audioBtn.innerText="🔊 播放读音";
+    }
+}
+
+
+function prepareAudio(word){
+    const filename =
+    typeof word?.audio === "string" ? word.audio.trim() : "";
+
+    audioBtn.classList.toggle("hidden", !filename);
+    audioBtn.disabled = !filename;
+    audioBtn.dataset.filename = filename;
+}
+
+
+audioBtn.onclick=function(){
+    const filename=audioBtn.dataset.filename;
+    if(!filename){
+        return;
+    }
+
+    if(activeAudio){
+        stopAudio();
+        return;
+    }
+
+    stopAudio();
+
+    const source = new URL(
+        `audio/${encodeURIComponent(filename)}`,
+        document.baseURI
+    ).href;
+
+    activeAudio = new Audio(source);
+    audioBtn.classList.add("playing");
+    audioBtn.innerText="⏹ 停止播放";
+
+    activeAudio.onended=stopAudio;
+    activeAudio.onerror=function(){
+        stopAudio();
+        audioBtn.innerText="读音加载失败";
+    };
+
+    activeAudio.play().catch(function(){
+        stopAudio();
+        audioBtn.innerText="读音播放失败";
+    });
+};
 
 
 
@@ -1145,7 +1217,8 @@ function getReading(word){
 function normalizeAnswer(value){
 
     return String(value ?? "")
-    .replace(/\s+/gu, "");
+    .normalize("NFKC")
+    .replace(/[\s\p{P}\p{S}]+/gu, "");
 
 }
 

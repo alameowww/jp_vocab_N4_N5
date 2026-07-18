@@ -1,4 +1,5 @@
 const STATUS_KEY = "jp_word_status";
+const REVIEW_ROUND_SIZE = 3;
 
 const labels = {
     mastered:"已记住",
@@ -57,6 +58,45 @@ function escapeHtml(value){
     .replaceAll("'", "&#039;");
 }
 
+function getRoundProgress(word){
+    const status = getStatus(word);
+    if(!status){
+        return 0;
+    }
+
+    const successes = Math.max(
+        0,
+        Number(status.reviewSuccesses) || 0
+    );
+
+    if(status.awaitingReviewDecision && successes > 0){
+        return REVIEW_ROUND_SIZE;
+    }
+
+    return successes % REVIEW_ROUND_SIZE;
+}
+
+function renderReviewProgress(word){
+    if(activeFilter === "mastered"){
+        return "";
+    }
+
+    const completed = getRoundProgress(word);
+    const dots = Array.from(
+        {length:REVIEW_ROUND_SIZE},
+        (_, index)=>`<i class="review-progress-dot${index < completed ? " complete" : ""}"></i>`
+    ).join("");
+
+    return `
+        <div class="review-progress"
+             role="img"
+             aria-label="本轮复习进度 ${completed}/${REVIEW_ROUND_SIZE}">
+            <span class="review-progress-dots">${dots}</span>
+            <small>本轮 ${completed}/${REVIEW_ROUND_SIZE}</small>
+        </div>
+    `;
+}
+
 function renderMetrics(){
     const counts = {
         mastered:0,
@@ -104,6 +144,7 @@ function renderList(){
                 <span>${escapeHtml(word.meaning)}</span>
                 <small>Lesson ${escapeHtml(word.lesson)}</small>
             </div>
+            ${renderReviewProgress(word)}
         </article>
     `).join("");
 }
