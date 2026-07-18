@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>学习统计 - 日本語 Review</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<main class="app stats-app">
+
+<header class="stats-header">
+<button id="backBtn" class="back-btn">← 返回</button>
+<div>
+<h1>学习统计</h1>
+<p>点击指标卡查看对应单词</p>
+</div>
+</header>
+
+<section class="metric-grid" aria-label="学习状态">
+<button class="metric-card metric-mastered" data-filter="mastered">
+<span>已记住</span>
+<strong id="masteredMetric">0</strong>
+</button>
+
+<button class="metric-card metric-reviewing" data-filter="reviewing">
+<span>正在复习</span>
+<strong id="reviewingMetric">0</strong>
+</button>
+
+<button class="metric-card metric-new" data-filter="unreviewed">
+<span>尚未复习</span>
+<strong id="unreviewedMetric">0</strong>
+</button>
+</section>
+
+<section class="vocab-list-section">
+<div class="vocab-list-heading">
+<h2 id="listTitle">已记住</h2>
+<span id="listCount">0 个</span>
+</div>
+<div id="statsWordList" class="stats-word-list"></div>
+</section>
+
+</main>
+
+<script src="stats.js"></script>
+</body>
+</html>

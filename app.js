@@ -92,6 +92,10 @@ const jpAnswer =
 document.getElementById("jpAnswer");
 
 
+const exampleArea =
+document.getElementById("exampleArea");
+
+
 const answerInput =
 document.getElementById("answerInput");
 
@@ -690,6 +694,10 @@ function resetView(){
     answerComparison.classList.add("hidden");
 
 
+    exampleArea.innerHTML="";
+    exampleArea.classList.add("hidden");
+
+
     answerInput.value="";
 
 
@@ -1094,8 +1102,16 @@ function showResult(
 
 
 
-    jpAnswer.innerHTML =
-    renderRubyAnswer(word);
+    jpAnswer.innerHTML = `
+        <div class="answer-word">${renderRubyAnswer(word)}</div>
+        <div class="answer-reading">
+            <span>读音</span>
+            ${escapeHtml(getReading(word))}
+        </div>
+    `;
+
+
+    renderExampleArea(word);
 
 
 
@@ -1161,6 +1177,85 @@ function renderRubyAnswer(word){
     return reading
         ? `<ruby>${text}<rt>${reading}</rt></ruby>`
         : text;
+
+}
+
+
+function escapeRegExp(value){
+
+    return String(value)
+    .replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+
+}
+
+
+function highlightExampleWord(sentence, word){
+
+    const targetCharacters = Array.from(
+        String(word.word || "").replace(/\s+/gu, "")
+    );
+
+    if(targetCharacters.length === 0){
+        return escapeHtml(sentence);
+    }
+
+    const pattern = targetCharacters
+    .map(escapeRegExp)
+    .join("\\s*");
+
+    const match = String(sentence).match(
+        new RegExp(pattern, "u")
+    );
+
+    if(!match || match.index === undefined){
+        return escapeHtml(sentence);
+    }
+
+    const start = match.index;
+    const end = start + match[0].length;
+
+    return (
+        escapeHtml(String(sentence).slice(0, start))
+        + `<mark class="example-word">${escapeHtml(match[0])}</mark>`
+        + escapeHtml(String(sentence).slice(end))
+    );
+
+}
+
+
+function renderExampleArea(word){
+
+    const examples = Array.isArray(word.examples)
+        ? word.examples.slice(0, 2)
+        : [];
+
+    if(examples.length === 0){
+        exampleArea.innerHTML="";
+        exampleArea.classList.add("hidden");
+        return;
+    }
+
+    exampleArea.innerHTML = `
+        <h4>常用例句</h4>
+        ${examples.map((example, index)=>`
+            <article class="example-item">
+                <div class="example-number">${index + 1}</div>
+                <div>
+                    <p class="example-ja">
+                        ${highlightExampleWord(example.ja, word)}
+                    </p>
+                    <p class="example-zh">${escapeHtml(example.zh)}</p>
+                    ${example.source_url ? `
+                        <a href="${escapeHtml(example.source_url)}"
+                           target="_blank"
+                           rel="noreferrer">${escapeHtml(example.source_name || "例句来源")}</a>
+                    ` : ""}
+                </div>
+            </article>
+        `).join("")}
+    `;
+
+    exampleArea.classList.remove("hidden");
 
 }
 
