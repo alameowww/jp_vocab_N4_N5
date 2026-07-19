@@ -1,6 +1,7 @@
 const STATUS_KEY = "jp_word_status";
 const LEARN_PROGRESS_KEY = "jp_learn_progress";
 const GRAMMAR_PROGRESS_KEY = "jp_grammar_progress";
+const LAST_LESSON_KEY = "jp_learn_last_lesson";
 
 let vocabulary = [];
 let lessonWords = [];
@@ -15,6 +16,12 @@ let progressByLesson = {};
 let grammarProgressByLesson = {};
 let activeContent = "words";
 let activeAudio = null;
+let audioPlaybackId = 0;
+const audioPlayer = new Audio();
+audioPlayer.preload = "auto";
+let lessonTestWords = [];
+let lessonTestIndex = 0;
+let lessonTestResult = { correct:[], wrong:[], ignored:[] };
 
 const lessonSelect = document.getElementById("learnLesson");
 const progressText = document.getElementById("learnProgress");
@@ -50,6 +57,35 @@ const grammarExamples = document.getElementById("grammarExamples");
 const grammarPreviousButton = document.getElementById("grammarPrevious");
 const grammarNextButton = document.getElementById("grammarNext");
 const grammarCompleteNotice = document.getElementById("grammarCompleteNotice");
+const lessonTestView = document.getElementById("lessonTestView");
+const lessonTestTitle = document.getElementById("lessonTestTitle");
+const lessonTestProgress = document.getElementById("lessonTestProgress");
+const lessonTestProgressText = document.getElementById("lessonTestProgressText");
+const lessonTestProgressBar = document.getElementById("lessonTestProgressBar");
+const lessonTestCard = document.getElementById("lessonTestCard");
+const lessonTestMeaning = document.getElementById("lessonTestMeaning");
+const lessonTestRecallArea = document.getElementById("lessonTestRecallArea");
+const lessonTestRememberButton = document.getElementById("lessonTestRememberBtn");
+const lessonTestShowAnswerButton = document.getElementById("lessonTestShowAnswerBtn");
+const lessonTestInputArea = document.getElementById("lessonTestInputArea");
+const lessonTestAnswerInput = document.getElementById("lessonTestAnswerInput");
+const lessonTestSubmitButton = document.getElementById("lessonTestSubmitBtn");
+const lessonTestIgnoreButton = document.getElementById("lessonTestIgnoreBtn");
+const lessonTestShowAnswerInInput = document.getElementById("lessonTestShowAnswerInInput");
+const lessonTestResultArea = document.getElementById("lessonTestResultArea");
+const lessonTestResultMessage = document.getElementById("lessonTestResultMessage");
+const lessonTestComparison = document.getElementById("lessonTestComparison");
+const lessonTestAnswer = document.getElementById("lessonTestAnswer");
+const lessonTestNextButton = document.getElementById("lessonTestNextBtn");
+const lessonTestSummary = document.getElementById("lessonTestSummary");
+const lessonTestSummaryText = document.getElementById("lessonTestSummaryText");
+const lessonTestCorrectCount = document.getElementById("lessonTestCorrectCount");
+const lessonTestWrongCount = document.getElementById("lessonTestWrongCount");
+const lessonTestIgnoredCount = document.getElementById("lessonTestIgnoredCount");
+const lessonTestWrongList = document.getElementById("lessonTestWrongList");
+const exitLessonTestButton = document.getElementById("exitLessonTestBtn");
+const repeatLessonTestButton = document.getElementById("repeatLessonTestBtn");
+const finishLessonTestButton = document.getElementById("finishLessonTestBtn");
 
 function escapeHtml(value){
     return String(value ?? "")
@@ -176,15 +212,15 @@ function saveGrammarState(completed = getGrammarState().completed){
 }
 
 function stopAudio(player = activeAudio){
-    if(player){
-        player.onended = null;
-        player.onerror = null;
-        player.pause();
-        player.currentTime = 0;
-    }
-    if(player && activeAudio !== player){
+    if(player && player !== activeAudio){
         return;
     }
+    audioPlaybackId += 1;
+    audioPlayer.onended = null;
+    audioPlayer.onerror = null;
+    audioPlayer.pause();
+    audioPlayer.removeAttribute("src");
+    audioPlayer.load();
     activeAudio = null;
     audioButton.classList.remove("playing");
     audioButton.disabled = false;
@@ -200,21 +236,48 @@ function playAudio(){
         `audio/${encodeURIComponent(word.audio)}`,
         document.baseURI
     ).href;
-    const player = new Audio(source);
-    activeAudio = player;
+    const playbackId = ++audioPlaybackId;
+    activeAudio = audioPlayer;
+    if(audioPlayer.src !== source){
+        audioPlayer.src = source;
+        audioPlayer.load();
+    }
     audioButton.classList.add("playing");
     audioButton.disabled = true;
     audioButton.setAttribute("aria-label", "正在播放单词读音");
 
     const finishCurrentAudio = ()=>{
-        if(activeAudio === player){
-            stopAudio(player);
+        if(activeAudio === audioPlayer && audioPlaybackId === playbackId){
+            stopAudio(audioPlayer);
         }
     };
 
-    player.onended = finishCurrentAudio;
-    player.onerror = finishCurrentAudio;
-    player.play().catch(finishCurrentAudio);
+    const failCurrentAudio = ()=>{
+        if(activeAudio !== audioPlayer || audioPlaybackId !== playbackId){
+            return;
+        }
+        stopAudio(audioPlayer);
+        audioButton.classList.add("audio-error");
+        window.setTimeout(()=>audioButton.classList.remove("audio-error"), 900);
+    };
+
+    audioPlayer.onended = finishCurrentAudio;
+    audioPlayer.onerror = failCurrentAudio;
+    audioPlayer.play().catch(failCurrentAudio);
+}
+
+function prepareAudio(word){
+    const filename = typeof word?.audio === "string" ? word.audio.trim() : "";
+    audioButton.classList.toggle("hidden", !filename);
+    audioButton.disabled = !filename;
+    if(!filename){
+        return;
+    }
+    audioPlayer.src = new URL(
+        `audio/${encodeURIComponent(filename)}`,
+        document.baseURI
+    ).href;
+    audioPlayer.load();
 }
 
 function renderExamples(word){
@@ -268,7 +331,7 @@ function renderCard(){
         : "学过了，下一个 →";
     const status = statuses[`vocab_${word.id}`];
     seenBadge.classList.toggle("hidden", !status?.introducedAt);
-    audioButton.classList.toggle("hidden", !word.audio);
+    prepareAudio(word);
     renderExamples(word);
     learnActions.classList.remove("hidden");
     lessonCompleteActions.classList.add("hidden");
@@ -340,6 +403,7 @@ function showLessonComplete(){
 
 function selectLesson(lesson){
     currentLesson = Number(lesson);
+    localStorage.setItem(LAST_LESSON_KEY, String(currentLesson));
     lessonWords = vocabulary.filter(word=>Number(word.lesson) === currentLesson);
     lessonGrammar = grammarPoints
     .filter(point=>Number(point.lesson) === currentLesson)
@@ -398,6 +462,142 @@ function markIntroduced(word){
     localStorage.setItem(STATUS_KEY, JSON.stringify(statuses));
 }
 
+function shuffleWords(words){
+    const shuffled = [...words];
+    for(let index = shuffled.length - 1; index > 0; index -= 1){
+        const target = Math.floor(Math.random() * (index + 1));
+        [shuffled[index], shuffled[target]] = [shuffled[target], shuffled[index]];
+    }
+    return shuffled;
+}
+
+function normalizeTestAnswer(value){
+    return String(value || "")
+    .normalize("NFKC")
+    .toLocaleLowerCase("ja-JP")
+    .replace(/[\s\p{P}\p{S}]+/gu, "");
+}
+
+function updateLessonTestProgress(){
+    const total = lessonTestWords.length;
+    const completed = Math.min(lessonTestIndex, total);
+    lessonTestProgressText.textContent = `${completed} / ${total}`;
+    lessonTestProgressBar.style.width = total
+        ? `${(completed / total) * 100}%`
+        : "0%";
+}
+
+function resetLessonTestCard(){
+    lessonTestRecallArea.classList.remove("hidden");
+    lessonTestInputArea.classList.add("hidden");
+    lessonTestResultArea.classList.add("hidden");
+    lessonTestNextButton.classList.add("hidden");
+    lessonTestComparison.classList.add("hidden");
+    lessonTestComparison.innerHTML = "";
+    lessonTestAnswerInput.value = "";
+}
+
+function renderLessonTestWord(){
+    if(lessonTestIndex >= lessonTestWords.length){
+        showLessonTestSummary();
+        return;
+    }
+    const word = lessonTestWords[lessonTestIndex];
+    resetLessonTestCard();
+    lessonTestMeaning.textContent = word.meaning || "";
+    lessonTestNextButton.textContent = lessonTestIndex === lessonTestWords.length - 1
+        ? "查看结果 →"
+        : "下一题 →";
+    updateLessonTestProgress();
+}
+
+function showLessonTestResult(type, userAnswer = ""){
+    const word = lessonTestWords[lessonTestIndex];
+    lessonTestRecallArea.classList.add("hidden");
+    lessonTestInputArea.classList.add("hidden");
+    lessonTestResultArea.classList.remove("hidden");
+    lessonTestNextButton.classList.remove("hidden");
+    lessonTestResultMessage.className = type === "correct" ? "success" : "error";
+    lessonTestResultMessage.textContent = type === "correct"
+        ? "🎉 正确！"
+        : "这次没想起来，再看一下正确答案。";
+    lessonTestAnswer.innerHTML = renderRuby(word);
+
+    if(userAnswer && type !== "correct"){
+        lessonTestComparison.innerHTML = `
+            <div class="answer-comparison-row">
+                <span>你的答案</span>
+                <strong>${escapeHtml(userAnswer)}</strong>
+            </div>
+            <div class="answer-comparison-row correct-answer-row">
+                <span>正确答案</span>
+                <strong>${renderRuby(word)}</strong>
+            </div>
+        `;
+        lessonTestComparison.classList.remove("hidden");
+    }
+}
+
+function submitLessonTestAnswer(){
+    const word = lessonTestWords[lessonTestIndex];
+    const userAnswer = lessonTestAnswerInput.value.trim();
+    if(!userAnswer){
+        lessonTestAnswerInput.focus();
+        return;
+    }
+    const normalized = normalizeTestAnswer(userAnswer);
+    const correct = normalized === normalizeTestAnswer(word.word)
+        || normalized === normalizeTestAnswer(getDisplayReading(word));
+    lessonTestResult[correct ? "correct" : "wrong"].push(word);
+    showLessonTestResult(correct ? "correct" : "wrong", userAnswer);
+}
+
+function revealLessonTestAnswer(){
+    const word = lessonTestWords[lessonTestIndex];
+    lessonTestResult.wrong.push(word);
+    showLessonTestResult("wrong");
+}
+
+function showLessonTestSummary(){
+    lessonTestProgress.classList.add("hidden");
+    lessonTestCard.classList.add("hidden");
+    lessonTestSummary.classList.remove("hidden");
+    lessonTestCorrectCount.textContent = String(lessonTestResult.correct.length);
+    lessonTestWrongCount.textContent = String(lessonTestResult.wrong.length);
+    lessonTestIgnoredCount.textContent = String(lessonTestResult.ignored.length);
+    lessonTestSummaryText.textContent = `第 ${currentLesson} 课 · 本次结果不会计入复习进度`;
+    lessonTestWrongList.innerHTML = lessonTestResult.wrong.map(word=>`
+        <div class="wrong-item">
+            <div class="wrong-word">${escapeHtml(word.meaning)}</div>
+            <div class="wrong-kana">${renderRuby(word)}</div>
+        </div>
+    `).join("");
+}
+
+function startLessonTest(){
+    stopAudio();
+    lessonTestWords = shuffleWords(lessonWords);
+    lessonTestIndex = 0;
+    lessonTestResult = { correct:[], wrong:[], ignored:[] };
+    document.querySelector(".learn-toolbar").classList.add("hidden");
+    wordLearningView.classList.add("hidden");
+    grammarLearningView.classList.add("hidden");
+    lessonTestView.classList.remove("hidden");
+    lessonTestProgress.classList.remove("hidden");
+    lessonTestCard.classList.remove("hidden");
+    lessonTestSummary.classList.add("hidden");
+    lessonTestTitle.textContent = `第 ${currentLesson} 课测试`;
+    renderLessonTestWord();
+}
+
+function exitLessonTest(){
+    lessonTestView.classList.add("hidden");
+    document.querySelector(".learn-toolbar").classList.remove("hidden");
+    wordLearningView.classList.remove("hidden");
+    showContent("words");
+    renderCard();
+}
+
 previousButton.onclick=function(){
     if(currentIndex > 0){
         currentIndex -= 1;
@@ -429,12 +629,7 @@ repeatLessonButton.onclick=function(){
 };
 
 testLessonButton.onclick=function(){
-    const reviewConfig = JSON.parse(localStorage.getItem("jp_config") || "{}");
-    reviewConfig.minLesson = currentLesson;
-    reviewConfig.maxLesson = currentLesson;
-    reviewConfig.count = Number(reviewConfig.count) || 20;
-    localStorage.setItem("jp_config", JSON.stringify(reviewConfig));
-    location.href = "index.html";
+    startLessonTest();
 };
 
 grammarPreviousButton.onclick=function(){
@@ -463,6 +658,32 @@ nextLessonButton.onclick=()=>moveLesson(1);
 audioButton.onclick=playAudio;
 wordContentTab.onclick=()=>showContent("words");
 grammarContentTab.onclick=()=>showContent("grammar");
+lessonTestRememberButton.onclick=()=>{
+    lessonTestRecallArea.classList.add("hidden");
+    lessonTestInputArea.classList.remove("hidden");
+    lessonTestAnswerInput.focus();
+};
+lessonTestShowAnswerButton.onclick=revealLessonTestAnswer;
+lessonTestShowAnswerInInput.onclick=revealLessonTestAnswer;
+lessonTestSubmitButton.onclick=submitLessonTestAnswer;
+lessonTestAnswerInput.addEventListener("keydown", event=>{
+    if(event.key === "Enter" && !event.isComposing){
+        event.preventDefault();
+        submitLessonTestAnswer();
+    }
+});
+lessonTestIgnoreButton.onclick=()=>{
+    lessonTestResult.ignored.push(lessonTestWords[lessonTestIndex]);
+    lessonTestIndex += 1;
+    renderLessonTestWord();
+};
+lessonTestNextButton.onclick=()=>{
+    lessonTestIndex += 1;
+    renderLessonTestWord();
+};
+exitLessonTestButton.onclick=exitLessonTest;
+finishLessonTestButton.onclick=exitLessonTest;
+repeatLessonTestButton.onclick=startLessonTest;
 
 async function init(){
     statuses = JSON.parse(localStorage.getItem(STATUS_KEY) || "{}");
@@ -478,7 +699,12 @@ async function init(){
     lessonSelect.innerHTML = availableLessons.map(lesson=>
         `<option value="${lesson}">第 ${lesson} 课</option>`
     ).join("");
-    selectLesson(availableLessons[0] || 1);
+    const savedLesson = Number(localStorage.getItem(LAST_LESSON_KEY));
+    selectLesson(
+        availableLessons.includes(savedLesson)
+            ? savedLesson
+            : (availableLessons[0] || 1)
+    );
 }
 
 init();

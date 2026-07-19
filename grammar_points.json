@@ -1,5 +1,2337 @@
 [
   {
+    "id": "lesson-1-n-desu",
+    "lesson": 1,
+    "grammar_id": "n_desu",
+    "order": 1,
+    "title": "N1 は N2 です",
+    "subtitle": "……是……",
+    "structure": [
+      "N1 は N2 です"
+    ],
+    "summary": "用「は」提示谈论的主题，用「です」礼貌地作出判断。",
+    "notes": [
+      "「は」在这里读作「わ」。"
+    ],
+    "examples": [
+      {
+        "ja": "わたしは会社員です。",
+        "zh": "我是公司职员。",
+        "focus": "会社員です"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-1-n-dewaarimasen",
+    "lesson": 1,
+    "grammar_id": "n_dewaarimasen",
+    "order": 2,
+    "title": "N1 は N2 ではありません",
+    "subtitle": "……不是……",
+    "structure": [
+      "N1 は N2 ではありません",
+      "口语：N1 は N2 じゃありません"
+    ],
+    "summary": "名词判断句的礼貌否定形式。",
+    "notes": [
+      "正式场合常用「ではありません」，日常会话常用「じゃありません」。"
+    ],
+    "examples": [
+      {
+        "ja": "ミラーさんは学生ではありません。",
+        "zh": "米勒先生不是学生。",
+        "focus": "学生ではありません"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-1-ka-question",
+    "lesson": 1,
+    "grammar_id": "ka_question",
+    "order": 3,
+    "title": "～か",
+    "subtitle": "一般疑问句",
+    "structure": [
+      "句末 + か"
+    ],
+    "summary": "在礼貌句末加「か」构成疑问句，通常不需要改变语序。",
+    "notes": [
+      "回答时用「はい」或「いいえ」开头更自然。"
+    ],
+    "examples": [
+      {
+        "ja": "田中さんは先生ですか。",
+        "zh": "田中先生是老师吗？",
+        "focus": "ですか"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-1-mo-no",
+    "lesson": 1,
+    "grammar_id": "mo_no",
+    "order": 4,
+    "title": "～も／～の",
+    "subtitle": "也……／……的……",
+    "structure": [
+      "N + も",
+      "N1 の N2"
+    ],
+    "summary": "「も」表示同类追加；「の」连接两个名词，表示所属、属性或类别。",
+    "notes": [
+      "「も」替换主题助词「は」，不能说「はも」。"
+    ],
+    "examples": [
+      {
+        "ja": "わたしも中国人です。",
+        "zh": "我也是中国人。",
+        "focus": "わたしも"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-2-kore-sore-are",
+    "lesson": 2,
+    "grammar_id": "kore_sore_are",
+    "order": 1,
+    "title": "これ・それ・あれ",
+    "subtitle": "这个、那个",
+    "structure": [
+      "これ／それ／あれ は N です"
+    ],
+    "summary": "指物品时，根据物品与说话人、听话人的距离选择「こ・そ・あ」。",
+    "notes": [
+      "「これ」本身就是名词，后面不能再直接接名词。"
+    ],
+    "examples": [
+      {
+        "ja": "これは辞書です。",
+        "zh": "这是词典。",
+        "focus": "これは"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-2-kono-sono-ano",
+    "lesson": 2,
+    "grammar_id": "kono_sono_ano",
+    "order": 2,
+    "title": "この・その・あの",
+    "subtitle": "这个……、那个……",
+    "structure": [
+      "この／その／あの + 名词"
+    ],
+    "summary": "放在名词前修饰该名词，不能单独使用。",
+    "notes": [
+      "回答「どの」时也使用这一组表达。"
+    ],
+    "examples": [
+      {
+        "ja": "この本はわたしのです。",
+        "zh": "这本书是我的。",
+        "focus": "この本"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-2-sou-ka-choice",
+    "lesson": 2,
+    "grammar_id": "sou_ka_choice",
+    "order": 3,
+    "title": "そうです／A か B か",
+    "subtitle": "是那样／二选一",
+    "structure": [
+      "そうです／そうじゃありません",
+      "A ですか、B ですか"
+    ],
+    "summary": "确认对方的判断，或用两个候选项询问其中哪一个。",
+    "notes": [
+      "二选一问句回答候选项本身，不用「はい／いいえ」。"
+    ],
+    "examples": [
+      {
+        "ja": "これはペンですか、鉛筆ですか。",
+        "zh": "这是钢笔还是铅笔？",
+        "focus": "ペンですか、鉛筆ですか"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-3-place-kosoadо",
+    "lesson": 3,
+    "grammar_id": "place_kosoadо",
+    "order": 1,
+    "title": "ここ・そこ・あそこ・どこ",
+    "subtitle": "这里、那里、哪里",
+    "structure": [
+      "ここ／そこ／あそこ は 場所です"
+    ],
+    "summary": "用「こ・そ・あ・ど」指示地点。",
+    "notes": [
+      "礼貌说法是「こちら・そちら・あちら・どちら」。"
+    ],
+    "examples": [
+      {
+        "ja": "トイレはあそこです。",
+        "zh": "洗手间在那里。",
+        "focus": "あそこです"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-3-n-wa-place",
+    "lesson": 3,
+    "grammar_id": "n_wa_place",
+    "order": 2,
+    "title": "N は 場所です",
+    "subtitle": "……在……",
+    "structure": [
+      "N は 場所 です"
+    ],
+    "summary": "说明人物、物品或设施所在的位置。",
+    "notes": [
+      "这里的「です」表示地点判断，不是存在动词。"
+    ],
+    "examples": [
+      {
+        "ja": "食堂は二階です。",
+        "zh": "食堂在二楼。",
+        "focus": "二階です"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-3-numbers-floor-price",
+    "lesson": 3,
+    "grammar_id": "numbers_floor_price",
+    "order": 3,
+    "title": "数字・楼层・价格",
+    "subtitle": "询问数量和价格",
+    "structure": [
+      "何階ですか",
+      "いくらですか"
+    ],
+    "summary": "掌握百、千、万以及楼层、价格等常用数法。",
+    "notes": [
+      "「四階」通常读作「よんかい」，注意不规则读音。"
+    ],
+    "examples": [
+      {
+        "ja": "この時計はいくらですか。",
+        "zh": "这块表多少钱？",
+        "focus": "いくらですか"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-4-time-ni",
+    "lesson": 4,
+    "grammar_id": "time_ni",
+    "order": 1,
+    "title": "时间 + に",
+    "subtitle": "在……时间做……",
+    "structure": [
+      "时间名词 + に + 动词"
+    ],
+    "summary": "用「に」标记动作发生的具体时间点。",
+    "notes": [
+      "「今天、明天、每天」等相对时间通常不加「に」。"
+    ],
+    "examples": [
+      {
+        "ja": "六時に起きます。",
+        "zh": "六点起床。",
+        "focus": "六時に"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-4-verb-polite-tense",
+    "lesson": 4,
+    "grammar_id": "verb_polite_tense",
+    "order": 2,
+    "title": "动词敬体时态",
+    "subtitle": "做／不做／做了／没做",
+    "structure": [
+      "～ます",
+      "～ません",
+      "～ました",
+      "～ませんでした"
+    ],
+    "summary": "用四种敬体形式表达动作的现在将来、否定和过去。",
+    "notes": [
+      "日语的非过去时同时表示现在习惯和将来。"
+    ],
+    "examples": [
+      {
+        "ja": "きのう勉強しませんでした。",
+        "zh": "昨天没有学习。",
+        "focus": "勉強しませんでした"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-4-kara-made",
+    "lesson": 4,
+    "grammar_id": "kara_made",
+    "order": 3,
+    "title": "～から ～まで",
+    "subtitle": "从……到……",
+    "structure": [
+      "起点 + から",
+      "终点 + まで"
+    ],
+    "summary": "表示时间或空间范围的起点和终点，两者可以分别使用。",
+    "notes": [
+      "询问时间用「何時から何時まで」。"
+    ],
+    "examples": [
+      {
+        "ja": "仕事は九時から五時までです。",
+        "zh": "工作从九点到五点。",
+        "focus": "九時から五時まで"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-5-movement-e",
+    "lesson": 5,
+    "grammar_id": "movement_e",
+    "order": 1,
+    "title": "场所へ 行きます",
+    "subtitle": "去……",
+    "structure": [
+      "场所 + へ + 行きます／来ます／帰ります"
+    ],
+    "summary": "用「へ」标记移动方向。",
+    "notes": [
+      "「へ」在这里读作「え」。"
+    ],
+    "examples": [
+      {
+        "ja": "来月、日本へ行きます。",
+        "zh": "下个月去日本。",
+        "focus": "日本へ行きます"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-5-transport-de",
+    "lesson": 5,
+    "grammar_id": "transport_de",
+    "order": 2,
+    "title": "交通工具で",
+    "subtitle": "乘……；用……",
+    "structure": [
+      "交通工具 + で + 移动动词"
+    ],
+    "summary": "用「で」标记移动时采用的交通方式。",
+    "notes": [
+      "步行固定说「歩いて」，不用「で」。"
+    ],
+    "examples": [
+      {
+        "ja": "電車で会社へ行きます。",
+        "zh": "坐电车去公司。",
+        "focus": "電車で"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-5-companion-to",
+    "lesson": 5,
+    "grammar_id": "companion_to",
+    "order": 3,
+    "title": "人と",
+    "subtitle": "和……一起",
+    "structure": [
+      "人 + と + 动词"
+    ],
+    "summary": "用「と」标记共同进行动作的人。",
+    "notes": [
+      "独自行动用「一人で」。"
+    ],
+    "examples": [
+      {
+        "ja": "友達と京都へ行きました。",
+        "zh": "和朋友去了京都。",
+        "focus": "友達と"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-6-object-o",
+    "lesson": 6,
+    "grammar_id": "object_o",
+    "order": 1,
+    "title": "N を V",
+    "subtitle": "做……；吃……",
+    "structure": [
+      "宾语 + を + 他动词"
+    ],
+    "summary": "用「を」标记动作直接作用的对象。",
+    "notes": [
+      "「を」读作「お」。"
+    ],
+    "examples": [
+      {
+        "ja": "パンを食べます。",
+        "zh": "吃面包。",
+        "focus": "パンを"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-6-action-place-de",
+    "lesson": 6,
+    "grammar_id": "action_place_de",
+    "order": 2,
+    "title": "场所で V",
+    "subtitle": "在……做……",
+    "structure": [
+      "动作场所 + で + 动词"
+    ],
+    "summary": "用「で」标记动作发生的场所。",
+    "notes": [
+      "存在地点使用「に」，动作地点使用「で」。"
+    ],
+    "examples": [
+      {
+        "ja": "図書館で勉強します。",
+        "zh": "在图书馆学习。",
+        "focus": "図書館で"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-6-invitation",
+    "lesson": 6,
+    "grammar_id": "invitation",
+    "order": 3,
+    "title": "～ませんか／～ましょう",
+    "subtitle": "一起……好吗／一起……吧",
+    "structure": [
+      "Vます 去掉ます + ませんか",
+      "Vます 去掉ます + ましょう"
+    ],
+    "summary": "「ませんか」委婉邀请；「ましょう」主动提议共同做某事。",
+    "notes": [
+      "接受邀请可以说「ええ、いいですね」。"
+    ],
+    "examples": [
+      {
+        "ja": "いっしょに昼ご飯を食べませんか。",
+        "zh": "一起吃午饭好吗？",
+        "focus": "食べませんか"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-7-means-de",
+    "lesson": 7,
+    "grammar_id": "means_de",
+    "order": 1,
+    "title": "工具・语言で",
+    "subtitle": "用……",
+    "structure": [
+      "工具／手段／语言 + で + 动词"
+    ],
+    "summary": "用「で」表示完成动作所使用的工具、手段或语言。",
+    "notes": [
+      "询问方法用「何で」。"
+    ],
+    "examples": [
+      {
+        "ja": "日本語でメールを書きます。",
+        "zh": "用日语写邮件。",
+        "focus": "日本語で"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-7-recipient-ni",
+    "lesson": 7,
+    "grammar_id": "recipient_ni",
+    "order": 2,
+    "title": "人に あげます／もらいます",
+    "subtitle": "给……／从……得到",
+    "structure": [
+      "赠予对象 + に + あげます",
+      "来源 + に／から + もらいます"
+    ],
+    "summary": "用「に」标记接受者，或标记获得物品的来源。",
+    "notes": [
+      "公司、学校等组织作为来源时常用「から」。"
+    ],
+    "examples": [
+      {
+        "ja": "母に花をあげました。",
+        "zh": "送了花给妈妈。",
+        "focus": "母に"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-7-giving-verbs",
+    "lesson": 7,
+    "grammar_id": "giving_verbs",
+    "order": 3,
+    "title": "あげます・もらいます・くれます",
+    "subtitle": "给予与接受",
+    "structure": [
+      "A は B に N を あげます",
+      "A は B に／から N を もらいます",
+      "A は わたしに N を くれます"
+    ],
+    "summary": "根据说话人的视角选择授受动词。",
+    "notes": [
+      "别人给“我方”东西时使用「くれます」。"
+    ],
+    "examples": [
+      {
+        "ja": "友達がわたしに本をくれました。",
+        "zh": "朋友送给我一本书。",
+        "focus": "くれました"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-8-i-adjective",
+    "lesson": 8,
+    "grammar_id": "i_adjective",
+    "order": 1,
+    "title": "い形容词",
+    "subtitle": "描述性质与状态",
+    "structure": [
+      "N は い形容词です",
+      "否定：～くないです"
+    ],
+    "summary": "い形容词可以直接放在名词前，也可以在句末作谓语。",
+    "notes": [
+      "「いい」的否定是「よくないです」。"
+    ],
+    "examples": [
+      {
+        "ja": "この料理はおいしいです。",
+        "zh": "这道菜很好吃。",
+        "focus": "おいしいです"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-8-na-adjective",
+    "lesson": 8,
+    "grammar_id": "na_adjective",
+    "order": 2,
+    "title": "な形容词",
+    "subtitle": "描述性质与状态",
+    "structure": [
+      "N は な形容词です",
+      "修饰名词：な形容词 + な + N"
+    ],
+    "summary": "な形容词作谓语时不加「な」，修饰名词时需要加「な」。",
+    "notes": [
+      "否定形式是「静かではありません」。"
+    ],
+    "examples": [
+      {
+        "ja": "奈良は静かな町です。",
+        "zh": "奈良是一座安静的城市。",
+        "focus": "静かな町"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-8-degree-donna",
+    "lesson": 8,
+    "grammar_id": "degree_donna",
+    "order": 3,
+    "title": "とても・あまり・どんな",
+    "subtitle": "程度和性质询问",
+    "structure": [
+      "とても + 肯定",
+      "あまり + 否定",
+      "どんな + N"
+    ],
+    "summary": "用程度副词调整形容词强度，用「どんな」询问性质。",
+    "notes": [
+      "「あまり」通常和否定形式搭配。"
+    ],
+    "examples": [
+      {
+        "ja": "東京はどんな町ですか。",
+        "zh": "东京是一座怎样的城市？",
+        "focus": "どんな町"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-9-ga-state",
+    "lesson": 9,
+    "grammar_id": "ga_state",
+    "order": 1,
+    "title": "N が 好きです／わかります",
+    "subtitle": "喜欢、擅长、明白",
+    "structure": [
+      "对象 + が + 好き／嫌い／上手／下手／わかります"
+    ],
+    "summary": "状态性谓语常用「が」标记其对象。",
+    "notes": [
+      "主题仍可用「は」提示：私は……。"
+    ],
+    "examples": [
+      {
+        "ja": "わたしは音楽が好きです。",
+        "zh": "我喜欢音乐。",
+        "focus": "音楽が好きです"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-9-reason-kara",
+    "lesson": 9,
+    "grammar_id": "reason_kara",
+    "order": 2,
+    "title": "～から",
+    "subtitle": "因为……",
+    "structure": [
+      "原因句 + から、结果句"
+    ],
+    "summary": "把原因放在前句末尾，再说明由此产生的结果。",
+    "notes": [
+      "回答「どうして」时可以只说原因句加「から」。"
+    ],
+    "examples": [
+      {
+        "ja": "時間がありませんから、タクシーで行きます。",
+        "zh": "因为没有时间，所以坐出租车去。",
+        "focus": "ありませんから"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-10-arimasu-imasu",
+    "lesson": 10,
+    "grammar_id": "arimasu_imasu",
+    "order": 1,
+    "title": "あります／います",
+    "subtitle": "有；在",
+    "structure": [
+      "物 + があります",
+      "人／动物 + がいます"
+    ],
+    "summary": "无生命事物用「あります」，人和动物用「います」。",
+    "notes": [
+      "存在地点用助词「に」。"
+    ],
+    "examples": [
+      {
+        "ja": "公園に猫がいます。",
+        "zh": "公园里有猫。",
+        "focus": "猫がいます"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-10-location-patterns",
+    "lesson": 10,
+    "grammar_id": "location_patterns",
+    "order": 2,
+    "title": "场所に N があります／います",
+    "subtitle": "……地方有……",
+    "structure": [
+      "场所 + に + N + が + あります／います",
+      "N + は + 场所 + に + あります／います"
+    ],
+    "summary": "新信息通常用「が」，询问已知对象在哪里时用「は」。",
+    "notes": [
+      "位置词前通常接「N の」：机の上。"
+    ],
+    "examples": [
+      {
+        "ja": "銀行は駅の前にあります。",
+        "zh": "银行在车站前面。",
+        "focus": "駅の前にあります"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-11-counters",
+    "lesson": 11,
+    "grammar_id": "counters",
+    "order": 1,
+    "title": "数量词",
+    "subtitle": "数人、物、次数",
+    "structure": [
+      "数字 + 量词",
+      "数量词通常放在动词前"
+    ],
+    "summary": "根据事物类别选择「人、台、枚、回、つ」等量词。",
+    "notes": [
+      "一人、二人以及一つ到十个有特殊读法。"
+    ],
+    "examples": [
+      {
+        "ja": "りんごを三つ買いました。",
+        "zh": "买了三个苹果。",
+        "focus": "三つ"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-11-duration-frequency",
+    "lesson": 11,
+    "grammar_id": "duration_frequency",
+    "order": 2,
+    "title": "期间／频率",
+    "subtitle": "做多久；多久一次",
+    "structure": [
+      "时间段 + V",
+      "时间段 + に + 次数 + V"
+    ],
+    "summary": "不带「に」的时间量表示持续多久；带「に」表示频率基准。",
+    "notes": [
+      "大约的数量可以在数量词后加「ぐらい」。"
+    ],
+    "examples": [
+      {
+        "ja": "一週間に二回テニスをします。",
+        "zh": "一周打两次网球。",
+        "focus": "一週間に二回"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-12-past-adjectives",
+    "lesson": 12,
+    "grammar_id": "past_adjectives",
+    "order": 1,
+    "title": "名词与形容词的过去式",
+    "subtitle": "过去是……；过去很……",
+    "structure": [
+      "N／な形：～でした／～ではありませんでした",
+      "い形：～かったです／～くなかったです"
+    ],
+    "summary": "根据词类变化句末，描述过去的状态或评价。",
+    "notes": [
+      "「いい」的过去式是「よかったです」。"
+    ],
+    "examples": [
+      {
+        "ja": "きのうは寒かったです。",
+        "zh": "昨天很冷。",
+        "focus": "寒かったです"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-12-comparison",
+    "lesson": 12,
+    "grammar_id": "comparison",
+    "order": 2,
+    "title": "～より／～のほうが",
+    "subtitle": "比较两者",
+    "structure": [
+      "A は B より 形容词です",
+      "A と B と どちらが～ですか",
+      "A のほうが～です"
+    ],
+    "summary": "用「より」给出比较基准，用「ほう」指出程度更高的一方。",
+    "notes": [
+      "两者相同时可以回答「どちらも」。"
+    ],
+    "examples": [
+      {
+        "ja": "電車はバスより速いです。",
+        "zh": "电车比公交车快。",
+        "focus": "バスより速い"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-12-superlative",
+    "lesson": 12,
+    "grammar_id": "superlative",
+    "order": 3,
+    "title": "～で 何／どこ／だれが いちばん",
+    "subtitle": "范围内最……",
+    "structure": [
+      "范围 + で + 疑问词 + が + いちばん + 形容词ですか"
+    ],
+    "summary": "用「で」限定比较范围，用「いちばん」表达最高程度。",
+    "notes": [
+      "回答时用具体对象加「がいちばん」。"
+    ],
+    "examples": [
+      {
+        "ja": "日本料理で何がいちばん好きですか。",
+        "zh": "日本料理中你最喜欢什么？",
+        "focus": "何がいちばん好き"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-13-hoshii",
+    "lesson": 13,
+    "grammar_id": "hoshii",
+    "order": 1,
+    "title": "N が ほしいです",
+    "subtitle": "想要……",
+    "structure": [
+      "欲求对象 + が + ほしいです"
+    ],
+    "summary": "表达说话人想得到某个东西。",
+    "notes": [
+      "一般不直接用来断定第三人称的愿望。"
+    ],
+    "examples": [
+      {
+        "ja": "新しいパソコンがほしいです。",
+        "zh": "我想要一台新电脑。",
+        "focus": "パソコンがほしい"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-13-tai",
+    "lesson": 13,
+    "grammar_id": "tai",
+    "order": 2,
+    "title": "Vたいです",
+    "subtitle": "想做……",
+    "structure": [
+      "Vます 去掉ます + たいです"
+    ],
+    "summary": "把动词变成「たい」形式，表达自己想做的动作。",
+    "notes": [
+      "「たい」按い形容词变化：行きたくないです。"
+    ],
+    "examples": [
+      {
+        "ja": "日本へ旅行に行きたいです。",
+        "zh": "我想去日本旅行。",
+        "focus": "行きたいです"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-13-purpose-ni",
+    "lesson": 13,
+    "grammar_id": "purpose_ni",
+    "order": 3,
+    "title": "Vます形／N に 行きます",
+    "subtitle": "去做……",
+    "structure": [
+      "场所へ + Vます词干／动作名词 + に + 行きます"
+    ],
+    "summary": "用「に」说明移动行为的目的。",
+    "notes": [
+      "目的必须是具有动作意义的名词或动词词干。"
+    ],
+    "examples": [
+      {
+        "ja": "図書館へ本を借りに行きます。",
+        "zh": "去图书馆借书。",
+        "focus": "借りに行きます"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-13-indefinite",
+    "lesson": 13,
+    "grammar_id": "indefinite",
+    "order": 4,
+    "title": "疑问词 + か／も／でも",
+    "subtitle": "某……／都不……／随便……",
+    "structure": [
+      "疑问词 + か",
+      "疑问词 + も + 否定",
+      "疑问词 + でも"
+    ],
+    "summary": "疑问词和不同助词组合，可表达不确定、全盘否定或任意选择。",
+    "notes": [
+      "「何も」在本课常与否定谓语搭配。"
+    ],
+    "examples": [
+      {
+        "ja": "何か飲みたいです。",
+        "zh": "想喝点什么。",
+        "focus": "何か"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-14-te-form",
+    "lesson": 14,
+    "grammar_id": "te_form",
+    "order": 1,
+    "title": "动词て形",
+    "subtitle": "连接动作的基础形式",
+    "structure": [
+      "一类：音便 + て／で",
+      "二类：去る + て",
+      "する→して、来る→来て"
+    ],
+    "summary": "て形是请求、进行、许可等许多句型的基础。",
+    "notes": [
+      "一类动词需按词尾分别记忆音便规则。"
+    ],
+    "examples": [
+      {
+        "ja": "書きます → 書いて",
+        "zh": "写 → 写了以后／请写",
+        "focus": "書いて"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-14-te-kudasai",
+    "lesson": 14,
+    "grammar_id": "te_kudasai",
+    "order": 2,
+    "title": "～てください",
+    "subtitle": "请……",
+    "structure": [
+      "动词て形 + ください"
+    ],
+    "summary": "礼貌地请求对方进行某个动作。",
+    "notes": [
+      "对上级直接使用有时显得强硬，可改用更委婉表达。"
+    ],
+    "examples": [
+      {
+        "ja": "ここに名前を書いてください。",
+        "zh": "请在这里写名字。",
+        "focus": "書いてください"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-14-te-imasu-progress",
+    "lesson": 14,
+    "grammar_id": "te_imasu_progress",
+    "order": 3,
+    "title": "～ています",
+    "subtitle": "正在……",
+    "structure": [
+      "动词て形 + います"
+    ],
+    "summary": "表示说话时刻正在进行的动作。",
+    "notes": [
+      "部分动词的「ています」表示结果状态，需要结合词义判断。"
+    ],
+    "examples": [
+      {
+        "ja": "いま雨が降っています。",
+        "zh": "现在正在下雨。",
+        "focus": "降っています"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-14-mashouka",
+    "lesson": 14,
+    "grammar_id": "mashouka",
+    "order": 4,
+    "title": "～ましょうか",
+    "subtitle": "我来……吧／一起……好吗",
+    "structure": [
+      "Vます 去掉ます + ましょうか"
+    ],
+    "summary": "用于主动提供帮助，或征求对方是否一起行动。",
+    "notes": [
+      "接受帮助可说「お願いします」。"
+    ],
+    "examples": [
+      {
+        "ja": "荷物を持ちましょうか。",
+        "zh": "我来帮你拿行李吧？",
+        "focus": "持ちましょうか"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-15-temo-ii",
+    "lesson": 15,
+    "grammar_id": "temo_ii",
+    "order": 1,
+    "title": "～てもいいです",
+    "subtitle": "可以……",
+    "structure": [
+      "动词て形 + もいいです"
+    ],
+    "summary": "表示许可，也可用疑问形式请求许可。",
+    "notes": [
+      "否定回答常用较委婉的「すみません、ちょっと……」。"
+    ],
+    "examples": [
+      {
+        "ja": "ここで写真を撮ってもいいですか。",
+        "zh": "可以在这里拍照吗？",
+        "focus": "撮ってもいいですか"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-15-tewa-ikenai",
+    "lesson": 15,
+    "grammar_id": "tewa_ikenai",
+    "order": 2,
+    "title": "～てはいけません",
+    "subtitle": "不可以……",
+    "structure": [
+      "动词て形 + はいけません"
+    ],
+    "summary": "表示规则、禁止或强烈劝阻。",
+    "notes": [
+      "口语中常缩约为「ちゃいけない」。"
+    ],
+    "examples": [
+      {
+        "ja": "ここでたばこを吸ってはいけません。",
+        "zh": "这里禁止吸烟。",
+        "focus": "吸ってはいけません"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-15-te-imasu-state",
+    "lesson": 15,
+    "grammar_id": "te_imasu_state",
+    "order": 3,
+    "title": "～ています",
+    "subtitle": "结果状态与长期习惯",
+    "structure": [
+      "瞬间动词て形 + います",
+      "职业／习惯动作 + ています"
+    ],
+    "summary": "可表示动作完成后留下的状态，或长期反复进行的行为。",
+    "notes": [
+      "「知っています」的否定通常说「知りません」。"
+    ],
+    "examples": [
+      {
+        "ja": "大阪に住んでいます。",
+        "zh": "我住在大阪。",
+        "focus": "住んでいます"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-16-te-sequence",
+    "lesson": 16,
+    "grammar_id": "te_sequence",
+    "order": 1,
+    "title": "～て、～",
+    "subtitle": "依次做……",
+    "structure": [
+      "V1て、V2て、V3ます"
+    ],
+    "summary": "用て形按时间顺序连接多个动作，句末决定整句时态。",
+    "notes": [
+      "连接的动作通常由同一主体完成。"
+    ],
+    "examples": [
+      {
+        "ja": "朝起きて、顔を洗って、朝ご飯を食べます。",
+        "zh": "早上起床、洗脸，然后吃早饭。",
+        "focus": "起きて"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-16-te-kara",
+    "lesson": 16,
+    "grammar_id": "te_kara",
+    "order": 2,
+    "title": "～てから",
+    "subtitle": "做完……以后",
+    "structure": [
+      "动词て形 + から、后项"
+    ],
+    "summary": "强调完成前项后再进行后项。",
+    "notes": [
+      "与单纯的て形相比，更突出先后顺序。"
+    ],
+    "examples": [
+      {
+        "ja": "宿題をしてから、テレビを見ます。",
+        "zh": "做完作业后看电视。",
+        "focus": "してから"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-16-adjective-connection",
+    "lesson": 16,
+    "grammar_id": "adjective_connection",
+    "order": 3,
+    "title": "形容词・名词的连接",
+    "subtitle": "既……又……",
+    "structure": [
+      "い形：～くて",
+      "な形／名词：～で"
+    ],
+    "summary": "连接并列的性质或状态。",
+    "notes": [
+      "前后若是明显因果关系，要根据语境谨慎使用。"
+    ],
+    "examples": [
+      {
+        "ja": "この町は静かで、きれいです。",
+        "zh": "这座城市既安静又漂亮。",
+        "focus": "静かで"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-17-nai-form",
+    "lesson": 17,
+    "grammar_id": "nai_form",
+    "order": 1,
+    "title": "动词ない形",
+    "subtitle": "动词否定基础形",
+    "structure": [
+      "一类：う段→あ段 + ない",
+      "二类：去る + ない",
+      "する→しない、来る→来ない"
+    ],
+    "summary": "ない形是禁止、义务和“不必”等句型的基础。",
+    "notes": [
+      "「あります」的ない形是「ない」。"
+    ],
+    "examples": [
+      {
+        "ja": "書きます → 書かない",
+        "zh": "写 → 不写",
+        "focus": "書かない"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-17-naide-kudasai",
+    "lesson": 17,
+    "grammar_id": "naide_kudasai",
+    "order": 2,
+    "title": "～ないでください",
+    "subtitle": "请不要……",
+    "structure": [
+      "动词ない形 + でください"
+    ],
+    "summary": "礼貌地请求对方不要做某事。",
+    "notes": [
+      "用于明确阻止某个动作。"
+    ],
+    "examples": [
+      {
+        "ja": "ここに入らないでください。",
+        "zh": "请不要进入这里。",
+        "focus": "入らないでください"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-17-nakereba-naranai",
+    "lesson": 17,
+    "grammar_id": "nakereba_naranai",
+    "order": 3,
+    "title": "～なければなりません",
+    "subtitle": "必须……",
+    "structure": [
+      "动词ない形去い + ければなりません"
+    ],
+    "summary": "表示由于规则、责任或情况而必须做某事。",
+    "notes": [
+      "口语常说「なきゃ」或「なくちゃ」，正式表达仍用完整形式。"
+    ],
+    "examples": [
+      {
+        "ja": "薬を飲まなければなりません。",
+        "zh": "必须吃药。",
+        "focus": "飲まなければなりません"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-17-nakutemo-ii",
+    "lesson": 17,
+    "grammar_id": "nakutemo_ii",
+    "order": 4,
+    "title": "～なくてもいいです",
+    "subtitle": "不……也可以",
+    "structure": [
+      "动词ない形去い + くてもいいです"
+    ],
+    "summary": "表示没有做某事的必要。",
+    "notes": [
+      "它表示“不必”，不是“禁止”。"
+    ],
+    "examples": [
+      {
+        "ja": "あした来なくてもいいです。",
+        "zh": "明天不来也可以。",
+        "focus": "来なくてもいいです"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-18-dictionary-form",
+    "lesson": 18,
+    "grammar_id": "dictionary_form",
+    "order": 1,
+    "title": "动词辞书形",
+    "subtitle": "动词普通体非过去肯定",
+    "structure": [
+      "一类：ます前い段→う段",
+      "二类：去ます + る",
+      "します→する、来ます→来る"
+    ],
+    "summary": "辞书形用于普通体，也用于接续许多后续句型。",
+    "notes": [
+      "辞书中的动词词条以这一形式出现。"
+    ],
+    "examples": [
+      {
+        "ja": "読みます → 読む",
+        "zh": "读（礼貌形）→ 读（辞书形）",
+        "focus": "読む"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-18-koto-ga-dekiru",
+    "lesson": 18,
+    "grammar_id": "koto_ga_dekiru",
+    "order": 2,
+    "title": "～ことができます",
+    "subtitle": "能……；会……",
+    "structure": [
+      "动词辞书形 + ことができます"
+    ],
+    "summary": "表达能力、可能性或条件允许。",
+    "notes": [
+      "这里的「こと」把动作名词化。"
+    ],
+    "examples": [
+      {
+        "ja": "わたしは日本語を話すことができます。",
+        "zh": "我会说日语。",
+        "focus": "話すことができます"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-18-hobby-koto",
+    "lesson": 18,
+    "grammar_id": "hobby_koto",
+    "order": 3,
+    "title": "趣味は ～ことです",
+    "subtitle": "爱好是……",
+    "structure": [
+      "趣味は + 动词辞书形 + ことです"
+    ],
+    "summary": "用动作说明自己的爱好或经常从事的活动。",
+    "notes": [
+      "名词爱好也可以直接说「趣味は音楽です」。"
+    ],
+    "examples": [
+      {
+        "ja": "趣味は写真を撮ることです。",
+        "zh": "我的爱好是摄影。",
+        "focus": "撮ることです"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-18-mae-ni",
+    "lesson": 18,
+    "grammar_id": "mae_ni",
+    "order": 4,
+    "title": "～前に",
+    "subtitle": "在……之前",
+    "structure": [
+      "动词辞书形 + 前に",
+      "名词 + の前に",
+      "时间量 + 前に"
+    ],
+    "summary": "表示在某个动作或时间点之前做另一件事。",
+    "notes": [
+      "即使主句是过去，前项动词通常仍用辞书形。"
+    ],
+    "examples": [
+      {
+        "ja": "寝る前に、歯を磨きます。",
+        "zh": "睡觉前刷牙。",
+        "focus": "寝る前に"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-19-ta-form",
+    "lesson": 19,
+    "grammar_id": "ta_form",
+    "order": 1,
+    "title": "动词た形",
+    "subtitle": "动词普通体过去肯定",
+    "structure": [
+      "て形的「て／で」换成「た／だ」"
+    ],
+    "summary": "た形用于经历、列举、条件等句型。",
+    "notes": [
+      "变化规律与て形完全对应。"
+    ],
+    "examples": [
+      {
+        "ja": "書いて → 書いた",
+        "zh": "写了以后 → 写了",
+        "focus": "書いた"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-19-ta-koto-ga-aru",
+    "lesson": 19,
+    "grammar_id": "ta_koto_ga_aru",
+    "order": 2,
+    "title": "～たことがあります",
+    "subtitle": "曾经……过",
+    "structure": [
+      "动词た形 + ことがあります"
+    ],
+    "summary": "表达截至现在为止的人生经历。",
+    "notes": [
+      "单纯叙述某次过去事件时不用这个句型。"
+    ],
+    "examples": [
+      {
+        "ja": "富士山に登ったことがあります。",
+        "zh": "我曾经爬过富士山。",
+        "focus": "登ったことがあります"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-19-tari-tari",
+    "lesson": 19,
+    "grammar_id": "tari_tari",
+    "order": 3,
+    "title": "～たり ～たりします",
+    "subtitle": "做做……之类",
+    "structure": [
+      "动词た形 + り、动词た形 + りします"
+    ],
+    "summary": "从多个动作中举出代表性例子，不强调完整顺序。",
+    "notes": [
+      "句末的「します」承担整句时态变化。"
+    ],
+    "examples": [
+      {
+        "ja": "日曜日は本を読んだり、映画を見たりします。",
+        "zh": "星期天看看书、看看电影。",
+        "focus": "読んだり"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-19-adverbial-change",
+    "lesson": 19,
+    "grammar_id": "adverbial_change",
+    "order": 4,
+    "title": "～く／～に なります",
+    "subtitle": "变得……",
+    "structure": [
+      "い形去い + くなります",
+      "な形／名词 + になります"
+    ],
+    "summary": "表示性质、状态或身份发生变化。",
+    "notes": [
+      "「なります」侧重自然变化，不强调人为决定。"
+    ],
+    "examples": [
+      {
+        "ja": "だんだん暖かくなりました。",
+        "zh": "渐渐变暖和了。",
+        "focus": "暖かくなりました"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-20-plain-form",
+    "lesson": 20,
+    "grammar_id": "plain_form",
+    "order": 1,
+    "title": "普通体",
+    "subtitle": "简体表达",
+    "structure": [
+      "动词：辞书形／ない形／た形／なかった形",
+      "い形按自身变化",
+      "な形／名词：だ／じゃない／だった／じゃなかった"
+    ],
+    "summary": "普通体用于朋友、家人之间，也用于许多从句。",
+    "notes": [
+      "是否省略句末助词取决于语气和关系。"
+    ],
+    "examples": [
+      {
+        "ja": "あした東京へ行く。",
+        "zh": "明天去东京。",
+        "focus": "東京へ行く"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-20-plain-conversation",
+    "lesson": 20,
+    "grammar_id": "plain_conversation",
+    "order": 2,
+    "title": "普通体会话",
+    "subtitle": "口语中的简体问答",
+    "structure": [
+      "普通体 + ？",
+      "名词／な形容词疑问句常省略「だ」"
+    ],
+    "summary": "熟人会话中用语调或终助词表达疑问和态度。",
+    "notes": [
+      "切换敬体和普通体要考虑彼此关系与场合。"
+    ],
+    "examples": [
+      {
+        "ja": "コーヒー、飲む？",
+        "zh": "喝咖啡吗？",
+        "focus": "飲む"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-21-to-omou",
+    "lesson": 21,
+    "grammar_id": "to_omou",
+    "order": 1,
+    "title": "～と思います",
+    "subtitle": "我认为……",
+    "structure": [
+      "普通体 + と思います"
+    ],
+    "summary": "表达说话人的判断、意见或推测。",
+    "notes": [
+      "名词和な形容词肯定句在引用中要保留「だ」。"
+    ],
+    "examples": [
+      {
+        "ja": "あした雨が降ると思います。",
+        "zh": "我觉得明天会下雨。",
+        "focus": "降ると思います"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-21-to-iu",
+    "lesson": 21,
+    "grammar_id": "to_iu",
+    "order": 2,
+    "title": "～と言います",
+    "subtitle": "说……",
+    "structure": [
+      "普通体 + と言います"
+    ],
+    "summary": "用助词「と」标记直接或间接引用的内容。",
+    "notes": [
+      "直接引用保留原话并使用引号。"
+    ],
+    "examples": [
+      {
+        "ja": "田中さんは「また来ます」と言いました。",
+        "zh": "田中说“我还会再来”。",
+        "focus": "と言いました"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-21-deshou-confirm",
+    "lesson": 21,
+    "grammar_id": "deshou_confirm",
+    "order": 3,
+    "title": "～でしょう？",
+    "subtitle": "……吧？",
+    "structure": [
+      "普通体 + でしょう"
+    ],
+    "summary": "用上升语调向对方确认自己认为双方都知道的事情。",
+    "notes": [
+      "与单纯推测的「でしょう」要靠语境和语调区分。"
+    ],
+    "examples": [
+      {
+        "ja": "北海道は寒かったでしょう？",
+        "zh": "北海道很冷吧？",
+        "focus": "寒かったでしょう"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-22-relative-clause",
+    "lesson": 22,
+    "grammar_id": "relative_clause",
+    "order": 1,
+    "title": "名词修饰从句",
+    "subtitle": "……的名词",
+    "structure": [
+      "普通体小句 + 名词"
+    ],
+    "summary": "把一个小句放在名词前，说明这个名词的人、物、时间或地点。",
+    "notes": [
+      "修饰从句内部的主语通常用「が」。"
+    ],
+    "examples": [
+      {
+        "ja": "これは母が作った料理です。",
+        "zh": "这是妈妈做的菜。",
+        "focus": "母が作った料理"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-22-relative-particle",
+    "lesson": 22,
+    "grammar_id": "relative_particle",
+    "order": 2,
+    "title": "修饰从句中的助词",
+    "subtitle": "省略被修饰名词的位置",
+    "structure": [
+      "从句 + 名词 + 主句"
+    ],
+    "summary": "被修饰名词在从句中的位置不再重复，其他助词保持原功能。",
+    "notes": [
+      "先找中心名词，再判断前面整段对它的说明。"
+    ],
+    "examples": [
+      {
+        "ja": "わたしが住んでいる町は静かです。",
+        "zh": "我居住的城市很安静。",
+        "focus": "住んでいる町"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-23-toki",
+    "lesson": 23,
+    "grammar_id": "toki",
+    "order": 1,
+    "title": "～とき",
+    "subtitle": "……的时候",
+    "structure": [
+      "动词普通体 + とき",
+      "い形普通体 + とき",
+      "な形 + なとき",
+      "名词 + のとき"
+    ],
+    "summary": "表示后项动作或状态发生的时间背景。",
+    "notes": [
+      "动词非过去和过去形式会改变前后动作的时间关系。"
+    ],
+    "examples": [
+      {
+        "ja": "日本へ行くとき、かばんを買いました。",
+        "zh": "去日本之前买了包。",
+        "focus": "行くとき"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-23-to-condition",
+    "lesson": 23,
+    "grammar_id": "to_condition",
+    "order": 2,
+    "title": "～と",
+    "subtitle": "一……就……；如果……就……",
+    "structure": [
+      "动词辞书形 + と、自然结果"
+    ],
+    "summary": "表示恒常规律、机器操作结果或路线指示等自然发生的关系。",
+    "notes": [
+      "后项一般不用命令、请求或说话人的意志表达。"
+    ],
+    "examples": [
+      {
+        "ja": "このボタンを押すと、ドアが開きます。",
+        "zh": "一按这个按钮，门就会开。",
+        "focus": "押すと"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-24-te-ageru",
+    "lesson": 24,
+    "grammar_id": "te_ageru",
+    "order": 1,
+    "title": "～てあげます",
+    "subtitle": "为别人做……",
+    "structure": [
+      "人に + 动词て形 + あげます"
+    ],
+    "summary": "从施惠者视角表达为别人做某事。",
+    "notes": [
+      "直接对长辈说「～てあげる」可能显得居高临下。"
+    ],
+    "examples": [
+      {
+        "ja": "妹に宿題を教えてあげました。",
+        "zh": "我教妹妹做作业了。",
+        "focus": "教えてあげました"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-24-te-morau",
+    "lesson": 24,
+    "grammar_id": "te_morau",
+    "order": 2,
+    "title": "～てもらいます",
+    "subtitle": "请别人为我做……",
+    "structure": [
+      "人に + 动词て形 + もらいます"
+    ],
+    "summary": "从受益者视角表达获得别人动作上的帮助。",
+    "notes": [
+      "动作执行者用「に」标记。"
+    ],
+    "examples": [
+      {
+        "ja": "友達に写真を撮ってもらいました。",
+        "zh": "请朋友帮我拍了照片。",
+        "focus": "撮ってもらいました"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-24-te-kureru",
+    "lesson": 24,
+    "grammar_id": "te_kureru",
+    "order": 3,
+    "title": "～てくれます",
+    "subtitle": "别人为我方做……",
+    "structure": [
+      "人が + 动词て形 + くれます"
+    ],
+    "summary": "从“我方”视角表达别人主动给予帮助。",
+    "notes": [
+      "受益者是我或与我关系亲近的人。"
+    ],
+    "examples": [
+      {
+        "ja": "先生が日本語を教えてくれました。",
+        "zh": "老师教了我日语。",
+        "focus": "教えてくれました"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-25-tara",
+    "lesson": 25,
+    "grammar_id": "tara",
+    "order": 1,
+    "title": "～たら",
+    "subtitle": "如果……；……之后",
+    "structure": [
+      "动词／形容词／名词的た形 + ら"
+    ],
+    "summary": "既能表示假设条件，也能表示前项完成后再做后项。",
+    "notes": [
+      "后项可以使用意志、请求和命令，适用范围较广。"
+    ],
+    "examples": [
+      {
+        "ja": "雨が降ったら、出かけません。",
+        "zh": "如果下雨就不出门。",
+        "focus": "降ったら"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-25-temo",
+    "lesson": 25,
+    "grammar_id": "temo",
+    "order": 2,
+    "title": "～ても",
+    "subtitle": "即使……也……",
+    "structure": [
+      "动词て形 + も",
+      "い形：～くても",
+      "な形／名词：～でも"
+    ],
+    "summary": "表示即使条件成立，结果也不受影响。",
+    "notes": [
+      "常和「もし」或「いくら」等副词搭配。"
+    ],
+    "examples": [
+      {
+        "ja": "雨が降っても、試合をします。",
+        "zh": "即使下雨也举行比赛。",
+        "focus": "降っても"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-26-n-desu",
+    "lesson": 26,
+    "grammar_id": "n_desu",
+    "order": 1,
+    "title": "～んです",
+    "subtitle": "说明情况、追问原因",
+    "structure": [
+      "普通体 + んです",
+      "名词／な形容词 + なんです"
+    ],
+    "summary": "把相关背景当作说明提供，或带着已有线索询问原因。",
+    "notes": [
+      "书面形式是「のです」。"
+    ],
+    "examples": [
+      {
+        "ja": "どうしたんですか。",
+        "zh": "怎么了？",
+        "focus": "したんですか"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-26-n-desu-ga",
+    "lesson": 26,
+    "grammar_id": "n_desu_ga",
+    "order": 2,
+    "title": "～んですが……",
+    "subtitle": "说明情况并引出请求",
+    "structure": [
+      "普通体 + んですが、后续请求／咨询"
+    ],
+    "summary": "先交代背景，再委婉地提出问题、请求或寻求建议。",
+    "notes": [
+      "后半句在语境明确时可以省略。"
+    ],
+    "examples": [
+      {
+        "ja": "駅へ行きたいんですが、道を教えてください。",
+        "zh": "我想去车站，请告诉我怎么走。",
+        "focus": "行きたいんですが"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-26-te-itadakemasenka",
+    "lesson": 26,
+    "grammar_id": "te_itadakemasenka",
+    "order": 3,
+    "title": "～ていただけませんか",
+    "subtitle": "能请您……吗",
+    "structure": [
+      "动词て形 + いただけませんか"
+    ],
+    "summary": "比「てください」更加礼貌、委婉地请求对方做事。",
+    "notes": [
+      "适合向不熟悉的人或地位较高者提出请求。"
+    ],
+    "examples": [
+      {
+        "ja": "もう一度説明していただけませんか。",
+        "zh": "能请您再说明一次吗？",
+        "focus": "説明していただけませんか"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-27-potential-form",
+    "lesson": 27,
+    "grammar_id": "potential_form",
+    "order": 1,
+    "title": "动词可能形",
+    "subtitle": "能够……",
+    "structure": [
+      "一类：う段→え段 + る",
+      "二类：去る + られる",
+      "する→できる、来る→来られる"
+    ],
+    "summary": "可能形表达能力或客观条件允许。",
+    "notes": [
+      "可能动词的对象常用「が」，也可在口语中用「を」。"
+    ],
+    "examples": [
+      {
+        "ja": "日本語が話せます。",
+        "zh": "会说日语。",
+        "focus": "話せます"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-27-mieru-kikoeru",
+    "lesson": 27,
+    "grammar_id": "mieru_kikoeru",
+    "order": 2,
+    "title": "見えます・聞こえます・できます",
+    "subtitle": "能看见、能听见、建成",
+    "structure": [
+      "N が 見えます／聞こえます",
+      "场所に N が できます"
+    ],
+    "summary": "表示自然进入感官，或新的设施、组织、关系产生。",
+    "notes": [
+      "它们不是单纯由意志控制的“看、听”。"
+    ],
+    "examples": [
+      {
+        "ja": "窓から海が見えます。",
+        "zh": "从窗户能看见海。",
+        "focus": "海が見えます"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-27-shika",
+    "lesson": 27,
+    "grammar_id": "shika",
+    "order": 3,
+    "title": "～しか ～ません",
+    "subtitle": "只有……",
+    "structure": [
+      "名词／数量 + しか + 否定谓语"
+    ],
+    "summary": "表示除此以外没有，常带有数量少或限制强的语感。",
+    "notes": [
+      "虽然形式是否定，中文通常译为肯定的“只有”。"
+    ],
+    "examples": [
+      {
+        "ja": "千円しかありません。",
+        "zh": "只有一千日元。",
+        "focus": "千円しかありません"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-27-contrast-wa",
+    "lesson": 27,
+    "grammar_id": "contrast_wa",
+    "order": 4,
+    "title": "～は（对比）",
+    "subtitle": "至于……；……则……",
+    "structure": [
+      "对比对象 + は"
+    ],
+    "summary": "把两个对象或情况放在对照中，突出差异。",
+    "notes": [
+      "原本的「が／を」常被对比「は」替换。"
+    ],
+    "examples": [
+      {
+        "ja": "ひらがなは書けますが、漢字は書けません。",
+        "zh": "平假名会写，但汉字不会写。",
+        "focus": "漢字は"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-28-nagara",
+    "lesson": 28,
+    "grammar_id": "nagara",
+    "order": 1,
+    "title": "～ながら",
+    "subtitle": "一边……一边……",
+    "structure": [
+      "Vます 去掉ます + ながら、主要动作"
+    ],
+    "summary": "同一主体同时进行两个动作，句末动作通常是主要动作。",
+    "notes": [
+      "不能连接两个主体不同的动作。"
+    ],
+    "examples": [
+      {
+        "ja": "音楽を聞きながら勉強します。",
+        "zh": "一边听音乐一边学习。",
+        "focus": "聞きながら"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-28-habit-teiru",
+    "lesson": 28,
+    "grammar_id": "habit_teiru",
+    "order": 2,
+    "title": "～ています",
+    "subtitle": "长期反复进行",
+    "structure": [
+      "职业／习惯动词て形 + います"
+    ],
+    "summary": "表示职业、习惯或长期持续的行为。",
+    "notes": [
+      "不一定表示“此刻正在做”。"
+    ],
+    "examples": [
+      {
+        "ja": "大学で日本語を教えています。",
+        "zh": "我在大学教日语。",
+        "focus": "教えています"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-28-shi",
+    "lesson": 28,
+    "grammar_id": "shi",
+    "order": 3,
+    "title": "～し、～し",
+    "subtitle": "既……又……；因为……等",
+    "structure": [
+      "普通体 + し、普通体 + し"
+    ],
+    "summary": "并列多个特点或理由，暗示列举并不穷尽。",
+    "notes": [
+      "名词和な形容词接「だし」。"
+    ],
+    "examples": [
+      {
+        "ja": "この店は安いし、おいしいし、よく来ます。",
+        "zh": "这家店又便宜又好吃，所以我常来。",
+        "focus": "安いし"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-29-intransitive-state",
+    "lesson": 29,
+    "grammar_id": "intransitive_state",
+    "order": 1,
+    "title": "自動詞 + ています",
+    "subtitle": "某物处于……状态",
+    "structure": [
+      "物 + が + 自動詞て形 + います"
+    ],
+    "summary": "描述变化完成后留下的状态，不强调谁做了动作。",
+    "notes": [
+      "注意与他动词「窓を開けます」区分。"
+    ],
+    "examples": [
+      {
+        "ja": "窓が開いています。",
+        "zh": "窗户开着。",
+        "focus": "開いています"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-29-te-shimau",
+    "lesson": 29,
+    "grammar_id": "te_shimau",
+    "order": 2,
+    "title": "～てしまいます",
+    "subtitle": "做完；不小心……",
+    "structure": [
+      "动词て形 + しまいます"
+    ],
+    "summary": "表示动作彻底完成，或表达遗憾、后悔和意外。",
+    "notes": [
+      "口语常缩约为「ちゃう／じゃう」。"
+    ],
+    "examples": [
+      {
+        "ja": "財布をなくしてしまいました。",
+        "zh": "不小心把钱包弄丢了。",
+        "focus": "なくしてしまいました"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-30-te-aru",
+    "lesson": 30,
+    "grammar_id": "te_aru",
+    "order": 1,
+    "title": "～てあります",
+    "subtitle": "事先做好的状态",
+    "structure": [
+      "物 + が + 他動詞て形 + あります"
+    ],
+    "summary": "表示有人有意完成某动作后，相关状态仍然存在。",
+    "notes": [
+      "强调人为准备，与自動詞「貼っている」视角不同。"
+    ],
+    "examples": [
+      {
+        "ja": "壁に地図が貼ってあります。",
+        "zh": "墙上贴着地图。",
+        "focus": "貼ってあります"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-30-te-oku",
+    "lesson": 30,
+    "grammar_id": "te_oku",
+    "order": 2,
+    "title": "～ておきます",
+    "subtitle": "预先做；保持原状",
+    "structure": [
+      "动词て形 + おきます"
+    ],
+    "summary": "表示为将来预先准备，或采取措施后保持状态。",
+    "notes": [
+      "口语常说「ときます」。"
+    ],
+    "examples": [
+      {
+        "ja": "旅行の前にホテルを予約しておきます。",
+        "zh": "旅行前先订好酒店。",
+        "focus": "予約しておきます"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-30-mada",
+    "lesson": 30,
+    "grammar_id": "mada",
+    "order": 3,
+    "title": "まだ ～ています／～ていません",
+    "subtitle": "还在……／还没……",
+    "structure": [
+      "まだ + て形 + います",
+      "まだ + て形 + いません"
+    ],
+    "summary": "表示状态仍持续，或预期动作尚未完成。",
+    "notes": [
+      "回答「もう～ましたか」时常用这一形式。"
+    ],
+    "examples": [
+      {
+        "ja": "レポートはまだ終わっていません。",
+        "zh": "报告还没写完。",
+        "focus": "まだ終わっていません"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-31-volitional-form",
+    "lesson": 31,
+    "grammar_id": "volitional_form",
+    "order": 1,
+    "title": "动词意向形",
+    "subtitle": "……吧；打算……",
+    "structure": [
+      "一类：う段→お段 + う",
+      "二类：去る + よう",
+      "する→しよう、来る→来よう"
+    ],
+    "summary": "普通体中表示说话人的意志或提议，也是后续句型的基础。",
+    "notes": [
+      "礼貌形式对应「～ましょう」。"
+    ],
+    "examples": [
+      {
+        "ja": "ちょっと休もう。",
+        "zh": "稍微休息一下吧。",
+        "focus": "休もう"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-31-you-to-omou",
+    "lesson": 31,
+    "grammar_id": "you_to_omou",
+    "order": 2,
+    "title": "～ようと思っています",
+    "subtitle": "一直打算……",
+    "structure": [
+      "动词意向形 + と思っています"
+    ],
+    "summary": "表达已经考虑一段时间、目前仍保持的计划。",
+    "notes": [
+      "临时决定可用「～ようと思います」。"
+    ],
+    "examples": [
+      {
+        "ja": "来年、日本へ留学しようと思っています。",
+        "zh": "我打算明年去日本留学。",
+        "focus": "留学しようと思っています"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-31-tsumori-yotei",
+    "lesson": 31,
+    "grammar_id": "tsumori_yotei",
+    "order": 3,
+    "title": "～つもりです／～予定です",
+    "subtitle": "打算……／计划……",
+    "structure": [
+      "动词辞书形／ない形 + つもりです",
+      "动词辞书形／名词の + 予定です"
+    ],
+    "summary": "「つもり」侧重个人意图；「予定」侧重已经安排好的计划。",
+    "notes": [
+      "描述明确日程时优先使用「予定です」。"
+    ],
+    "examples": [
+      {
+        "ja": "週末は家で休むつもりです。",
+        "zh": "周末打算在家休息。",
+        "focus": "休むつもりです"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-32-hou-ga-ii",
+    "lesson": 32,
+    "grammar_id": "hou_ga_ii",
+    "order": 1,
+    "title": "～ほうがいいです",
+    "subtitle": "最好……",
+    "structure": [
+      "动词た形 + ほうがいいです",
+      "动词ない形 + ほうがいいです"
+    ],
+    "summary": "针对具体情况给出建议。",
+    "notes": [
+      "语气可能较直接，对不熟的人要注意缓和。"
+    ],
+    "examples": [
+      {
+        "ja": "疲れているなら、早く寝たほうがいいです。",
+        "zh": "累的话最好早点睡。",
+        "focus": "寝たほうがいい"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-32-deshou-guess",
+    "lesson": 32,
+    "grammar_id": "deshou_guess",
+    "order": 2,
+    "title": "～でしょう",
+    "subtitle": "大概……吧",
+    "structure": [
+      "普通体 + でしょう"
+    ],
+    "summary": "根据信息或常识作出较有把握的推测。",
+    "notes": [
+      "名词和な形容词接续时不加「だ」。"
+    ],
+    "examples": [
+      {
+        "ja": "あしたは晴れるでしょう。",
+        "zh": "明天大概会晴。",
+        "focus": "晴れるでしょう"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-32-kamoshirenai",
+    "lesson": 32,
+    "grammar_id": "kamoshirenai",
+    "order": 3,
+    "title": "～かもしれません",
+    "subtitle": "也许……",
+    "structure": [
+      "普通体 + かもしれません"
+    ],
+    "summary": "表达可能性，但把握程度低于「でしょう」。",
+    "notes": [
+      "名词和な形容词接续时不加「だ」。"
+    ],
+    "examples": [
+      {
+        "ja": "電車が遅れるかもしれません。",
+        "zh": "电车也许会晚点。",
+        "focus": "遅れるかもしれません"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-33-imperative-form",
+    "lesson": 33,
+    "grammar_id": "imperative_form",
+    "order": 1,
+    "title": "动词命令形",
+    "subtitle": "做……！",
+    "structure": [
+      "一类：う段→え段",
+      "二类：去る + ろ",
+      "する→しろ、来る→来い"
+    ],
+    "summary": "用于强烈命令，常见于紧急场景、口号或男性化表达。",
+    "notes": [
+      "日常对话中语气很强，不能随意对人使用。"
+    ],
+    "examples": [
+      {
+        "ja": "危ない。逃げろ！",
+        "zh": "危险，快逃！",
+        "focus": "逃げろ"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-33-prohibitive-form",
+    "lesson": 33,
+    "grammar_id": "prohibitive_form",
+    "order": 2,
+    "title": "动词禁止形",
+    "subtitle": "不许……！",
+    "structure": [
+      "动词辞书形 + な"
+    ],
+    "summary": "用非常强烈的语气禁止某个动作。",
+    "notes": [
+      "不要与「ない形」混淆。"
+    ],
+    "examples": [
+      {
+        "ja": "ここに入るな。",
+        "zh": "不许进这里。",
+        "focus": "入るな"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-33-toiu-imi",
+    "lesson": 33,
+    "grammar_id": "toiu_imi",
+    "order": 3,
+    "title": "～という意味です",
+    "subtitle": "意思是……",
+    "structure": [
+      "普通体／词语 + という意味です"
+    ],
+    "summary": "解释标志、词语或表达的含义。",
+    "notes": [
+      "询问含义用「どういう意味ですか」。"
+    ],
+    "examples": [
+      {
+        "ja": "「立入禁止」は入るなという意味です。",
+        "zh": "“禁止入内”的意思是不许进入。",
+        "focus": "という意味です"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-33-to-ittemashita",
+    "lesson": 33,
+    "grammar_id": "to_ittemashita",
+    "order": 4,
+    "title": "～と言っていました",
+    "subtitle": "某人说……",
+    "structure": [
+      "普通体 + と言っていました"
+    ],
+    "summary": "转述之前听到的他人话语或通知。",
+    "notes": [
+      "转述时根据需要调整人称和时间表达。"
+    ],
+    "examples": [
+      {
+        "ja": "田中さんは明日休むと言っていました。",
+        "zh": "田中说他明天休息。",
+        "focus": "休むと言っていました"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
     "id": "lesson-34-toorini",
     "lesson": 34,
     "grammar_id": "toorini",
@@ -214,6 +2546,982 @@
         "ja": "パソコンなら、この店が安いです。",
         "zh": "如果是买电脑，这家店比较便宜。",
         "focus": "パソコンなら"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-36-you-ni-purpose",
+    "lesson": 36,
+    "grammar_id": "you_ni_purpose",
+    "order": 1,
+    "title": "～ように",
+    "subtitle": "为了能够……",
+    "structure": [
+      "非意志动词辞书形／ない形 + ように"
+    ],
+    "summary": "表示以能力、状态或非意志性结果为目标。",
+    "notes": [
+      "意志性动作的直接目的通常用「ために」。"
+    ],
+    "examples": [
+      {
+        "ja": "日本語が話せるように、毎日練習します。",
+        "zh": "为了能说日语，我每天练习。",
+        "focus": "話せるように"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-36-you-ni-naru",
+    "lesson": 36,
+    "grammar_id": "you_ni_naru",
+    "order": 2,
+    "title": "～ようになります",
+    "subtitle": "变得能够／不再……",
+    "structure": [
+      "动词辞书形／ない形 + ようになります"
+    ],
+    "summary": "表示能力、习惯或状态经过变化后达到新的阶段。",
+    "notes": [
+      "强调变化结果，不强调主动努力过程。"
+    ],
+    "examples": [
+      {
+        "ja": "漢字が読めるようになりました。",
+        "zh": "变得能读汉字了。",
+        "focus": "読めるようになりました"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-36-you-ni-suru",
+    "lesson": 36,
+    "grammar_id": "you_ni_suru",
+    "order": 3,
+    "title": "～ようにします",
+    "subtitle": "尽量做到……",
+    "structure": [
+      "动词辞书形／ない形 + ようにします"
+    ],
+    "summary": "表示有意识地努力养成或避免某种行为。",
+    "notes": [
+      "「ようにしています」表示持续坚持中的习惯。"
+    ],
+    "examples": [
+      {
+        "ja": "毎日、野菜を食べるようにしています。",
+        "zh": "我尽量每天吃蔬菜。",
+        "focus": "食べるようにしています"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-37-passive-form",
+    "lesson": 37,
+    "grammar_id": "passive_form",
+    "order": 1,
+    "title": "动词受身形",
+    "subtitle": "被……",
+    "structure": [
+      "一类：う段→あ段 + れる",
+      "二类：去る + られる",
+      "する→される、来る→来られる"
+    ],
+    "summary": "受身形是被动句的基础变化。",
+    "notes": [
+      "二类动词的受身形与可能形外形相同，要靠语境判断。"
+    ],
+    "examples": [
+      {
+        "ja": "ほめます → ほめられます",
+        "zh": "表扬 → 被表扬",
+        "focus": "ほめられます"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-37-direct-passive",
+    "lesson": 37,
+    "grammar_id": "direct_passive",
+    "order": 2,
+    "title": "直接被动句",
+    "subtitle": "被某人做……",
+    "structure": [
+      "受事者 は 动作者 に 被动动词"
+    ],
+    "summary": "把承受动作的人或事物作为主题。",
+    "notes": [
+      "动作实施者一般用「に」标记。"
+    ],
+    "examples": [
+      {
+        "ja": "わたしは先生にほめられました。",
+        "zh": "我被老师表扬了。",
+        "focus": "先生にほめられました"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-37-adversity-passive",
+    "lesson": 37,
+    "grammar_id": "adversity_passive",
+    "order": 3,
+    "title": "受害被动",
+    "subtitle": "因别人……而受影响",
+    "structure": [
+      "受影响者 は 人に Nを 被动动词"
+    ],
+    "summary": "动作未必直接作用于主语，但主语因该动作受到困扰或损失。",
+    "notes": [
+      "中文不一定直译成“被”，但日语突出受影响者。"
+    ],
+    "examples": [
+      {
+        "ja": "わたしは弟にパソコンを壊されました。",
+        "zh": "弟弟弄坏了我的电脑，害我很困扰。",
+        "focus": "壊されました"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-38-nominalizer-no",
+    "lesson": 38,
+    "grammar_id": "nominalizer_no",
+    "order": 1,
+    "title": "～の",
+    "subtitle": "把动作变成名词",
+    "structure": [
+      "普通体 + の"
+    ],
+    "summary": "用「の」把动作或状态整体名词化，便于充当句子成分。",
+    "notes": [
+      "较口语、具体的动作常用「の」，「こと」更抽象或正式。"
+    ],
+    "examples": [
+      {
+        "ja": "本を読むのが好きです。",
+        "zh": "我喜欢读书。",
+        "focus": "読むの"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-38-no-wa",
+    "lesson": 38,
+    "grammar_id": "no_wa",
+    "order": 2,
+    "title": "～のは ～です",
+    "subtitle": "……的是……",
+    "structure": [
+      "普通体 + のは + 名词／形容词です"
+    ],
+    "summary": "把某个动作设为主题，再说明评价、时间或具体内容。",
+    "notes": [
+      "焦点通常落在句末说明部分。"
+    ],
+    "examples": [
+      {
+        "ja": "日本へ来たのは去年です。",
+        "zh": "我来日本是去年的事。",
+        "focus": "来たのは"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-38-no-ga-o",
+    "lesson": 38,
+    "grammar_id": "no_ga_o",
+    "order": 3,
+    "title": "～のが／～のを",
+    "subtitle": "喜欢做……／忘记做……",
+    "structure": [
+      "普通体 + のが + 状态谓语",
+      "普通体 + のを + 他动词"
+    ],
+    "summary": "名词化小句可以根据谓语需要接「が」或「を」。",
+    "notes": [
+      "先确定后面谓语要求哪个助词。"
+    ],
+    "examples": [
+      {
+        "ja": "窓を閉めるのを忘れました。",
+        "zh": "忘记关窗了。",
+        "focus": "閉めるのを"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-39-te-cause",
+    "lesson": 39,
+    "grammar_id": "te_cause",
+    "order": 1,
+    "title": "～て／～なくて",
+    "subtitle": "因为……所以……",
+    "structure": [
+      "动词て形／ない形去い + くて",
+      "形容词连接形 + 后项结果"
+    ],
+    "summary": "用于描述自然产生的原因，后项多为感情、状态或非意志结果。",
+    "notes": [
+      "后项一般不接命令、请求或强烈意志。"
+    ],
+    "examples": [
+      {
+        "ja": "ニュースを聞いて、びっくりしました。",
+        "zh": "听到新闻后吃了一惊。",
+        "focus": "聞いて"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-39-node",
+    "lesson": 39,
+    "grammar_id": "node",
+    "order": 2,
+    "title": "～ので",
+    "subtitle": "因为……",
+    "structure": [
+      "普通体 + ので",
+      "名词／な形容词 + なので"
+    ],
+    "summary": "客观、委婉地说明原因，比「から」语气更柔和。",
+    "notes": [
+      "礼貌说明理由或拒绝时很常用。"
+    ],
+    "examples": [
+      {
+        "ja": "用事があるので、先に帰ります。",
+        "zh": "因为有事，我先回去了。",
+        "focus": "あるので"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-40-embedded-question",
+    "lesson": 40,
+    "grammar_id": "embedded_question",
+    "order": 1,
+    "title": "疑问词小句 + か",
+    "subtitle": "……是什么／在哪里等",
+    "structure": [
+      "疑问词 + 普通体 + か、主句"
+    ],
+    "summary": "把带疑问词的问题嵌入句中，作为“知道、确认、调查”等动作的内容。",
+    "notes": [
+      "嵌入小句内部不用礼貌形「ますか」。"
+    ],
+    "examples": [
+      {
+        "ja": "会議が何時に始まるか、知っていますか。",
+        "zh": "你知道会议几点开始吗？",
+        "focus": "何時に始まるか"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-40-ka-douka",
+    "lesson": 40,
+    "grammar_id": "ka_douka",
+    "order": 2,
+    "title": "～かどうか",
+    "subtitle": "是否……",
+    "structure": [
+      "普通体 + かどうか、主句"
+    ],
+    "summary": "把没有疑问词的是非问题嵌入句中。",
+    "notes": [
+      "名词和な形容词接续时通常不加「だ」。"
+    ],
+    "examples": [
+      {
+        "ja": "間に合うかどうか、わかりません。",
+        "zh": "不知道是否来得及。",
+        "focus": "間に合うかどうか"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-40-te-miru",
+    "lesson": 40,
+    "grammar_id": "te_miru",
+    "order": 3,
+    "title": "～てみます",
+    "subtitle": "试着做……",
+    "structure": [
+      "动词て形 + みます"
+    ],
+    "summary": "表示为了确认结果或获得体验而尝试。",
+    "notes": [
+      "这里的「みる」通常写平假名。"
+    ],
+    "examples": [
+      {
+        "ja": "この靴を履いてみてもいいですか。",
+        "zh": "可以试穿一下这双鞋吗？",
+        "focus": "履いてみて"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-41-polite-giving",
+    "lesson": 41,
+    "grammar_id": "polite_giving",
+    "order": 1,
+    "title": "いただきます・くださいます・やります",
+    "subtitle": "郑重的授受表达",
+    "structure": [
+      "目上の人に Nを いただきます",
+      "目上の人が Nを くださいます",
+      "目下／动植物に Nを やります"
+    ],
+    "summary": "根据给予方向与双方关系选择带敬意的授受动词。",
+    "notes": [
+      "「くださいます」的ます形变化是不规则的。"
+    ],
+    "examples": [
+      {
+        "ja": "先生に本をいただきました。",
+        "zh": "我从老师那里得到了一本书。",
+        "focus": "いただきました"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-41-polite-action-giving",
+    "lesson": 41,
+    "grammar_id": "polite_action_giving",
+    "order": 2,
+    "title": "～ていただきます／～てくださいます",
+    "subtitle": "承蒙……做／为我方做",
+    "structure": [
+      "人に Vていただきます",
+      "人が Vてくださいます"
+    ],
+    "summary": "表达接受长辈或外部人员动作上的帮助。",
+    "notes": [
+      "比「てもらいます／てくれます」更礼貌。"
+    ],
+    "examples": [
+      {
+        "ja": "先生に作文を直していただきました。",
+        "zh": "承蒙老师帮我修改了作文。",
+        "focus": "直していただきました"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-41-te-kudasaimasenka",
+    "lesson": 41,
+    "grammar_id": "te_kudasaimasenka",
+    "order": 3,
+    "title": "～てくださいませんか",
+    "subtitle": "能请您……吗",
+    "structure": [
+      "动词て形 + くださいませんか"
+    ],
+    "summary": "用尊敬的授受表达，礼貌请求对方为自己做事。",
+    "notes": [
+      "适合对长辈或不熟悉的人使用。"
+    ],
+    "examples": [
+      {
+        "ja": "この漢字の読み方を教えてくださいませんか。",
+        "zh": "能请您告诉我这个汉字的读法吗？",
+        "focus": "教えてくださいませんか"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-42-tame-ni",
+    "lesson": 42,
+    "grammar_id": "tame_ni",
+    "order": 1,
+    "title": "～ために",
+    "subtitle": "为了……",
+    "structure": [
+      "意志动词辞书形 + ために",
+      "名词 + のために"
+    ],
+    "summary": "表示明确目标，以及为实现目标采取的意志性行动。",
+    "notes": [
+      "前后小句的主体原则上相同。"
+    ],
+    "examples": [
+      {
+        "ja": "家を買うために、貯金しています。",
+        "zh": "为了买房正在存钱。",
+        "focus": "買うために"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-42-no-ni-use",
+    "lesson": 42,
+    "grammar_id": "no_ni_use",
+    "order": 2,
+    "title": "～のに 使います",
+    "subtitle": "用于……",
+    "structure": [
+      "动词辞书形 + のに + 使います／便利です／必要です"
+    ],
+    "summary": "说明物品、时间或费用的用途与评价。",
+    "notes": [
+      "这里的「のに」表示用途，不是第45课的转折“明明……却”。"
+    ],
+    "examples": [
+      {
+        "ja": "このはさみは紙を切るのに使います。",
+        "zh": "这把剪刀用于剪纸。",
+        "focus": "切るのに"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-42-quantity-needed",
+    "lesson": 42,
+    "grammar_id": "quantity_needed",
+    "order": 3,
+    "title": "～のに ～かかります",
+    "subtitle": "做……需要……",
+    "structure": [
+      "动词辞书形 + のに + 时间／费用 + かかります"
+    ],
+    "summary": "说明完成某事所需的时间、费用或数量。",
+    "notes": [
+      "数量通常用「は」突出至少需要多少。"
+    ],
+    "examples": [
+      {
+        "ja": "この仕事を終えるのに三日かかります。",
+        "zh": "完成这项工作需要三天。",
+        "focus": "終えるのに"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-43-sou-appearance",
+    "lesson": 43,
+    "grammar_id": "sou_appearance",
+    "order": 1,
+    "title": "～そうです",
+    "subtitle": "看起来……",
+    "structure": [
+      "Vます词干 + そうです",
+      "い形去い + そうです",
+      "な形词干 + そうです"
+    ],
+    "summary": "根据眼前外观判断状态或动作即将发生。",
+    "notes": [
+      "「いい」变为「よさそう」，「ない」变为「なさそう」。"
+    ],
+    "examples": [
+      {
+        "ja": "このケーキはおいしそうです。",
+        "zh": "这个蛋糕看起来很好吃。",
+        "focus": "おいしそうです"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-43-te-kuru",
+    "lesson": 43,
+    "grammar_id": "te_kuru",
+    "order": 2,
+    "title": "～てきます",
+    "subtitle": "去做后回来；变化来到现在",
+    "structure": [
+      "动词て形 + きます"
+    ],
+    "summary": "可表示离开当前地点做事后返回，也可表示变化从过去延续到现在。",
+    "notes": [
+      "是否包含“回来”要结合移动场景判断。"
+    ],
+    "examples": [
+      {
+        "ja": "ちょっと飲み物を買ってきます。",
+        "zh": "我去买点饮料就回来。",
+        "focus": "買ってきます"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-44-sugiru",
+    "lesson": 44,
+    "grammar_id": "sugiru",
+    "order": 1,
+    "title": "～すぎます",
+    "subtitle": "过于……",
+    "structure": [
+      "Vます词干 + すぎます",
+      "い形去い + すぎます",
+      "な形词干 + すぎます"
+    ],
+    "summary": "表示动作或程度超过合适范围。",
+    "notes": [
+      "「すぎる」本身按二类动词变化。"
+    ],
+    "examples": [
+      {
+        "ja": "きのう、食べすぎました。",
+        "zh": "昨天吃太多了。",
+        "focus": "食べすぎました"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-44-yasui-nikui",
+    "lesson": 44,
+    "grammar_id": "yasui_nikui",
+    "order": 2,
+    "title": "～やすい／～にくい",
+    "subtitle": "容易……／难以……",
+    "structure": [
+      "Vます词干 + やすい／にくい"
+    ],
+    "summary": "描述某个动作在客观上容易或困难。",
+    "notes": [
+      "它们按い形容词变化。"
+    ],
+    "examples": [
+      {
+        "ja": "このペンは書きやすいです。",
+        "zh": "这支笔很好写。",
+        "focus": "書きやすい"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-44-ku-ni-suru",
+    "lesson": 44,
+    "grammar_id": "ku_ni_suru",
+    "order": 3,
+    "title": "～く／～に します",
+    "subtitle": "把……弄成；决定要……",
+    "structure": [
+      "い形去い + くします",
+      "な形／名词 + にします"
+    ],
+    "summary": "表示人为改变状态，或从选项中作出决定。",
+    "notes": [
+      "点餐时「これにします」表示“我要这个”。"
+    ],
+    "examples": [
+      {
+        "ja": "髪を短くしてください。",
+        "zh": "请把头发剪短。",
+        "focus": "短くしてください"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-45-baai",
+    "lesson": 45,
+    "grammar_id": "baai",
+    "order": 1,
+    "title": "～場合は",
+    "subtitle": "在……情况下",
+    "structure": [
+      "动词／い形普通体 + 場合は",
+      "な形 + な場合は",
+      "名词 + の場合は"
+    ],
+    "summary": "设定可能出现的情况，再说明应对方法或结果。",
+    "notes": [
+      "常用于说明书、规则和正式通知。"
+    ],
+    "examples": [
+      {
+        "ja": "火事の場合は、エレベーターを使わないでください。",
+        "zh": "发生火灾时请不要使用电梯。",
+        "focus": "火事の場合は"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-45-noni-concession",
+    "lesson": 45,
+    "grammar_id": "noni_concession",
+    "order": 2,
+    "title": "～のに",
+    "subtitle": "明明……却……",
+    "structure": [
+      "普通体 + のに",
+      "名词／な形容词 + なのに"
+    ],
+    "summary": "表示实际结果与预期相反，常带惊讶、不满或遗憾。",
+    "notes": [
+      "句末不能直接接命令或请求。"
+    ],
+    "examples": [
+      {
+        "ja": "薬を飲んだのに、まだ熱があります。",
+        "zh": "明明吃了药，却还在发烧。",
+        "focus": "飲んだのに"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-46-tokoro",
+    "lesson": 46,
+    "grammar_id": "tokoro",
+    "order": 1,
+    "title": "～ところです",
+    "subtitle": "正要／正在／刚刚……",
+    "structure": [
+      "辞书形 + ところです",
+      "ている + ところです",
+      "た形 + ところです"
+    ],
+    "summary": "用动词形式区分动作即将开始、正在进行和刚完成。",
+    "notes": [
+      "常与「今、ちょうど、これから」等时间副词搭配。"
+    ],
+    "examples": [
+      {
+        "ja": "いまから出かけるところです。",
+        "zh": "我正准备出门。",
+        "focus": "出かけるところです"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-46-bakari",
+    "lesson": 46,
+    "grammar_id": "bakari",
+    "order": 2,
+    "title": "～たばかりです",
+    "subtitle": "刚刚……",
+    "structure": [
+      "动词た形 + ばかりです"
+    ],
+    "summary": "从说话人的主观感受表达事情发生不久。",
+    "notes": [
+      "不一定是几分钟前，时间长短取决于语境。"
+    ],
+    "examples": [
+      {
+        "ja": "日本へ来たばかりです。",
+        "zh": "我刚来日本。",
+        "focus": "来たばかりです"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-46-hazu",
+    "lesson": 46,
+    "grammar_id": "hazu",
+    "order": 3,
+    "title": "～はずです",
+    "subtitle": "按理应该……",
+    "structure": [
+      "普通体 + はずです",
+      "名词 + のはずです"
+    ],
+    "summary": "根据可靠信息或逻辑作出把握较高的判断。",
+    "notes": [
+      "「はずがありません」表示按理不可能。"
+    ],
+    "examples": [
+      {
+        "ja": "田中さんは来るはずです。",
+        "zh": "田中按理应该会来。",
+        "focus": "来るはずです"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-47-sou-hearsay",
+    "lesson": 47,
+    "grammar_id": "sou_hearsay",
+    "order": 1,
+    "title": "～そうです",
+    "subtitle": "听说……",
+    "structure": [
+      "普通体 + そうです"
+    ],
+    "summary": "把从他人、新闻等来源获得的信息转述出来。",
+    "notes": [
+      "与样态「おいしそう」的接续方式不同。"
+    ],
+    "examples": [
+      {
+        "ja": "天気予報によると、明日は雨だそうです。",
+        "zh": "据天气预报说明天有雨。",
+        "focus": "雨だそうです"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-47-youda-mitai",
+    "lesson": 47,
+    "grammar_id": "youda_mitai",
+    "order": 2,
+    "title": "～ようです／～みたいです",
+    "subtitle": "好像……",
+    "structure": [
+      "普通体 + ようです",
+      "普通体 + みたいです"
+    ],
+    "summary": "根据观察到的迹象作出主观推测。「みたい」更口语。",
+    "notes": [
+      "名词接「のようです」，な形容词接「なようです」。"
+    ],
+    "examples": [
+      {
+        "ja": "電気が消えています。だれもいないようです。",
+        "zh": "灯关着，好像没人。",
+        "focus": "いないようです"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-48-causative-form",
+    "lesson": 48,
+    "grammar_id": "causative_form",
+    "order": 1,
+    "title": "动词使役形",
+    "subtitle": "让／使……做",
+    "structure": [
+      "一类：う段→あ段 + せる",
+      "二类：去る + させる",
+      "する→させる、来る→来させる"
+    ],
+    "summary": "使役形表达命令、允许或促使他人做某事。",
+    "notes": [
+      "自动词动作主体常用「を」，他动词动作主体常用「に」。"
+    ],
+    "examples": [
+      {
+        "ja": "先生は学生に作文を書かせました。",
+        "zh": "老师让学生写作文。",
+        "focus": "書かせました"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-48-causative-permission",
+    "lesson": 48,
+    "grammar_id": "causative_permission",
+    "order": 2,
+    "title": "～させていただけませんか",
+    "subtitle": "能否允许我……",
+    "structure": [
+      "动词使役て形 + いただけませんか"
+    ],
+    "summary": "非常礼貌地请求对方允许自己做某事。",
+    "notes": [
+      "工作场合常用于向上级申请许可。"
+    ],
+    "examples": [
+      {
+        "ja": "今日は早く帰らせていただけませんか。",
+        "zh": "今天能允许我早点回去吗？",
+        "focus": "帰らせていただけませんか"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-48-causative-passive",
+    "lesson": 48,
+    "grammar_id": "causative_passive",
+    "order": 3,
+    "title": "动词使役受身形",
+    "subtitle": "被迫……",
+    "structure": [
+      "一类：～される／～せられる",
+      "二类：～させられる"
+    ],
+    "summary": "表示主体在不情愿或无法拒绝的情况下被迫做某事。",
+    "notes": [
+      "通常带有受害或不情愿的语感。"
+    ],
+    "examples": [
+      {
+        "ja": "子どものころ、母に野菜を食べさせられました。",
+        "zh": "小时候被妈妈逼着吃蔬菜。",
+        "focus": "食べさせられました"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-49-honorific-concept",
+    "lesson": 49,
+    "grammar_id": "honorific_concept",
+    "order": 1,
+    "title": "尊敬语",
+    "subtitle": "抬高对方的动作",
+    "structure": [
+      "お／ご + Vます词干 + になります",
+      "尊敬语特殊动词"
+    ],
+    "summary": "描述上级、客户或话题人物的动作，以表达尊敬。",
+    "notes": [
+      "不能用于自己的动作。"
+    ],
+    "examples": [
+      {
+        "ja": "社長はもうお帰りになりました。",
+        "zh": "社长已经回去了。",
+        "focus": "お帰りになりました"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-49-honorific-special",
+    "lesson": 49,
+    "grammar_id": "honorific_special",
+    "order": 2,
+    "title": "特殊尊敬语",
+    "subtitle": "いらっしゃる、召し上がる等",
+    "structure": [
+      "行く／来る／いる→いらっしゃいます",
+      "食べる／飲む→召し上がります",
+      "見る→ご覧になります"
+    ],
+    "summary": "常用动词有固定尊敬语，需要单独记忆。",
+    "notes": [
+      "「いらっしゃいます」的命令式「いらっしゃいませ」常用于接客。"
+    ],
+    "examples": [
+      {
+        "ja": "先生は何を召し上がりますか。",
+        "zh": "老师您吃什么？",
+        "focus": "召し上がりますか"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-49-o-ni-naru",
+    "lesson": 49,
+    "grammar_id": "o_ni_naru",
+    "order": 3,
+    "title": "お／ご～になります",
+    "subtitle": "尊敬语的一般构造",
+    "structure": [
+      "お + 和语动词ます词干 + になります",
+      "ご + 汉语动词词干 + になります"
+    ],
+    "summary": "对没有特殊尊敬形式的动作，可用这一构造。",
+    "notes": [
+      "单音节词干和部分外来语通常不使用这一形式。"
+    ],
+    "examples": [
+      {
+        "ja": "こちらでお待ちになりますか。",
+        "zh": "您要在这里等吗？",
+        "focus": "お待ちになりますか"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-50-humble-concept",
+    "lesson": 50,
+    "grammar_id": "humble_concept",
+    "order": 1,
+    "title": "谦让语",
+    "subtitle": "降低自己的动作",
+    "structure": [
+      "お／ご + Vます词干 + します",
+      "谦让语特殊动词"
+    ],
+    "summary": "描述自己或我方人员面向尊敬对象的动作。",
+    "notes": [
+      "原则上动作需要与尊敬对象有关。"
+    ],
+    "examples": [
+      {
+        "ja": "わたしがお荷物をお持ちします。",
+        "zh": "我来帮您拿行李。",
+        "focus": "お持ちします"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-50-humble-special",
+    "lesson": 50,
+    "grammar_id": "humble_special",
+    "order": 2,
+    "title": "特殊谦让语",
+    "subtitle": "参る、申す、いただく等",
+    "structure": [
+      "行く／来る→参ります",
+      "言う→申します／申し上げます",
+      "見る→拝見します",
+      "食べる／飲む／もらう→いただきます"
+    ],
+    "summary": "常用动词有固定谦让形式，需要整体记忆。",
+    "notes": [
+      "「おります」是「います」的谦让或郑重表达。"
+    ],
+    "examples": [
+      {
+        "ja": "資料を拝見しました。",
+        "zh": "我拜读了资料。",
+        "focus": "拝見しました"
+      }
+    ],
+    "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"
+  },
+  {
+    "id": "lesson-50-o-go-suru",
+    "lesson": 50,
+    "grammar_id": "o_go_suru",
+    "order": 3,
+    "title": "お／ご～します",
+    "subtitle": "谦让语的一般构造",
+    "structure": [
+      "お + 和语动词ます词干 + します",
+      "ご + 汉语动词词干 + します"
+    ],
+    "summary": "通过降低我方动作，向该动作涉及的对方表示敬意。",
+    "notes": [
+      "和语多用「お」，汉语词多用「ご」，但有固定例外。"
+    ],
+    "examples": [
+      {
+        "ja": "駅までご案内します。",
+        "zh": "我带您到车站。",
+        "focus": "ご案内します"
       }
     ],
     "source_url": "https://main.jacknotes.digital/textbook_minnnanonihonngo"

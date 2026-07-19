@@ -127,6 +127,63 @@
         </div>
         <p id="grammarCompleteNotice" class="grammar-complete-notice hidden">本课语法已看完。可以回到“本课单词”，也可以直接去复习测试。</p>
     </section>
+
+    <section id="lessonTestView" class="lesson-test-view hidden" aria-label="本课单词测试">
+        <div class="lesson-test-heading">
+            <button id="exitLessonTestBtn" class="lesson-test-back" type="button">← 返回本课</button>
+            <strong id="lessonTestTitle">第 1 课测试</strong>
+        </div>
+
+        <section id="lessonTestProgress" class="progress-area">
+            <div class="progress-title">
+                <span>本次测试</span>
+                <span id="lessonTestProgressText">0 / 0</span>
+            </div>
+            <div class="progress-bar">
+                <div id="lessonTestProgressBar" class="progress-inner"></div>
+            </div>
+        </section>
+
+        <section id="lessonTestCard" class="word-card lesson-test-card">
+            <div class="mode">中文 → 日语</div>
+            <div id="lessonTestMeaning" class="meaning"></div>
+
+            <section id="lessonTestRecallArea">
+                <button id="lessonTestRememberBtn" class="primary-btn" type="button">我会</button>
+                <button id="lessonTestShowAnswerBtn" class="secondary-text" type="button">查看答案</button>
+            </section>
+
+            <section id="lessonTestInputArea" class="hidden">
+                <input id="lessonTestAnswerInput" placeholder="请输入日语" autocomplete="off">
+                <div class="answer-actions">
+                    <button id="lessonTestSubmitBtn" class="primary-btn" type="button">确认答案</button>
+                    <button id="lessonTestIgnoreBtn" class="link-btn" type="button">本次忽略</button>
+                </div>
+                <button id="lessonTestShowAnswerInInput" class="secondary-text" type="button">查看答案</button>
+            </section>
+
+            <section id="lessonTestResultArea" class="hidden">
+                <div id="lessonTestResultMessage"></div>
+                <div id="lessonTestComparison" class="answer-comparison hidden"></div>
+                <div id="lessonTestAnswer" class="jp-answer"></div>
+            </section>
+
+            <button id="lessonTestNextBtn" class="primary-btn hidden" type="button">下一题 →</button>
+        </section>
+
+        <section id="lessonTestSummary" class="summary-card hidden">
+            <h2>🎉 本课测试完成</h2>
+            <p id="lessonTestSummaryText" class="lesson-test-summary-text"></p>
+            <div class="summary-number">
+                <div>✅ 正确 <span id="lessonTestCorrectCount">0</span></div>
+                <div>📌 待加强 <span id="lessonTestWrongCount">0</span></div>
+                <div>⏸ 已忽略 <span id="lessonTestIgnoredCount">0</span></div>
+            </div>
+            <div id="lessonTestWrongList" class="wrong-list"></div>
+            <button id="repeatLessonTestBtn" class="primary-btn" type="button">再测一次</button>
+            <button id="finishLessonTestBtn" class="secondary-btn summary-new-group-btn" type="button">返回本课单词</button>
+        </section>
+    </section>
 </main>
 <script src="learn.js"></script>
 </body>

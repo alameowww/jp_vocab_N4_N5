@@ -838,8 +838,8 @@ body{
     height:38px;
     padding:0 26px 0 8px;
     border:0;
-    border-bottom:1px solid #e8e8ec;
-    border-radius:0;
+    border-bottom:0;
+    border-radius:10px;
     background:transparent;
     color:#222;
     appearance:none;
@@ -848,21 +848,23 @@ body{
     font-weight:650;
     text-align:center;
     text-align-last:center;
+    transition:color .18s ease, background .18s ease;
 }
 
 .learn-toolbar select:focus-visible{
-    border-bottom-color:#7aa7ff;
     outline:none;
+    background:#f0f3f8;
+    color:#2768dc;
 }
 
 .lesson-select-chevron{
     position:absolute;
     top:50%;
-    right:5px;
+    right:calc(50% - 38px);
     width:15px;
     height:15px;
     fill:none;
-    stroke:#aaaab2;
+    stroke:#b7b7bf;
     stroke-width:2;
     stroke-linecap:round;
     stroke-linejoin:round;
@@ -1152,6 +1154,61 @@ body{
 .lesson-complete-actions .learn-previous,
 .lesson-complete-actions .primary-btn{
     width:100%;
+}
+
+.lesson-test-view{
+    margin-top:18px;
+}
+
+.lesson-test-heading{
+    display:grid;
+    grid-template-columns:1fr auto 1fr;
+    align-items:center;
+    margin-bottom:4px;
+}
+
+.lesson-test-heading strong{
+    color:#555;
+    font-size:14px;
+}
+
+.lesson-test-back{
+    justify-self:start;
+    padding:8px 0;
+    border:0;
+    background:transparent;
+    color:#777;
+    font-size:14px;
+    cursor:pointer;
+}
+
+.lesson-test-card{
+    min-height:390px;
+}
+
+.lesson-test-card .meaning{
+    margin-bottom:34px;
+}
+
+.lesson-test-card #lessonTestResultMessage{
+    margin-bottom:14px;
+    font-size:18px;
+    font-weight:700;
+}
+
+.lesson-test-card #lessonTestNextBtn{
+    margin-top:24px;
+}
+
+.lesson-test-summary-text{
+    margin:0 0 18px;
+    color:#888;
+    font-size:13px;
+    text-align:center;
+}
+
+.lesson-test-view .summary-card .secondary-btn{
+    margin-top:10px;
 }
 
 /* ===== lesson grammar cards ===== */
