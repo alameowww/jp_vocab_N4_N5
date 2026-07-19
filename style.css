@@ -558,7 +558,8 @@ body{
 
 
 
-#answerInput{
+#answerInput,
+#lessonTestAnswerInput{
 
     width:100%;
 
@@ -996,6 +997,65 @@ body{
     color:#555;
     font-size:12px;
     font-variant-numeric:tabular-nums;
+}
+
+.learn-progress-tools{
+    display:flex;
+    align-items:center;
+    gap:14px;
+}
+
+.auto-audio-control{
+    display:inline-flex;
+    align-items:center;
+    gap:6px;
+    color:#777;
+    cursor:pointer;
+    user-select:none;
+}
+
+.auto-audio-control input{
+    position:absolute;
+    width:1px;
+    height:1px;
+    overflow:hidden;
+    opacity:0;
+    pointer-events:none;
+}
+
+.auto-audio-switch{
+    position:relative;
+    width:28px;
+    height:16px;
+    border-radius:999px;
+    background:#d8d8dd;
+    transition:background .18s ease;
+}
+
+.auto-audio-switch::after{
+    content:"";
+    position:absolute;
+    top:2px;
+    left:2px;
+    width:12px;
+    height:12px;
+    border-radius:50%;
+    background:#fff;
+    box-shadow:0 1px 3px rgba(0,0,0,.18);
+    transition:transform .18s ease;
+}
+
+.auto-audio-control input:checked + .auto-audio-switch{
+    background:#4f87f7;
+}
+
+.auto-audio-control input:checked + .auto-audio-switch::after{
+    transform:translateX(12px);
+}
+
+.auto-audio-control input:focus-visible + .auto-audio-switch{
+    outline:2px solid rgba(79,135,247,.3);
+    outline-offset:2px;
 }
 
 .learn-progress-track{
@@ -1932,10 +1992,17 @@ body{
 
 }
 
+.settings-effect-note{
+    margin:10px 0 0;
+    color:#888;
+    font-size:12px;
+    line-height:1.55;
+}
+
 
 #saveBtn{
 
-    margin-top:28px;
+    margin-top:18px;
 
 }
 
@@ -2078,7 +2145,8 @@ body{
 }
 
 
-#answerInput{
+#answerInput,
+#lessonTestAnswerInput{
     width:100%;
     max-width:100%;
     box-sizing:border-box;

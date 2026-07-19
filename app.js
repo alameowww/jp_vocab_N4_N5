@@ -41,6 +41,8 @@ let config = {
 
 };
 
+let roundConfig = { ...config };
+
 
 
 let wordStatus = {};
@@ -486,6 +488,8 @@ function updateStatus(word,type){
 
 function createTodayWords(excludedWordIds = new Set()){
 
+    roundConfig = { ...config };
+
 
     const now = Date.now();
 
@@ -500,11 +504,11 @@ function createTodayWords(excludedWordIds = new Set()){
 
         return (
 
-            word.lesson >= config.minLesson
+            word.lesson >= roundConfig.minLesson
 
             &&
 
-            word.lesson <= config.maxLesson
+            word.lesson <= roundConfig.maxLesson
 
             &&
 
@@ -577,13 +581,16 @@ function createTodayWords(excludedWordIds = new Set()){
     todayWords =
     [...reviewWords, ...freshWords, ...previousWords].slice(
         0,
-        config.count
+        roundConfig.count
     );
 
 
 
     todayCount.innerText =
     todayWords.length;
+
+    lessonDisplay.innerText =
+    `${roundConfig.minLesson} - ${roundConfig.maxLesson}`;
 
 
 }

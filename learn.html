@@ -51,7 +51,14 @@
         <section class="learn-progress-panel" aria-label="本课单词进度">
             <div class="learn-progress-heading">
                 <span>本课进度</span>
-                <strong id="learnProgress">0 / 0</strong>
+                <div class="learn-progress-tools">
+                    <label class="auto-audio-control" for="autoAudioToggle">
+                        <span>自动读音</span>
+                        <input id="autoAudioToggle" type="checkbox" role="switch" aria-label="自动播放单词读音">
+                        <span class="auto-audio-switch" aria-hidden="true"></span>
+                    </label>
+                    <strong id="learnProgress">0 / 0</strong>
+                </div>
             </div>
             <div id="learnProgressTrack" class="learn-progress-track" role="progressbar" aria-valuemin="0" aria-valuemax="0" aria-valuenow="0">
                 <span id="learnProgressBar"></span>

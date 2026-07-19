@@ -2,6 +2,7 @@ const STATUS_KEY = "jp_word_status";
 const LEARN_PROGRESS_KEY = "jp_learn_progress";
 const GRAMMAR_PROGRESS_KEY = "jp_grammar_progress";
 const LAST_LESSON_KEY = "jp_learn_last_lesson";
+const AUTO_AUDIO_KEY = "jp_learn_auto_audio";
 
 let vocabulary = [];
 let lessonWords = [];
@@ -16,6 +17,7 @@ let progressByLesson = {};
 let grammarProgressByLesson = {};
 let activeContent = "words";
 let activeAudio = null;
+let autoAudioEnabled = false;
 let audioPlaybackId = 0;
 const audioPlayer = new Audio();
 audioPlayer.preload = "auto";
@@ -27,6 +29,7 @@ const lessonSelect = document.getElementById("learnLesson");
 const progressText = document.getElementById("learnProgress");
 const progressTrack = document.getElementById("learnProgressTrack");
 const progressBar = document.getElementById("learnProgressBar");
+const autoAudioToggle = document.getElementById("autoAudioToggle");
 const previousLessonButton = document.getElementById("previousLessonBtn");
 const nextLessonButton = document.getElementById("nextLessonBtn");
 const japanese = document.getElementById("learnJapanese");
@@ -314,7 +317,7 @@ function updateWordProgress(){
     progressTrack.setAttribute("aria-valuetext", `本课 ${total} 个单词，当前第 ${position} 个`);
 }
 
-function renderCard(){
+function renderCard(shouldAutoPlay = false){
     stopAudio();
     const word = lessonWords[currentIndex];
     if(!word){
@@ -335,6 +338,9 @@ function renderCard(){
     renderExamples(word);
     learnActions.classList.remove("hidden");
     lessonCompleteActions.classList.add("hidden");
+    if(shouldAutoPlay && autoAudioEnabled && word.audio){
+        playAudio();
+    }
 }
 
 function renderGrammarCard(){
@@ -401,7 +407,7 @@ function showLessonComplete(){
     lessonCompleteActions.classList.remove("hidden");
 }
 
-function selectLesson(lesson){
+function selectLesson(lesson, shouldAutoPlay = false){
     currentLesson = Number(lesson);
     localStorage.setItem(LAST_LESSON_KEY, String(currentLesson));
     lessonWords = vocabulary.filter(word=>Number(word.lesson) === currentLesson);
@@ -436,7 +442,7 @@ function selectLesson(lesson){
         "aria-label",
         nextLesson ? `下一课，第 ${nextLesson} 课` : "已经是最后一课"
     );
-    renderCard();
+    renderCard(shouldAutoPlay);
     showContent("words");
 }
 
@@ -444,7 +450,7 @@ function moveLesson(offset){
     const lessonPosition = availableLessons.indexOf(currentLesson);
     const targetLesson = availableLessons[lessonPosition + offset];
     if(targetLesson !== undefined){
-        selectLesson(targetLesson);
+        selectLesson(targetLesson, true);
     }
 }
 
@@ -517,10 +523,14 @@ function showLessonTestResult(type, userAnswer = ""){
     lessonTestInputArea.classList.add("hidden");
     lessonTestResultArea.classList.remove("hidden");
     lessonTestNextButton.classList.remove("hidden");
-    lessonTestResultMessage.className = type === "correct" ? "success" : "error";
+    lessonTestResultMessage.className = type === "correct"
+        ? "feedback-success"
+        : (type === "ignore" ? "feedback-ignore" : "feedback-error");
     lessonTestResultMessage.textContent = type === "correct"
         ? "🎉 正确！"
-        : "这次没想起来，再看一下正确答案。";
+        : (type === "ignore"
+            ? "这次先跳过，先看一下正确答案。"
+            : "这次没想起来，再看一下正确答案。");
     lessonTestAnswer.innerHTML = renderRuby(word);
 
     if(userAnswer && type !== "correct"){
@@ -603,7 +613,7 @@ previousButton.onclick=function(){
         currentIndex -= 1;
         progressByLesson[currentLesson] = currentIndex;
         localStorage.setItem(LEARN_PROGRESS_KEY, JSON.stringify(progressByLesson));
-        renderCard();
+        renderCard(true);
     }
 };
 
@@ -613,7 +623,7 @@ nextButton.onclick=function(){
         currentIndex += 1;
         progressByLesson[currentLesson] = currentIndex;
         localStorage.setItem(LEARN_PROGRESS_KEY, JSON.stringify(progressByLesson));
-        renderCard();
+        renderCard(true);
     }
     else{
         seenBadge.classList.remove("hidden");
@@ -625,7 +635,7 @@ repeatLessonButton.onclick=function(){
     currentIndex = 0;
     progressByLesson[currentLesson] = 0;
     localStorage.setItem(LEARN_PROGRESS_KEY, JSON.stringify(progressByLesson));
-    renderCard();
+    renderCard(true);
 };
 
 testLessonButton.onclick=function(){
@@ -652,10 +662,18 @@ grammarNextButton.onclick=function(){
     }
 };
 
-lessonSelect.onchange=()=>selectLesson(lessonSelect.value);
+lessonSelect.onchange=()=>selectLesson(lessonSelect.value, true);
 previousLessonButton.onclick=()=>moveLesson(-1);
 nextLessonButton.onclick=()=>moveLesson(1);
 audioButton.onclick=playAudio;
+autoAudioToggle.onchange=()=>{
+    autoAudioEnabled = autoAudioToggle.checked;
+    localStorage.setItem(AUTO_AUDIO_KEY, String(autoAudioEnabled));
+    if(!autoAudioEnabled){
+        stopAudio();
+        prepareAudio(lessonWords[currentIndex]);
+    }
+};
 wordContentTab.onclick=()=>showContent("words");
 grammarContentTab.onclick=()=>showContent("grammar");
 lessonTestRememberButton.onclick=()=>{
@@ -674,8 +692,7 @@ lessonTestAnswerInput.addEventListener("keydown", event=>{
 });
 lessonTestIgnoreButton.onclick=()=>{
     lessonTestResult.ignored.push(lessonTestWords[lessonTestIndex]);
-    lessonTestIndex += 1;
-    renderLessonTestWord();
+    showLessonTestResult("ignore");
 };
 lessonTestNextButton.onclick=()=>{
     lessonTestIndex += 1;
@@ -689,6 +706,8 @@ async function init(){
     statuses = JSON.parse(localStorage.getItem(STATUS_KEY) || "{}");
     progressByLesson = JSON.parse(localStorage.getItem(LEARN_PROGRESS_KEY) || "{}");
     grammarProgressByLesson = JSON.parse(localStorage.getItem(GRAMMAR_PROGRESS_KEY) || "{}");
+    autoAudioEnabled = localStorage.getItem(AUTO_AUDIO_KEY) === "true";
+    autoAudioToggle.checked = autoAudioEnabled;
     const [vocabularyResponse, grammarResponse] = await Promise.all([
         fetch("japanese_vocab.json"),
         fetch("grammar_points.json")
