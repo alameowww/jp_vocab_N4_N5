@@ -1342,7 +1342,7 @@ body{
     }
 
     .learn-japanese{
-        font-size:36px;
+        font-size:42px;
     }
 
     .learn-actions{
@@ -2206,9 +2206,9 @@ body{
     }
 }
 
-/* ===== compact new-word layout for phone screens ===== */
+/* Legacy compact layout disabled: learn mode now shares review-mode sizing. */
 
-@media (max-width:420px) and (max-height:900px){
+@media (max-width:0px) and (max-height:0px){
     .app.learn-app{
         padding:12px 14px calc(12px + env(safe-area-inset-bottom));
     }
