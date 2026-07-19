@@ -89,6 +89,7 @@ const lessonTestWrongList = document.getElementById("lessonTestWrongList");
 const exitLessonTestButton = document.getElementById("exitLessonTestBtn");
 const repeatLessonTestButton = document.getElementById("repeatLessonTestBtn");
 const finishLessonTestButton = document.getElementById("finishLessonTestBtn");
+const reviewWrongLessonTestButton = document.getElementById("reviewWrongLessonTestBtn");
 
 function escapeHtml(value){
     return String(value ?? "")
@@ -582,6 +583,23 @@ function showLessonTestSummary(){
             <div class="wrong-kana">${renderRuby(word)}</div>
         </div>
     `).join("");
+    reviewWrongLessonTestButton.classList.toggle(
+        "hidden",
+        lessonTestResult.wrong.length === 0
+    );
+}
+
+function reviewWrongLessonTestWords(){
+    if(!lessonTestResult.wrong.length){
+        return;
+    }
+    lessonTestWords = shuffleWords(lessonTestResult.wrong);
+    lessonTestIndex = 0;
+    lessonTestResult = { correct:[], wrong:[], ignored:[] };
+    lessonTestProgress.classList.remove("hidden");
+    lessonTestCard.classList.remove("hidden");
+    lessonTestSummary.classList.add("hidden");
+    renderLessonTestWord();
 }
 
 function startLessonTest(){
@@ -606,6 +624,13 @@ function exitLessonTest(){
     wordLearningView.classList.remove("hidden");
     showContent("words");
     renderCard();
+}
+
+function restartLessonLearning(){
+    currentIndex = 0;
+    progressByLesson[currentLesson] = 0;
+    localStorage.setItem(LEARN_PROGRESS_KEY, JSON.stringify(progressByLesson));
+    exitLessonTest();
 }
 
 previousButton.onclick=function(){
@@ -699,7 +724,8 @@ lessonTestNextButton.onclick=()=>{
     renderLessonTestWord();
 };
 exitLessonTestButton.onclick=exitLessonTest;
-finishLessonTestButton.onclick=exitLessonTest;
+finishLessonTestButton.onclick=restartLessonLearning;
+reviewWrongLessonTestButton.onclick=reviewWrongLessonTestWords;
 repeatLessonTestButton.onclick=startLessonTest;
 
 async function init(){

@@ -1267,8 +1267,27 @@ body{
     text-align:center;
 }
 
-.lesson-test-view .summary-card .secondary-btn{
+.lesson-test-summary-action{
+    width:100%;
     margin-top:10px;
+}
+
+.lesson-test-repeat-link{
+    width:100%;
+    margin-top:5px;
+    padding:12px;
+    border:0;
+    background:transparent;
+    color:#999;
+    font-size:14px;
+    cursor:pointer;
+}
+
+.lesson-test-repeat-link:hover,
+.lesson-test-repeat-link:focus-visible{
+    color:#555;
+    outline:none;
+    text-decoration:underline;
 }
 
 /* ===== lesson grammar cards ===== */
