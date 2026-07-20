@@ -767,7 +767,8 @@ body{
     align-items:center;
     justify-content:space-between;
     width:100%;
-    padding:0;
+    min-height:44px;
+    padding:8px 0;
     border:none;
     background:transparent;
     color:#333;
@@ -2064,6 +2065,10 @@ body{
 
     width:100%;
 
+    min-width:0;
+
+    height:52px;
+
     flex:none;
 
 }
@@ -2079,6 +2084,10 @@ body{
     border-radius:25px;
 
     padding:30px 25px;
+
+    width:min(100%, 350px);
+
+    box-sizing:border-box;
 
     max-width:350px;
 
@@ -2140,6 +2149,10 @@ body{
 
     flex:1;
 
+}
+
+#nextBtn{
+    margin-top:24px;
 }
 /* ===== mobile input fix ===== */
 

@@ -313,24 +313,27 @@ function consumeExtraReview(wordId){
 // 间隔复习调度
 // =====================
 
-// 每完成 3 次成功的主动回忆，由用户决定继续复习或标记为已掌握。
-const REVIEW_CONFIRM_EVERY = 3;
+// 首次完成 6 次跨天成功回忆后询问是否掌握；继续复习后每 3 次再确认。
+const REVIEW_FIRST_CHECKPOINT = 6;
+const REVIEW_CHECKPOINT_STEP = 3;
+const MAX_DAILY_REVIEW_ATTEMPTS = 3;
 
 
 const MINUTE = 60 * 1000;
 const DAY = 24 * 60 * MINUTE;
 
 
-// 第 1、2 次成功后分别等待 10 分钟、1 天；第 3 次弹窗。
-// 用户选择继续后，依次扩展到 3、7、14、30、60、120 天。
+// 成功回忆必须跨天才推进阶段；间隔会随成功次数逐步拉长。
 const REVIEW_INTERVALS = [
-    10 * MINUTE,
     1 * DAY,
-    3 * DAY,
+    2 * DAY,
+    4 * DAY,
     7 * DAY,
     14 * DAY,
     30 * DAY,
+    45 * DAY,
     60 * DAY,
+    90 * DAY,
     120 * DAY
 ];
 
@@ -353,7 +356,89 @@ function ensureSpacedReviewState(status){
         status.awaitingReviewDecision = false;
     }
 
+    if(typeof status.lastSuccessfulReviewDay !== "string"){
+        status.lastSuccessfulReviewDay = "";
+    }
+
+    if(typeof status.reviewAttemptDay !== "string"){
+        status.reviewAttemptDay = "";
+    }
+
+    if(!Number.isFinite(status.reviewAttemptsToday)){
+        status.reviewAttemptsToday = 0;
+    }
+
+    // 兼容旧版在第 3 次成功时留下的待确认状态。
+    if(
+        status.awaitingReviewDecision
+        && !isReviewDecisionCheckpoint(status.reviewSuccesses)
+    ){
+        status.awaitingReviewDecision = false;
+        status.nextReviewAt = status.lastReviewAt
+            + getReviewInterval(status.reviewSuccesses);
+    }
+
     return status;
+
+}
+
+
+function getLocalDayKey(now = Date.now()){
+
+    const date = new Date(now);
+
+    return [
+        date.getFullYear(),
+        String(date.getMonth() + 1).padStart(2, "0"),
+        String(date.getDate()).padStart(2, "0")
+    ].join("-");
+
+}
+
+
+function syncDailyReviewState(status, now = Date.now()){
+
+    const dayKey = getLocalDayKey(now);
+
+    if(status.reviewAttemptDay !== dayKey){
+        status.reviewAttemptDay = dayKey;
+        status.reviewAttemptsToday = 0;
+    }
+
+    return dayKey;
+
+}
+
+
+function registerReviewAttempt(status, now = Date.now()){
+
+    const dayKey = syncDailyReviewState(status, now);
+    status.reviewAttemptsToday += 1;
+
+    return dayKey;
+
+}
+
+
+function isReviewDecisionCheckpoint(successCount){
+
+    return (
+        successCount >= REVIEW_FIRST_CHECKPOINT
+        && (successCount - REVIEW_FIRST_CHECKPOINT) % REVIEW_CHECKPOINT_STEP === 0
+    );
+
+}
+
+
+function getReviewCheckpointNumber(successCount){
+
+    if(successCount < REVIEW_FIRST_CHECKPOINT){
+        return 0;
+    }
+
+    return 1 + Math.floor(
+        (successCount - REVIEW_FIRST_CHECKPOINT) / REVIEW_CHECKPOINT_STEP
+    );
 
 }
 
@@ -380,10 +465,17 @@ function recordSpacedReviewSuccess(status, now = Date.now()){
 
     ensureSpacedReviewState(status);
 
-    status.reviewSuccesses += 1;
+    const dayKey = registerReviewAttempt(status, now);
+    const advancesStage = status.lastSuccessfulReviewDay !== dayKey;
+
+    if(advancesStage){
+        status.reviewSuccesses += 1;
+        status.lastSuccessfulReviewDay = dayKey;
+    }
+
     status.lastReviewAt = now;
 
-    if(status.reviewSuccesses % REVIEW_CONFIRM_EVERY === 0){
+    if(advancesStage && isReviewDecisionCheckpoint(status.reviewSuccesses)){
         status.awaitingReviewDecision = true;
         status.nextReviewAt = 0;
     }
@@ -403,11 +495,14 @@ function recordSpacedReviewFailure(status, now = Date.now()){
 
     ensureSpacedReviewState(status);
 
+    registerReviewAttempt(status, now);
     status.lastReviewAt = now;
     status.awaitingReviewDecision = false;
 
-    // 不抹掉之前的成功记录，但让它在下一组立即成为到期词。
-    status.nextReviewAt = now;
+    // 答错后可在当天短间隔重试；达到每日上限后顺延到下一天。
+    status.nextReviewAt = status.reviewAttemptsToday >= MAX_DAILY_REVIEW_ATTEMPTS
+        ? now + DAY
+        : now + 10 * MINUTE;
 
     return status;
 
@@ -432,11 +527,17 @@ function isSpacedReviewDue(status, now = Date.now()){
 
     ensureSpacedReviewState(status);
 
-    return (
-        status.awaitingReviewDecision
-        || status.reviewSuccesses === 0
-        || status.nextReviewAt <= now
-    );
+    if(status.awaitingReviewDecision){
+        return true;
+    }
+
+    syncDailyReviewState(status, now);
+
+    if(status.reviewAttemptsToday >= MAX_DAILY_REVIEW_ATTEMPTS){
+        return false;
+    }
+
+    return status.nextReviewAt <= now;
 
 }
 

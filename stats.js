@@ -1,5 +1,6 @@
 const STATUS_KEY = "jp_word_status";
-const REVIEW_ROUND_SIZE = 3;
+const REVIEW_FIRST_CHECKPOINT = 6;
+const REVIEW_CHECKPOINT_STEP = 3;
 
 const labels = {
     mastered:"已记住",
@@ -66,14 +67,18 @@ function getReviewProgress(word){
         Number(status?.reviewSuccesses) || 0
     );
 
-    const completedRounds = Math.floor(
-        successes / REVIEW_ROUND_SIZE
-    );
+    let goal = REVIEW_FIRST_CHECKPOINT;
 
-    const goal =
-    status?.awaitingReviewDecision && successes > 0
-        ? Math.max(REVIEW_ROUND_SIZE, completedRounds * REVIEW_ROUND_SIZE)
-        : (completedRounds + 1) * REVIEW_ROUND_SIZE;
+    if(successes >= REVIEW_FIRST_CHECKPOINT){
+        const completedExtraSteps = Math.floor(
+            (successes - REVIEW_FIRST_CHECKPOINT) / REVIEW_CHECKPOINT_STEP
+        );
+
+        goal = status?.awaitingReviewDecision
+            ? successes
+            : REVIEW_FIRST_CHECKPOINT
+                + (completedExtraSteps + 1) * REVIEW_CHECKPOINT_STEP;
+    }
 
     return {
         completed:successes,

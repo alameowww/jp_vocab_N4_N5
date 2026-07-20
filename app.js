@@ -912,7 +912,6 @@ function submitAnswer(){
 
         if(status.awaitingReviewDecision){
 
-            nextBtn.innerText="完成本轮 →";
             openReviewDecision(word);
 
         }
@@ -1425,7 +1424,7 @@ function renderExampleArea(word){
 
     exampleArea.innerHTML = `
         <button class="example-toggle" type="button" aria-expanded="false">
-            <span>常用例句 · ${examples.length}</span>
+            <span>例句 · ${examples.length}</span>
             <span class="example-chevron">⌄</span>
         </button>
         <div class="example-content hidden">
@@ -1630,8 +1629,8 @@ confirmMaster.onclick=function(){
 function openReviewDecision(word){
 
     const status = getStatus(word);
-    const completedRound = Math.ceil(
-        status.reviewSuccesses / REVIEW_CONFIRM_EVERY
+    const completedRound = getReviewCheckpointNumber(
+        status.reviewSuccesses
     );
     const nextDelay = getReviewInterval(
         status.reviewSuccesses
@@ -1640,8 +1639,8 @@ function openReviewDecision(word){
     pendingReviewDecisionWord=word;
 
     reviewDecisionText.innerText =
-    `“${word.word}”已完成第 ${completedRound} 轮 `
-    + `${REVIEW_CONFIRM_EVERY} 次成功回忆。`
+    `“${word.word}”已完成第 ${completedRound} 个记忆阶段，`
+    + `累计 ${status.reviewSuccesses} 次跨天成功回忆。`
     + `如果继续，它会在约 ${formatReviewDelay(nextDelay)}重新进入复习。`;
 
     reviewDecisionModal.classList.remove("hidden");
