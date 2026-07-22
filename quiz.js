@@ -70,10 +70,20 @@ function getShortMeaning(meaning){
 function buildOptions(answer, distractors){
     const uniqueDistractors = [...new Set(distractors)]
     .filter(item=>item && item !== answer);
+    const similarLength = uniqueDistractors.filter(item=>
+        Math.abs(String(item).length - String(answer).length) <= 3
+    );
+    const remaining = uniqueDistractors.filter(item=>
+        !similarLength.includes(item)
+    );
+    const preferredDistractors = [
+        ...shuffle(similarLength),
+        ...shuffle(remaining)
+    ];
 
     return shuffle([
         answer,
-        ...shuffle(uniqueDistractors).slice(0, 3)
+        ...preferredDistractors.slice(0, 3)
     ]);
 }
 
@@ -93,18 +103,18 @@ function buildReadingQuestion(word, wordPool){
         lessons:[word.lesson],
         knowledgePoint:`${word.word}的读音`,
         category:"文字・词汇",
-        prompt:`「${word.word}」的读音是哪一个？`,
+        prompt:`「${word.word}」の 読み方は どれですか。`,
         options,
         answer:word.reading,
         explanation:`${word.word}（${word.reading}）：${getShortMeaning(word.meaning)}`
     };
 }
 
-function buildMeaningQuestion(word, wordPool){
-    const answer = getShortMeaning(word.meaning);
+function buildOrthographyQuestion(word, wordPool){
+    const answer = word.word;
     const options = buildOptions(
         answer,
-        wordPool.map(item=>getShortMeaning(item.meaning))
+        wordPool.map(item=>item.word)
     );
 
     if(!answer || options.length < 3){
@@ -112,35 +122,47 @@ function buildMeaningQuestion(word, wordPool){
     }
 
     return {
-        id:`vocab-meaning-${word.id}`,
+        id:`vocab-orthography-${word.id}`,
         lesson:word.lesson,
         lessons:[word.lesson],
-        knowledgePoint:`${word.word}的含义`,
+        knowledgePoint:`${word.reading}的写法`,
         category:"文字・词汇",
-        prompt:`「${word.word}」最符合下面哪个意思？`,
+        prompt:`「${word.reading}」は、どう書きますか。`,
         options,
         answer,
-        explanation:`${word.word}（${word.reading}）：${answer}`
+        explanation:`${word.word}（${word.reading}）：${getShortMeaning(word.meaning)}`
     };
 }
 
-function getGrammarAnswer(point){
-    return (point.structure || [])[0] || point.title || "";
+function getGrammarExample(point){
+    return (point.examples || []).find(example=>
+        example.ja
+        && example.focus
+        && example.ja.includes(example.focus)
+    );
 }
 
 function buildGrammarQuestion(point, grammarPool){
-    const answer = getGrammarAnswer(point);
+    const example = getGrammarExample(point);
+
+    if(!example){
+        return null;
+    }
+
+    const answer = example.focus;
     const options = buildOptions(
         answer,
-        grammarPool.map(getGrammarAnswer)
+        grammarPool
+        .map(getGrammarExample)
+        .filter(Boolean)
+        .map(item=>item.focus)
     );
 
     if(!answer || options.length < 3){
         return null;
     }
 
-    const promptMeaning = point.subtitle || point.summary;
-    const example = (point.examples || [])[0];
+    const sentence = example.ja.replace(answer, "（　）");
 
     return {
         id:`grammar-${point.id}`,
@@ -148,13 +170,11 @@ function buildGrammarQuestion(point, grammarPool){
         lessons:[point.lesson],
         knowledgePoint:point.title,
         category:"语法",
-        prompt:`哪个表达最符合“${promptMeaning}”？`,
+        prompt:`（　）に 入る ものは どれですか。\n${sentence}`,
         options,
         answer,
         explanation:`${point.title}：${point.summary}`,
-        example:example
-            ? `${example.ja}｜${example.zh}`
-            : ""
+        example:`${example.ja}｜${example.zh}`
     };
 }
 
@@ -165,9 +185,10 @@ function createQuestionPool(config){
         && word.word
         && word.reading
         && !word.word.includes("～")
+        && !/[。！？!?]/.test(word.word)
     );
 
-    const readingWords = wordPool.filter(word=>
+    const writtenWords = wordPool.filter(word=>
         /[\u3400-\u9fff]/.test(word.word)
         && word.word !== word.reading
     );
@@ -177,20 +198,17 @@ function createQuestionPool(config){
         && point.lesson <= config.maxLesson
     );
 
-    const vocabularyQuestions = shuffle(wordPool)
+    const readingQuestions = shuffle(writtenWords)
     .slice(0, 30)
-    .flatMap((word, index)=>{
-        const builder = index % 2 === 0 && readingWords.includes(word)
-            ? buildReadingQuestion
-            : buildMeaningQuestion;
-        const question = builder(word, wordPool);
+    .flatMap(word=>{
+        const question = buildReadingQuestion(word, writtenWords);
         return question ? [question] : [];
     });
 
-    const readingQuestions = shuffle(readingWords)
-    .slice(0, 20)
+    const orthographyQuestions = shuffle(writtenWords)
+    .slice(0, 30)
     .flatMap(word=>{
-        const question = buildReadingQuestion(word, wordPool);
+        const question = buildOrthographyQuestion(word, writtenWords);
         return question ? [question] : [];
     });
 
@@ -202,8 +220,8 @@ function createQuestionPool(config){
 
     return {
         vocabularyQuestions:shuffle([
-            ...vocabularyQuestions,
-            ...readingQuestions
+            ...readingQuestions,
+            ...orthographyQuestions
         ]),
         grammarQuestions:shuffle(grammarQuestions)
     };
@@ -321,7 +339,7 @@ function startQuiz(){
     quizRange.innerText = config.minLesson === config.maxLesson
         ? `第 ${config.minLesson} 课`
         : `第 ${config.minLesson}～${config.maxLesson} 课`;
-    quizLevel.innerText = `${getRangeLevel(config.minLesson, config.maxLesson)} · 沿用复习设置`;
+    quizLevel.innerText = `${getRangeLevel(config.minLesson, config.maxLesson)} · 仿 JLPT 题型`;
     quizCard.classList.remove("hidden");
     quizSummary.classList.add("hidden");
     renderQuestion();
