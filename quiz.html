@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>两题练习 - 日本語 Review</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="app quiz-app">
+        <header class="quiz-header">
+            <a href="index.html" class="quiz-back-link" aria-label="返回复习">←</a>
+            <div>
+                <h1>两题练习</h1>
+                <p>只复习学过的课</p>
+            </div>
+        </header>
+
+        <section class="quiz-range-card" aria-label="本次出题范围">
+            <div>
+                <span>本次范围</span>
+                <strong id="quizRange">第 1～5 课</strong>
+            </div>
+            <small id="quizLevel">N5 · 沿用复习设置</small>
+        </section>
+
+        <section id="quizCard" class="quiz-card">
+            <div class="quiz-card-topline">
+                <span id="quizMeta">第 1 课 · 词汇</span>
+                <strong id="quizProgress">1 / 2</strong>
+            </div>
+            <h2 id="quizPrompt"></h2>
+            <div id="quizOptions" class="quiz-options"></div>
+            <div id="quizFeedback" class="quiz-feedback hidden" aria-live="polite"></div>
+            <button id="quizNextBtn" class="primary-btn hidden" type="button">下一题 →</button>
+        </section>
+
+        <section id="quizSummary" class="quiz-summary hidden">
+            <span class="quiz-summary-icon">✓</span>
+            <h2>两题完成</h2>
+            <p>答对 <strong id="quizScore">0 / 2</strong></p>
+            <button id="quizAgainBtn" class="primary-btn" type="button">再来两题</button>
+            <a href="index.html" class="quiz-return-link">返回复习</a>
+        </section>
+    </main>
+
+    <script src="quiz.js"></script>
+</body>
+</html>

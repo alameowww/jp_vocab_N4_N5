@@ -6,6 +6,8 @@
 
 let vocab = [];
 
+let grammarPoints = [];
+
 let todayWords = [];
 
 let currentIndex = 0;
@@ -28,7 +30,6 @@ let todayResult = {
 let isWrongReview = false;
 
 let pendingReviewDecisionWord = null;
-
 
 
 let config = {
@@ -193,6 +194,31 @@ const masterFromReviewBtn =
 document.getElementById("masterFromReviewBtn");
 
 
+const grammarReviewModal =
+document.getElementById("grammarReviewModal");
+
+const grammarReviewLesson =
+document.getElementById("grammarReviewLesson");
+
+const grammarReviewTitle =
+document.getElementById("grammarReviewTitle");
+
+const grammarReviewSubtitle =
+document.getElementById("grammarReviewSubtitle");
+
+const grammarReviewStructure =
+document.getElementById("grammarReviewStructure");
+
+const grammarReviewSummary =
+document.getElementById("grammarReviewSummary");
+
+const grammarReviewExample =
+document.getElementById("grammarReviewExample");
+
+const grammarReviewDoneBtn =
+document.getElementById("grammarReviewDoneBtn");
+
+
 
 
 
@@ -277,13 +303,15 @@ async function init(){
     updateSettingUI();
 
 
-    await loadVocabulary();
+    await loadReviewData();
 
 
     createTodayWords();
 
 
-    renderWord();
+    if(!openRoundGrammarReview()){
+        renderWord();
+    }
 
 
 }
@@ -301,20 +329,104 @@ async function init(){
 // =====================
 
 
-async function loadVocabulary(){
+async function loadReviewData(){
 
+    const [vocabularyResponse, grammarResponse] = await Promise.all([
+        fetch("japanese_vocab.json"),
+        fetch("grammar_points.json")
+    ]);
 
-    const res =
-    await fetch(
-        "japanese_vocab.json"
-    );
-
-
-    vocab =
-    await res.json();
+    vocab = await vocabularyResponse.json();
+    grammarPoints = grammarResponse.ok
+        ? await grammarResponse.json()
+        : [];
 
 
 }
+
+
+// =====================
+// round grammar review
+// =====================
+
+const LAST_REVIEW_GRAMMAR_KEY = "jp_last_review_grammar_id";
+
+
+function pickRoundGrammar(){
+
+    const pool = grammarPoints.filter(point=>
+        point.lesson >= roundConfig.minLesson
+        && point.lesson <= roundConfig.maxLesson
+    );
+
+    if(pool.length === 0){
+        return null;
+    }
+
+    const lastGrammarId = localStorage.getItem(
+        LAST_REVIEW_GRAMMAR_KEY
+    );
+
+    const candidates = pool.length > 1
+        ? pool.filter(point=>point.id !== lastGrammarId)
+        : pool;
+
+    return candidates[
+        Math.floor(Math.random() * candidates.length)
+    ];
+
+}
+
+
+function openRoundGrammarReview(){
+
+    const grammar = pickRoundGrammar();
+
+    if(!grammar){
+        return false;
+    }
+
+    localStorage.setItem(
+        LAST_REVIEW_GRAMMAR_KEY,
+        grammar.id
+    );
+
+    grammarReviewLesson.innerText = `第 ${grammar.lesson} 课`;
+    grammarReviewTitle.innerText = grammar.title || "语法复习";
+    grammarReviewSubtitle.innerText = grammar.subtitle || "";
+    grammarReviewSubtitle.classList.toggle(
+        "hidden",
+        !grammar.subtitle
+    );
+
+    grammarReviewStructure.innerHTML = (grammar.structure || [])
+    .slice(0, 2)
+    .map(item=>`<span>${escapeHtml(item)}</span>`)
+    .join("");
+
+    grammarReviewSummary.innerText = grammar.summary || "";
+
+    const example = (grammar.examples || [])[0];
+    grammarReviewExample.innerHTML = example
+        ? `
+            <strong>${escapeHtml(example.ja)}</strong>
+            <span>${escapeHtml(example.zh)}</span>
+        `
+        : "";
+    grammarReviewExample.classList.toggle("hidden", !example);
+
+    grammarReviewModal.classList.remove("hidden");
+    return true;
+
+}
+
+
+grammarReviewDoneBtn.onclick=function(){
+
+    grammarReviewModal.classList.add("hidden");
+    renderWord();
+
+};
 
 
 
@@ -1423,11 +1535,11 @@ function renderExampleArea(word){
     }
 
     exampleArea.innerHTML = `
-        <button class="example-toggle" type="button" aria-expanded="false">
+        <button class="example-toggle" type="button" aria-expanded="true">
             <span>例句 · ${examples.length}</span>
             <span class="example-chevron">⌄</span>
         </button>
-        <div class="example-content hidden">
+        <div class="example-content">
             ${examples.map((example, index)=>`
                 <article class="example-item">
                     <div class="example-number">${index + 1}</div>
@@ -1956,7 +2068,9 @@ newGroupBtn.onclick=function(){
     .classList
     .remove("hidden");
 
-    renderWord();
+    if(!openRoundGrammarReview()){
+        renderWord();
+    }
 
 };
 
