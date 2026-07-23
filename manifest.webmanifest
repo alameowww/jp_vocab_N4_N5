@@ -1,0 +1,22 @@
+{
+  "name": "日本語 Review",
+  "short_name": "日本語",
+  "description": "碎片时间学习和复习日语单词",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#8c98ee",
+  "theme_color": "#8179dc",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
